@@ -1,0 +1,5850 @@
+[
+  {
+    "name": "",
+    "lastName": "Barbka Hribar",
+    "notes": "Vegova 3 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Absec",
+    "lastName": "Matic",
+    "notes": "Gora  , 1218 Komenda",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Adrijana",
+    "lastName": "Planinc",
+    "notes": "Pot na Dobravo 14 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Adrović",
+    "lastName": "Fetija",
+    "notes": "Vrhpolje 181 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Ajda",
+    "lastName": "Lipovšek",
+    "notes": "Tunjiška Mlaka 19c , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Alan",
+    "lastName": "Haščič",
+    "notes": "Glavni trg 18 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Albulena",
+    "lastName": "Ramadani",
+    "notes": "Klavčičeva 2 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Aleksander",
+    "lastName": "Čermelj",
+    "notes": "Jamova ulica 14c , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Aleksander",
+    "lastName": "Kustec",
+    "notes": "Pot na Dobravo 53 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Aleksander",
+    "lastName": "Mikuš",
+    "notes": "Košiše 17 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Aleksander",
+    "lastName": "Uršič",
+    "notes": "Črna 5 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Aleksandra",
+    "lastName": "Cuder Korošec",
+    "notes": "Bakovniška 16 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Aleksandra",
+    "lastName": "Sivec Krivorotov",
+    "notes": "Neveljska pot 8 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Alenka",
+    "lastName": "Avbelj",
+    "notes": "Krivčevo 12D , 1242 Stahovica",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Alenka",
+    "lastName": "Hočevar",
+    "notes": "Nevlje 33d , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Alenka",
+    "lastName": "Hočevar",
+    "notes": "Nevlje 33 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Alenka",
+    "lastName": "Jeretina",
+    "notes": "Jasen 4 , 1235 Radomlje",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Alenka",
+    "lastName": "Levinger",
+    "notes": "Županje njive 29 , 1242 Stahovica",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Alenka",
+    "lastName": "Nišavič",
+    "notes": "Parapatova 22 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Alenka",
+    "lastName": "Slapar",
+    "notes": "Zikova 5 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Alenka",
+    "lastName": "šuštar Gorišek",
+    "notes": "Ljubljanska cesta 31 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Alenka",
+    "lastName": "Vrhovnik",
+    "notes": "Novi trg 9 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Aleš",
+    "lastName": "Malej",
+    "notes": "Molkova pot 4  , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Aleš",
+    "lastName": "Pavšek",
+    "notes": "Hujska 4 , 1235 Radomlje",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Aleš",
+    "lastName": "Stražar",
+    "notes": "Podgorje 12 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Aleš",
+    "lastName": "Šinko",
+    "notes": "Zgornje Stranje 37 , 1242 Stahovica",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Alfred",
+    "lastName": "Horvat",
+    "notes": "Pionirska ulica 8 , 1235 Radomlje",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Alojz",
+    "lastName": "Prelesnik",
+    "notes": "Okroglo 8 , 1242 Stahovica",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Alojz",
+    "lastName": "Špende",
+    "notes": "Šipkova 3 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Alojzij",
+    "lastName": "Hančič",
+    "notes": "Zagorica nad Kamnikom 6a , 1242 Stahovica",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Alojzija",
+    "lastName": "Hočevar",
+    "notes": "Nevlje 33c , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Alojzija",
+    "lastName": "Strnišnik",
+    "notes": "Aškerčeva 46 , 1230 Domžale",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Alojzija",
+    "lastName": "Strnišnik",
+    "notes": "Aškerčeva 46 , 1230 Domžale",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Ambrož",
+    "lastName": "Krt",
+    "notes": "Podjelše 1 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Amra",
+    "lastName": "Koštić",
+    "notes": "Cankarjeva cesta 1e , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Ana",
+    "lastName": "Humar",
+    "notes": "Trg talcev 6 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Ana",
+    "lastName": "Jeras",
+    "notes": "Zgornji Tuhinj 6b , 1219 Laze v Tuhinju",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Ana",
+    "lastName": "Kimovec",
+    "notes": "Gmajnica 119 , 1218 Komenda",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Ana",
+    "lastName": "Kozjek",
+    "notes": "Paglavčeva 5 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Ana",
+    "lastName": "Kristina Dodić",
+    "notes": "Fužine 2a , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Ana",
+    "lastName": "Marija Marinšek",
+    "notes": "Pot na Jeranovo 1 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Andija",
+    "lastName": "Djurić",
+    "notes": "Jakoba Zupana 4 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Andrej",
+    "lastName": "Grabnar",
+    "notes": "Mlakarjeva 3 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Andrej",
+    "lastName": "Hlačer",
+    "notes": "Perovo 18c , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Andrej",
+    "lastName": "Jeklar",
+    "notes": "Kettejeva 27 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Andrej",
+    "lastName": "Slapnik",
+    "notes": "Levstikova 3 , 4000 Kranj",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Andrej",
+    "lastName": "Zelič",
+    "notes": "Loke 16 , 1219 Laze v Tuhinju",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Andreja",
+    "lastName": "Golob",
+    "notes": "Brezje 5 , 1242 Stahovica",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Andreja",
+    "lastName": "Rebič",
+    "notes": "škerjančeva 15b , 1235 Radomlje",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Andrii",
+    "lastName": "Kovalenko",
+    "notes": "Maistrova 13 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Anica",
+    "lastName": "Pirc",
+    "notes": "Šmartno 34 , 1219 Laze v Tuhinju",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Anica",
+    "lastName": "Uršič",
+    "notes": "Zgornje Stranje 54 , 1242 Stahovica",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Anja",
+    "lastName": "Cvijanović Hudoklin",
+    "notes": "Godič 45d , 1242 Stahovica",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Anja",
+    "lastName": "Hadžič",
+    "notes": "Steletova cesta 13 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Anja",
+    "lastName": "Zagorc",
+    "notes": "Podstudenec 1b , 1242 Stahovica",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Anto",
+    "lastName": "Mijić",
+    "notes": "Soteska 82 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Anton",
+    "lastName": "Tavčar",
+    "notes": "Testenova 87 , 1234 Mengeš",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Antonija",
+    "lastName": "Rostan",
+    "notes": "Parmova ulica 5b , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Anže",
+    "lastName": "Jerman",
+    "notes": "Prešernova 7a , 1235 Radomlje",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Anže",
+    "lastName": "Jerše",
+    "notes": "Bistričica 26a , 1242 Stahovica",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Anže",
+    "lastName": "Zadnik",
+    "notes": "Ljubljanska 4b , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Apolonija",
+    "lastName": "Pavšek",
+    "notes": "Hujska cesta 4 , 1235 Radomlje",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Asmira",
+    "lastName": "Silahić",
+    "notes": "Nasovče 14 , 1218 Komenda",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Babnik",
+    "lastName": "Marija",
+    "notes": "Cankarjeva c. 42b , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Banič",
+    "lastName": "Aljoša",
+    "notes": "Oševek 7a , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Barbara",
+    "lastName": "Baliž",
+    "notes": "Skaručna 5 , 1217 Vodice",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Barbara",
+    "lastName": "Čeplak",
+    "notes": "Jakopičeva ulica 30 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Barbara",
+    "lastName": "Homar",
+    "notes": "Kettejeva 1 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Barbara",
+    "lastName": "Klemen",
+    "notes": "Črni Vrh v Tuhinju 1a , 1219 Laze v Tuhinju",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Barbara",
+    "lastName": "Mlakar",
+    "notes": "Podgorje 54c , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Barbara",
+    "lastName": "Nastran",
+    "notes": "Steletova 21 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Barbara",
+    "lastName": "Podjed",
+    "notes": "Gmajnica 118 , 1218 Komenda",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Barbara",
+    "lastName": "Podjed",
+    "notes": "Gmajnica 118 , 1218 Komenda",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Barbara",
+    "lastName": "Rems",
+    "notes": "Tunjice 22c , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Barbara",
+    "lastName": "Romšak",
+    "notes": "Podjelše 5 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Barbara",
+    "lastName": "Strajnar",
+    "notes": "Podlimbarskega pot 34  , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Barbara",
+    "lastName": "Žgavec",
+    "notes": "Velika Lašna 41 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Barlič",
+    "lastName": "Marija",
+    "notes": "Sejmiška ul.42 , 1230 Domžale",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Bastl",
+    "lastName": "Grazer Sara",
+    "notes": "Podsmrečje 12 , 3342 Gornji Grad",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Benedikt",
+    "lastName": "Lorbek",
+    "notes": "Pibernikova 11 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Benkovič",
+    "lastName": "Tonin Mira",
+    "notes": "Podgorje 44 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Benkovič",
+    "lastName": "Uroš",
+    "notes": "Podgorje 44 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Berlec",
+    "lastName": "Zdenka",
+    "notes": "Habjanova ul. 10 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Bernard",
+    "lastName": "Komatar",
+    "notes": "Soteska 100 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Bernarda",
+    "lastName": "Arnež",
+    "notes": "Županje Njive 4a , 1242 Stahovica",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Bernarda",
+    "lastName": "Komatar",
+    "notes": "Soteska 100 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Bernarda",
+    "lastName": "Kregar",
+    "notes": "Bistričica 26 , 1242 Stahovica",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Bernardka",
+    "lastName": "Lamovšek",
+    "notes": "Poreber 15 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Bevc",
+    "lastName": "Nina",
+    "notes": "Bazoviška ul. 2 , 1000 Ljubljana",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Bevc",
+    "lastName": "Žiga",
+    "notes": "Bazoviška ul.2 , 1000 Ljubljana",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Beznik",
+    "lastName": "Katarina",
+    "notes": "Na produ 4 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Blatnik",
+    "lastName": "Eva",
+    "notes": "Šutna 3c , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Blaž",
+    "lastName": "Briški",
+    "notes": "Klavčičeva ulica 6 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Blaž",
+    "lastName": "Grünfeld",
+    "notes": "Slatnarjeva 18 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Blaž",
+    "lastName": "Ivačič",
+    "notes": "Podboršt pri Komendi 3 , 1218 Komenda",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Blaž",
+    "lastName": "Jeraj",
+    "notes": "Moste 40i , 1218 Komenda",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Blaž",
+    "lastName": "Klemen",
+    "notes": "Snovik 8 , 1219 Laze v Tuhinju",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Blaž",
+    "lastName": "Mlinar",
+    "notes": "Velika Lašna 10 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Blaž",
+    "lastName": "Poravne",
+    "notes": "Primoževa 3 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Blaž",
+    "lastName": "Poravne",
+    "notes": "Primoževa 3 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Blaž",
+    "lastName": "Zabukovec",
+    "notes": "Vrhpolje 280b , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Bogomil",
+    "lastName": "Wiegele",
+    "notes": "Trata 8a , 1235 Radomlje",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Bojan",
+    "lastName": "Petek",
+    "notes": "Dr. Tineta Zajca 23 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Boris",
+    "lastName": "Jeglič",
+    "notes": "Črna pri Kamniku 13 , 1242 Stahovica",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Boris",
+    "lastName": "Pajek",
+    "notes": "Ljubljanska 37 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Borut",
+    "lastName": "Kermolj",
+    "notes": "Rakuševa ulica 22 , 1000 Ljubljana",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Bosiljka",
+    "lastName": "Mlađenović",
+    "notes": "Klavčičeva 9 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Boštjan",
+    "lastName": "Hočevar",
+    "notes": "Podhruška 1 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Boštjan",
+    "lastName": "Hočevar",
+    "notes": "Podhruška 1 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Boštjan",
+    "lastName": "Kerec",
+    "notes": "Vrhpolje 195 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Boštjan",
+    "lastName": "Kerec",
+    "notes": "Vrhpolje 195 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Boštjan",
+    "lastName": "Osolnik",
+    "notes": "Poreber 15a , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Boštjan",
+    "lastName": "Osolnik",
+    "notes": "Poreber 15a , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Boštjan",
+    "lastName": "Osolnik",
+    "notes": "Poreber 15a , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Božič",
+    "lastName": "Darko",
+    "notes": "Fužine 8 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Božidar",
+    "lastName": "Gole",
+    "notes": "Parmova 2 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Božidar",
+    "lastName": "Gole",
+    "notes": "Parmova 2 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Branimir",
+    "lastName": "Vrankar",
+    "notes": "Soteska 67 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Branka",
+    "lastName": "Jerič",
+    "notes": "Levstikova ulica 4 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Branka",
+    "lastName": "Komatar",
+    "notes": "Podgorje 99 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Branka",
+    "lastName": "Pavlič",
+    "notes": "Stahovica 30a , 1242 Stahovica",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Branka",
+    "lastName": "Perko",
+    "notes": "Molkova pot 4 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Breda",
+    "lastName": "Stanić",
+    "notes": "Mengeška pot 3 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Breda",
+    "lastName": "Tkalec",
+    "notes": "Parmova ulica 5b , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Brigita",
+    "lastName": "DebeljaK",
+    "notes": "Gmajnica 60 , 1218 Komenda",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Brigita",
+    "lastName": "Urankar",
+    "notes": "Studenca 12a , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Burnik",
+    "lastName": "Tatjana",
+    "notes": "Suhadole 41d , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Cajhen",
+    "lastName": "Bogomira",
+    "notes": "Bakovnik 6 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Cerar",
+    "lastName": "Bernarda",
+    "notes": "Sidraž 5  , 4207 Cerklje na Gorenjskem",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Černe",
+    "lastName": "Monika",
+    "notes": "Kajuhova ul.10 , 1000 Ljubljana",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Čevka",
+    "lastName": "Katarina",
+    "notes": "Bistričica 4a , 1242 Stahovica",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Danica",
+    "lastName": "Dervišič",
+    "notes": "Ljubljanska 1 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Danica",
+    "lastName": "Tomšić Djorović",
+    "notes": "Volčji potok 15a , 1235 Radomlje",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Daniela",
+    "lastName": "Kovač",
+    "notes": "Zadružna ulica 11a , 1218 Komenda",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Danijel",
+    "lastName": "Škrjanec",
+    "notes": "Župančičeva ulica 6 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Darinka",
+    "lastName": "Žagar",
+    "notes": "Radomeljska cesta 4 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Darja",
+    "lastName": "Klemenc",
+    "notes": "Tučna 7 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Darja",
+    "lastName": "Mikuš",
+    "notes": "Košiše 17 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Darja",
+    "lastName": "Poljanšek",
+    "notes": "Podstudenec 8 , 1242 Stahovica",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "David",
+    "lastName": "Gavrilović",
+    "notes": "Jakopičeva 17 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "David",
+    "lastName": "Jeras",
+    "notes": "Jeranovo 20 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "David",
+    "lastName": "Keser",
+    "notes": "Cesta dr. Tineta Zajca 18a , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "David",
+    "lastName": "Topolovec",
+    "notes": "Podgorje 11 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Dedić",
+    "lastName": "Đula",
+    "notes": "Groharjeva ul.20 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Dejak",
+    "lastName": "Kristina",
+    "notes": "Volčji potok 33 , 1235 Radomlje",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Denis",
+    "lastName": "Gorjan",
+    "notes": "Motnik 56 , 1221 Motnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Dernulovec",
+    "lastName": "Primož",
+    "notes": "Podlom 13 , 1242 Stahovica",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Divjak",
+    "lastName": "Darko",
+    "notes": "Klavčičeva ul.7 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Dobovšek",
+    "lastName": "Aleš",
+    "notes": "Sidraž 6 , 4207 Cerklje na Gorenjskem",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Domen",
+    "lastName": "Pavli",
+    "notes": "Zg. Tuhinj 12a , 1219 Laze v Tuhinju",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Domen",
+    "lastName": "Poljanšek",
+    "notes": "Markovo 13a , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Domen",
+    "lastName": "Senčar",
+    "notes": "Preloge 51 , 1211 Ljubljana - Šmartno",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Dominik",
+    "lastName": "Vodnik",
+    "notes": "Josipa Močnika 4 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Doris",
+    "lastName": "Vrh",
+    "notes": "Godič 90 a , 1242 Stahovica",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Dragan",
+    "lastName": "Knežević",
+    "notes": "Fužine 12 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Dragica",
+    "lastName": "Gregur",
+    "notes": "Volčji Potok 24g , 1235 Radomlje",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Drago",
+    "lastName": "Kos",
+    "notes": "Streliška 15a , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Drago",
+    "lastName": "Marinko",
+    "notes": "Doktorja Tineta Zajca 9 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Drobinč",
+    "lastName": "Bogataj Neža",
+    "notes": "Županje njive 45b , 1242 Stahovica",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Dževada",
+    "lastName": "Sadiković",
+    "notes": "Klavčičeva 3 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Ela",
+    "lastName": "Zupin",
+    "notes": "Križ 75 , 1218 Komenda",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Elizabeta",
+    "lastName": "Mohar",
+    "notes": "Godič 37 , 1242 Stahovica",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Elvira",
+    "lastName": "Drnovšek",
+    "notes": "Neveljska pot 10 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Emina",
+    "lastName": "Tabaković",
+    "notes": "Loke 3d , 1219 Laze v Tuhinju",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Emira",
+    "lastName": "Duzić",
+    "notes": "Gubičeva 10  , 1233 Dob",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Erika",
+    "lastName": "Vidergar",
+    "notes": "Jakopičeva 17 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Erjavec",
+    "lastName": "Justina",
+    "notes": "Oševek 15d , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Erjavec",
+    "lastName": "Justina",
+    "notes": "Oševek 15 d , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Erjavec",
+    "lastName": "Justina",
+    "notes": "Oševek 15d , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Ermin",
+    "lastName": "Dedić",
+    "notes": "Ljubljanska 76 , 1230 Domžale",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Ermin",
+    "lastName": "Dedić",
+    "notes": "Cankarjeva cesta 51 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Eva",
+    "lastName": "Absec",
+    "notes": "Gora pri Komendi 5 , 1218 Komenda",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Eva",
+    "lastName": "Blatnik",
+    "notes": "Šutna 37 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Eva",
+    "lastName": "Kvas",
+    "notes": "Nevlje 1 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Eva",
+    "lastName": "Močnik Pečevnik",
+    "notes": "Ljubljanska cesta 15b , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Eva",
+    "lastName": "Spruk",
+    "notes": "Tunjiška cesta 2 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Eva",
+    "lastName": "Žurbi",
+    "notes": "Ljubljanska cesta 35 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Ferjančič",
+    "lastName": "Maja",
+    "notes": "Vodnikova cesta 30 , 1000 Ljubljana",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Fidler",
+    "lastName": "Ana",
+    "notes": "Volčji potok 30 , 1235 Radomlje",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Franc",
+    "lastName": "Dolinšek",
+    "notes": "Cesta treh talcev 28c , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Franc",
+    "lastName": "Mali",
+    "notes": "Pot na Poljane 13 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Franc",
+    "lastName": "Šapran",
+    "notes": "Poljčeva pot 4 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Francka",
+    "lastName": "Bizjak",
+    "notes": "Podgorje 60 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Frančiška",
+    "lastName": "Inglič",
+    "notes": "Samostanska 4 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Frančiška",
+    "lastName": "Wagner",
+    "notes": "Neveljska pot 26 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Galin",
+    "lastName": "Vesna",
+    "notes": "Žale 7a , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Gašper",
+    "lastName": "Kraševec",
+    "notes": "Usnjarska cesta 14 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Gašper",
+    "lastName": "Kraševec",
+    "notes": "Usnjarska cesta 14 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Gašper",
+    "lastName": "Lavrič",
+    "notes": "Zg. Stranje 43a , 1242 Stahovica",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Gašper",
+    "lastName": "Vrhovnik",
+    "notes": "Novi trg 9 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Gorjup",
+    "lastName": "Marjo",
+    "notes": "Cankarjeva 36 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Grabnar",
+    "lastName": "Andrej",
+    "notes": "Mlakarjeva ul. 3 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Grega",
+    "lastName": "Gorjan",
+    "notes": "Klavčičeva 12 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Grega",
+    "lastName": "Kralj",
+    "notes": "Ljubljanska 3d , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Grega",
+    "lastName": "Prelovšek",
+    "notes": "Šmartno 15 , 1219 Laze v Tuhinju",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Grega",
+    "lastName": "Zorman",
+    "notes": "Ulica Matije Blejca 5 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Gregor",
+    "lastName": "Kuhar",
+    "notes": "Sovinja Peč 2 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Gregor",
+    "lastName": "Milanovič",
+    "notes": "Žeje 9d , 1233 Dob",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Gregor",
+    "lastName": "Ovijač",
+    "notes": "Moste 2b , 1218 Komenda",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Gregor",
+    "lastName": "Resnik",
+    "notes": "Perovo 17b , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Grilc",
+    "lastName": "Miha",
+    "notes": "Moste 56b , 1218 Komenda",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Hace",
+    "lastName": "Urška",
+    "notes": "Veli hrib 4a , 1219 Laze v Tuhinju",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Hafner",
+    "lastName": "Ana",
+    "notes": "Svetčeva pot 11 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Hasan",
+    "lastName": "Halili",
+    "notes": "Nikola Tesla 18 , 1230 Domžale",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Hašić",
+    "lastName": "Zemina",
+    "notes": "Klavčičeva ul.5 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Helena",
+    "lastName": "Dolinšek",
+    "notes": "Cesta treh talcev 28c , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Helena",
+    "lastName": "Kregar",
+    "notes": "Volčji potok 8 , 1235 Radomlje",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Helena",
+    "lastName": "Kršič",
+    "notes": "Preglov trg 11 , 1000 Ljubljana",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Helena",
+    "lastName": "Mejač",
+    "notes": "Nevlje 33k , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Helena",
+    "lastName": "Omrzu",
+    "notes": "Sp. Sorica 19 , 4229 Sorica",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Holcer",
+    "lastName": "Nada",
+    "notes": "Žebljarska pot 3 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Hrastovec",
+    "lastName": "Tanja",
+    "notes": "Laniše 2b , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Hribar",
+    "lastName": "Špela",
+    "notes": "Veli hrib 1b , 1219 Laze v Tuhinju",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Hribovšek",
+    "lastName": "Damjan",
+    "notes": "Levstikova 22 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Humar",
+    "lastName": "Miha",
+    "notes": "Moste 2č , 1218 Komenda",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Igor",
+    "lastName": "Zavašnik",
+    "notes": "Šmartno 44  , 1219 Laze v Tuhinju",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Ina",
+    "lastName": "Hribar",
+    "notes": "Volčji potok 24e , 1235 Radomlje",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Irena",
+    "lastName": "Novak",
+    "notes": "Ulica Josipa Ogrinca 10a , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Irena",
+    "lastName": "Pečan",
+    "notes": "Usnjarska cesta 16 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Irena",
+    "lastName": "Podbevšek",
+    "notes": "Cesta treh talcev 5 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Irena",
+    "lastName": "Podbevšek",
+    "notes": "Cesta treh talcev 5 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Irena",
+    "lastName": "Tonin",
+    "notes": "Zgornji Tuhinj 4 , 1219 Laze v Tuhinju",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Irena",
+    "lastName": "Žebaljec",
+    "notes": "Ulica Vilka Rožiča 14 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Iris",
+    "lastName": "Volkar",
+    "notes": "Župančičeva 1  , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Ivan",
+    "lastName": "Kodrin",
+    "notes": "Gmajnica 96 , 1218 Komenda",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Ivana",
+    "lastName": "Križnik Helena",
+    "notes": "Slatnarjeva 2 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Iztok",
+    "lastName": "Schnabl",
+    "notes": "Medvedova 8 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Iztok",
+    "lastName": "Zavasnik",
+    "notes": "Šmartno 44  , 1219 Laze v Tuhinju",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Jaka",
+    "lastName": "Novak",
+    "notes": "Ljubljanska cesta 4a , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Jaka",
+    "lastName": "Šubelj",
+    "notes": "Perovo 16a , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Jan",
+    "lastName": "Lap",
+    "notes": "Ulica Matije Blejca 9 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Jan",
+    "lastName": "Vtič",
+    "notes": "Volčji Potok 39l , 1235 Radomlje",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Jana",
+    "lastName": "Marinko",
+    "notes": "Zikova 12 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Janez",
+    "lastName": "Cankar",
+    "notes": "Steletova 11 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Janez",
+    "lastName": "Cankar",
+    "notes": "Steletova 11 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Janez",
+    "lastName": "Dulc",
+    "notes": "Goljek 7 , 8210 Trebnje",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Janez",
+    "lastName": "Jamnik",
+    "notes": "Medvedova 5a , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Janez",
+    "lastName": "Kimovec",
+    "notes": "Gmajnica 119 , 1218 Komenda",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Janez",
+    "lastName": "Klemenc",
+    "notes": "Tučna 7 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Janez",
+    "lastName": "Lančaj",
+    "notes": "Mengeška cesta 74 , 1236 Trzin",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Janez",
+    "lastName": "Markovič",
+    "notes": "Streliška 19 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Janez",
+    "lastName": "Škrjanec",
+    "notes": "Steletova 17 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Janez",
+    "lastName": "Trošt",
+    "notes": "Zg. Gameljne 47 , 1211 Ljubljana - Šmartno",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Janez",
+    "lastName": "Vrhovnik",
+    "notes": "Tunjice 32 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Janežič",
+    "lastName": "Tatjana",
+    "notes": "NOva pot 1 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Janja",
+    "lastName": "Novak",
+    "notes": "Zagorica 14 , 1242 Stahovica",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Janja",
+    "lastName": "Zupan",
+    "notes": "Železniška cesta 4 , 1230 Domžale",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Janko",
+    "lastName": "Spruk",
+    "notes": "Krivčeva 25 , 1242 Stahovica",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Jeglič",
+    "lastName": "Maja",
+    "notes": "Jelovškova 24 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Jera",
+    "lastName": "Marn",
+    "notes": "Godič 61 , 1242 Stahovica",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Jerca",
+    "lastName": "Trošt",
+    "notes": "Zg. Gameljne , 1211 Ljubljana - Šmartno",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Jeretina",
+    "lastName": "Žiga",
+    "notes": "Bevkova ul.4 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Jerman",
+    "lastName": "Urša",
+    "notes": "Štajerska ulica 10 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Jernej",
+    "lastName": "Poljanšek",
+    "notes": "Ulica Matije Blejca 6 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Jernej",
+    "lastName": "Slanovec",
+    "notes": "Cesta treh talcev 15A , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Jerneja",
+    "lastName": "Kregar",
+    "notes": "Bistričica 26 , 1242 Stahovica",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Jež",
+    "lastName": "Emanuel",
+    "notes": "Gmajnica 256 , 1218 Komenda",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Jež",
+    "lastName": "Lidija",
+    "notes": "Moste 63g , 1218 Komenda",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Jon",
+    "lastName": "Pavlič",
+    "notes": "Pogorje 93 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Jonathan",
+    "lastName": "Butterfield",
+    "notes": "Črnivška ulica 8 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Jonathan",
+    "lastName": "Butterfield",
+    "notes": "Črnivška ulica 8 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Jonathan",
+    "lastName": "Butterfield",
+    "notes": "Črnivška ulica 8 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Jože",
+    "lastName": "Klemen",
+    "notes": "Tunjiška Mlaka 18 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Jože",
+    "lastName": "Korbar",
+    "notes": "Glinje 4 , 4207 Cerklje na Gorenjskem",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Jože",
+    "lastName": "Oberwalder",
+    "notes": "Vodovodna cesta 25 , 1230 Domžale",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Jože",
+    "lastName": "Poljanšek",
+    "notes": "Ul. Matije Blejca 6 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Jože",
+    "lastName": "Žagar",
+    "notes": "Srednja vas pri Kamniku 43a , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Jožef",
+    "lastName": "Kotnik",
+    "notes": "Soteska 37 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Jožefa",
+    "lastName": "Poljanšek",
+    "notes": "Groharjeva 12 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Jožefa",
+    "lastName": "Žagar",
+    "notes": "Križ 7 , 1218 Komenda",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Jožica",
+    "lastName": "Bele",
+    "notes": "Zg. Tuhinj 12a , 1219 Laze v Tuhinju",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Jožica",
+    "lastName": "Grobelšek",
+    "notes": "Zikova 12 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Jožica",
+    "lastName": "Švajger",
+    "notes": "Vrhpolje 63 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Julija",
+    "lastName": "Kališnik",
+    "notes": "Godič 48 , 1242 Stahovica",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Jure",
+    "lastName": "Baloh",
+    "notes": "Vrhpolje pri Kamniku 145 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Jure",
+    "lastName": "Cotman",
+    "notes": "Levčeva 17 , 1234 Mengeš",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Jure",
+    "lastName": "Kocijan",
+    "notes": "Slatnarjeva ulica 10 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Jure",
+    "lastName": "Kocijan",
+    "notes": "Slatnarjeva 10 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Jure",
+    "lastName": "Kolenko",
+    "notes": "Ljubljanska cesta 4a , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Jure",
+    "lastName": "Poljanšek",
+    "notes": "Hrib pri Kamniku 2 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Justina",
+    "lastName": "Erjavec",
+    "notes": "Oševek 15d , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Kaja",
+    "lastName": "CaJhen",
+    "notes": "Bakovnik 6 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Kaja",
+    "lastName": "Divjak",
+    "notes": "Klavčičeva ulica 7 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Kajtazović",
+    "lastName": "Rok",
+    "notes": "Ljubljanska 33a , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Kališnik",
+    "lastName": "Klemen",
+    "notes": "Godič 48 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Kališnik",
+    "lastName": "Maja",
+    "notes": "Godič 48 , 1242 Stahovica",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Kališnik",
+    "lastName": "Mateja",
+    "notes": "Golice 8a , 1219 Laze v Tuhinju",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Karla",
+    "lastName": "Kališnik",
+    "notes": "Godič 82 f , 1242 Stahovica",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Kata",
+    "lastName": "Davidović",
+    "notes": "Zikova 3 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Katarina",
+    "lastName": "Komatar",
+    "notes": "Oševek 17a , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Katja",
+    "lastName": "Hojnik",
+    "notes": "Slovenska cesta 60b , 1234 Mengeš",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Katja",
+    "lastName": "Kovač",
+    "notes": "Streliška 10 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Katja",
+    "lastName": "Ravnikar",
+    "notes": "Moste 65 , 1218 Komenda",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Katja",
+    "lastName": "Tonič",
+    "notes": "Pot na Jeranovo 11 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Kaučič",
+    "lastName": "Marjetka",
+    "notes": "Goričica pri Ihanu 2 , 1230 Domžale",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Kavčič",
+    "lastName": "Urška",
+    "notes": "Moste 75a , 1218 Komenda",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Kern",
+    "lastName": "Anita",
+    "notes": "Klanec 48a , 1218 Komenda",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Kern",
+    "lastName": "Peter",
+    "notes": "Cankarjeva cesta 59 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Kladnik",
+    "lastName": "Blaž",
+    "notes": "KETTEJEVA 14 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Kladnik",
+    "lastName": "Tina",
+    "notes": "Levstikova ul.3 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Klara",
+    "lastName": "Kregar",
+    "notes": "Spodnje Stranje 17 B , 1242 Stahovica",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Klara",
+    "lastName": "Omovšek",
+    "notes": "Mengeška pot 11 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Klavdija",
+    "lastName": "Slanovec Jerič",
+    "notes": "Buč 5b , 1219 Laze v Tuhinju",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Klemen",
+    "lastName": "Blatnik Nina",
+    "notes": "Rožično 2c , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Klemen",
+    "lastName": "Blejc",
+    "notes": "Samostanska 22 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Klemen",
+    "lastName": "Kopše",
+    "notes": "Laniše 3a , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Klemenc",
+    "lastName": "Luka",
+    "notes": "Podgorje 95a , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Kodrin",
+    "lastName": "Ivan",
+    "notes": "Gmajnica 96 , 1218 Komenda",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Kolenko",
+    "lastName": "Barbara",
+    "notes": "Zagorica 17a , 1242 Stahovica",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Kolenko",
+    "lastName": "Uroš",
+    "notes": "Zagorica 17a , 1242 Stahovica",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Končnik",
+    "lastName": "Manca",
+    "notes": "Podgorje  94g , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Konvalinka",
+    "lastName": "Metka",
+    "notes": "Ljubljanska cesta 33b , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Košir",
+    "lastName": "Boštjan",
+    "notes": "Ul.Matije Blejca 4 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Košnik",
+    "lastName": "Mojca",
+    "notes": "Bazoviška ul.8 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Kotnik",
+    "lastName": "Gordana",
+    "notes": "Samostanska ul.5 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Kregar",
+    "lastName": "Nina",
+    "notes": "Tunjiška mlaka 30b , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Kristijan",
+    "lastName": "Lečnik",
+    "notes": "Železniška cesta 4 , 1230 Domžale",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Kristina",
+    "lastName": "Kern",
+    "notes": "Podboršt 16b , 1218 Komenda",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Kristjan",
+    "lastName": "David Kač",
+    "notes": "Livarska 5 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Kristjan",
+    "lastName": "Končnik",
+    "notes": "Poreber 17 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Kristjan",
+    "lastName": "Podjed",
+    "notes": "Županje njive 12 , 1242 Stahovica",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Kristjan",
+    "lastName": "Rems",
+    "notes": "Groharjeva 12 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Kristjan",
+    "lastName": "Urh",
+    "notes": "Spodnje Stranje 31 , 1242 Stahovica",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Ksenija",
+    "lastName": "Perne",
+    "notes": "Novi trg 51 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Ksenja",
+    "lastName": "Vrhovnik",
+    "notes": "Zduša 19a , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Kukovec",
+    "lastName": "Gaja",
+    "notes": "Ul. Josipa Močnika 2 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Kuret",
+    "lastName": "Marta",
+    "notes": "Volčji potok 10a , 1235 Radomlje",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Lana",
+    "lastName": "Ocvirk",
+    "notes": "Podgorje 11 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Lazo",
+    "lastName": "Panić",
+    "notes": "Jakoba Zupana 4a , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Leon",
+    "lastName": "Golob",
+    "notes": "Srednja vas 30 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Leopold",
+    "lastName": "Kopše",
+    "notes": "Laniše 3a , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Leopolda",
+    "lastName": "Sabo",
+    "notes": "Neveljska pot 26 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Lesjak",
+    "lastName": "Matjaž",
+    "notes": "Polčeva pot 4b , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Lilijana",
+    "lastName": "Šlebir",
+    "notes": "Spodnje Stranje 17 , 1242 Stahovica",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Lina",
+    "lastName": "Valentinčič",
+    "notes": "Zikova 1 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Lora",
+    "lastName": "Lesjak",
+    "notes": "Polčeva pot 4b , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Lucija",
+    "lastName": "Griz",
+    "notes": "Hrib pri Kamniku 11 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Luka",
+    "lastName": "Berčič",
+    "notes": "Studenca 4b , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Luka",
+    "lastName": "Ciglar",
+    "notes": "Groharjeva 8 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Luka",
+    "lastName": "Čibašek",
+    "notes": "Suhadole 12 , 1218 Komenda",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Luka",
+    "lastName": "Krivec",
+    "notes": "Stolnik 22 , 1242 Stahovica",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Luka",
+    "lastName": "Medic",
+    "notes": "Šišenska 9a , 1000 Ljubljana",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Luka",
+    "lastName": "Novak",
+    "notes": "Klanec 45 , 1218 Komenda",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Magdalena",
+    "lastName": "Lesjak",
+    "notes": "Polčeva pot 4b , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Maja",
+    "lastName": "Drolec",
+    "notes": "Moste 40i , 1218 Komenda",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Maja",
+    "lastName": "Kuhar",
+    "notes": "Gmajna 4 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Maja",
+    "lastName": "Zalaznik",
+    "notes": "Moste 84a , 1218 Komenda",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Maja",
+    "lastName": "Žurbi",
+    "notes": "Ljubljanska 35 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "MAJDA",
+    "lastName": "AMBROŽ MIHELČIČ - ZASEBNA ZDRAVNICA",
+    "notes": "Novi trg 026 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Majda",
+    "lastName": "Sonja Letnar",
+    "notes": "Volčji potok 24h , 1235 Radomlje",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Maks",
+    "lastName": "Medved",
+    "notes": "Medvedova 9 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Maks",
+    "lastName": "Omerzo",
+    "notes": "Gozd 24a , 1242 Stahovica",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Maks",
+    "lastName": "Slapar",
+    "notes": "Pšajnovica 9 , 1219 Laze v Tuhinju",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Mali",
+    "lastName": "Franc",
+    "notes": "Snovik 1a , 1219 Laze v Tuhinju",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Malinarič",
+    "lastName": "Inkret Tanja",
+    "notes": "Žale 18a , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Malkoč",
+    "lastName": "Korez Blaž",
+    "notes": "Groharjeva 14 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Manca",
+    "lastName": "Trošt",
+    "notes": "Zg. Gameljne 47 , 1211 Ljubljana - Šmartno",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Marcel",
+    "lastName": "Gajser",
+    "notes": "Ulica bratov Blanč 1 , 1000 Ljubljana",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Marija",
+    "lastName": "Ciglar",
+    "notes": "Groharjeva 20 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Marija",
+    "lastName": "Dobnikar",
+    "notes": "Gora 2b , 1218 Komenda",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Marija",
+    "lastName": "Hafner",
+    "notes": "Zikova ul.2 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Marija",
+    "lastName": "Hribar",
+    "notes": "Loke 2 , 1219 Laze v Tuhinju",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Marija",
+    "lastName": "Krkoč",
+    "notes": "Štajerska ulica 6 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Marija",
+    "lastName": "Kuret",
+    "notes": "Ulica Matije Blejca 9 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Marija",
+    "lastName": "Lah",
+    "notes": "Toma Brejca 16a , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Marija",
+    "lastName": "Mušćet",
+    "notes": "Ljubljanska cesta 15b , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Marija",
+    "lastName": "Mušič",
+    "notes": "Podgorje 118 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Marija",
+    "lastName": "Palčič",
+    "notes": "Pot na Poljane 9 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Marija",
+    "lastName": "Peterlin",
+    "notes": "Kettejeva ul. 27 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Marija",
+    "lastName": "Roškar",
+    "notes": "Matije Blejca 4 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Marija",
+    "lastName": "Špur",
+    "notes": "Drnovškova 9D , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Marija",
+    "lastName": "Zobavnik",
+    "notes": "Pibernikova 12 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Marija",
+    "lastName": "Žagar",
+    "notes": "Krivčevo 14 , 1242 Stahovica",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Marija",
+    "lastName": "Žavbi",
+    "notes": "Klavčičeva 12 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Marijana",
+    "lastName": "Tavčar",
+    "notes": "Testenova 87 , 1234 Mengeš",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Marin",
+    "lastName": "Andrej",
+    "notes": "Glavarjeva 36 , 1218 Komenda",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Marinka",
+    "lastName": "Podbevšek",
+    "notes": "Žaga 4 , 1242 Stahovica",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Marinko",
+    "lastName": "Jana",
+    "notes": "Zikova ul. 12 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Marinko",
+    "lastName": "Mušćet",
+    "notes": "Ljubljanska cesta 15b , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Marjan",
+    "lastName": "Balantič",
+    "notes": "Kranjska 4c , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Marjan",
+    "lastName": "Gregorc",
+    "notes": "Suhadole 38a , 1218 Komenda",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Marjan",
+    "lastName": "Kokot",
+    "notes": "Spodnje Stranje 25a , 1242 Stahovica",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Marjanca",
+    "lastName": "Podbevšek",
+    "notes": "Kuharjeva 1 , 1230 Domžale",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Marjeta",
+    "lastName": "Jerič",
+    "notes": "Ulica Matije Blejca 16 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Marjeta",
+    "lastName": "Pajek",
+    "notes": "Ljubljanska 37c , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Mark",
+    "lastName": "Primožič",
+    "notes": "Markovo 13b , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Marko",
+    "lastName": "Cerar",
+    "notes": "Prisojna pot 16 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Marko",
+    "lastName": "Homar",
+    "notes": "Jakopičeva 26 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Marko",
+    "lastName": "Hrastovec",
+    "notes": "Laniše 2b , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Marko",
+    "lastName": "Jerič",
+    "notes": "Levstikova ulica 4 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Marko",
+    "lastName": "Puschner",
+    "notes": "Parmova ulica 5c , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Marko",
+    "lastName": "Rode",
+    "notes": "Gostičeva 67 , 1235 Radomlje",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Markovič",
+    "lastName": "Brigita",
+    "notes": "Streliška ul.19 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Marta",
+    "lastName": "Pavlič Čuk",
+    "notes": "Dobajeva ulica 6 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Martin",
+    "lastName": "Gorenc",
+    "notes": "Zikova 3 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Martin",
+    "lastName": "Korenjak",
+    "notes": "Podulce 34a , 8270 Krško",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Martin",
+    "lastName": "Kranjec",
+    "notes": "Bukovica 19a , 1217 Vodice",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Martin",
+    "lastName": "Pregl",
+    "notes": "Na Bregu 17 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Martin",
+    "lastName": "Zupan",
+    "notes": "Na gmajni 13 , 1234 Mengeš",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Martina",
+    "lastName": "Erjavšek",
+    "notes": "Podboršt pri Komendi 3 , 1218 Komenda",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Martina",
+    "lastName": "Jerše",
+    "notes": "Zgornje Stranje 29a , 1242 Stahovica",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Martina",
+    "lastName": "Komatar",
+    "notes": "Kersnikova 15 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Martina",
+    "lastName": "Kranjec",
+    "notes": "Bukovica 19a , 1217 Vodice",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Martina",
+    "lastName": "Ocepek",
+    "notes": "Groharjeva 6 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Martina",
+    "lastName": "Smolnikar",
+    "notes": "Zadružna ulica 10 , 1218 Komenda",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Maruša",
+    "lastName": "Debevec",
+    "notes": "Oševek 6 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Matej",
+    "lastName": "Hribar",
+    "notes": "Ljubljanska cesta 3a , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Matej",
+    "lastName": "Tičar",
+    "notes": "Zalog pri Cerkljah 15 , 4207 Cerklje na Gorenjskem",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Mateja",
+    "lastName": "Majcen",
+    "notes": "Gozd 17e , 1242 Stahovica",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Mateja",
+    "lastName": "Ovijač",
+    "notes": "Moste 2b , 1218 Komenda",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Mateja",
+    "lastName": "Perko",
+    "notes": "Drenov Grič 174h , 1360 Vrhnika",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Mateja",
+    "lastName": "Poljanšek",
+    "notes": "Toma Brejca 1a , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Mateja",
+    "lastName": "Tavčar",
+    "notes": "Na Jasi 7 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Mateja",
+    "lastName": "Zupan",
+    "notes": "Gorenjskega odreda 16 , 4000 Kranj",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Mateja",
+    "lastName": "Zupan",
+    "notes": "Ulica gorenjskega odreda 16 , 4000 Kranj",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Matevž",
+    "lastName": "Klemen",
+    "notes": "Stara Sela 8 , 1219 Laze v Tuhinju",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Matic",
+    "lastName": "Korošec",
+    "notes": "Pločanska 3 , 1211 Ljubljana - Šmartno",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Matic",
+    "lastName": "Strajnar",
+    "notes": "Podlimbarskega pot 3a , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Matija",
+    "lastName": "Krkoč",
+    "notes": "Štajerska ulica 6 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Matjan",
+    "lastName": "Andraž",
+    "notes": "Vir pri Nevljah 5 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Matjaž",
+    "lastName": "Birk",
+    "notes": "Ljubljanska 102 , 1230 Domžale",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Matjaž",
+    "lastName": "Letnar",
+    "notes": "Cesta treh talcev 21 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Mavricij",
+    "lastName": "Košir",
+    "notes": "Parmova 5a , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Memarović",
+    "lastName": "Živka",
+    "notes": "Groharjeva 2 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Metka",
+    "lastName": "Bizjak",
+    "notes": "Frana Albrehta 6 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Miha",
+    "lastName": "Glavač",
+    "notes": "Ul. Matije Blejca 13 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Miha",
+    "lastName": "Grilc",
+    "notes": "Moste 56b , 1218 Komenda",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Miha",
+    "lastName": "Levinger",
+    "notes": "Županje njive 29 , 1242 Stahovica",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Miha",
+    "lastName": "Pančur",
+    "notes": "Bistričica 15a , 1242 Stahovica",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Miha",
+    "lastName": "Spruk",
+    "notes": "Hrib pri Kamniku 11 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Mihael",
+    "lastName": "Ajtnik",
+    "notes": "Habjanova 12 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Mihael",
+    "lastName": "Orešnik",
+    "notes": "Jamova ulica 2 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Mihael",
+    "lastName": "Sršen",
+    "notes": "Gmajnica 119 , 1218 Komenda",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Mihaela",
+    "lastName": "Flerin",
+    "notes": "Ljubljanska cesta 48 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Mihaela",
+    "lastName": "Kladnik",
+    "notes": "Tirosek 40a , 3342 Gornji Grad",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Mihelič",
+    "lastName": "Barbara",
+    "notes": "Olševek 6 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Milan",
+    "lastName": "Andrić",
+    "notes": "Drnovškova 9c , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Milan",
+    "lastName": "Robar",
+    "notes": "Podgorje 111 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Milena",
+    "lastName": "Ahlin",
+    "notes": "Šipkova 6 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Milena",
+    "lastName": "Klemen",
+    "notes": "Rožično 2c , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Milena",
+    "lastName": "Kopše",
+    "notes": "Laniše 3a , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Milena",
+    "lastName": "Lampret",
+    "notes": "Matije Blejca 14 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Milena",
+    "lastName": "Petek",
+    "notes": "Gora 23d , 1218 Komenda",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Milena",
+    "lastName": "Praštala",
+    "notes": "Klavčičeva 10 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Milica",
+    "lastName": "Podbevšek",
+    "notes": "KLAVČIČEVA UL.12 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Miljana",
+    "lastName": "Mitrović",
+    "notes": "Jakopičeva 11 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Mira",
+    "lastName": "Krumpestar",
+    "notes": "Tunjiška mlaka 15c , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Mira",
+    "lastName": "Voler",
+    "notes": "Pot na Poljane 14 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Miran",
+    "lastName": "Kovač",
+    "notes": "Ljubljanska cesta  4G , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Miran",
+    "lastName": "Premelč",
+    "notes": "Palovška cesta 9 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Mirjana",
+    "lastName": "Brumen",
+    "notes": "Košiše 1 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Mirjana",
+    "lastName": "Ličer",
+    "notes": "Bistričica 34 , 1242 Stahovica",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Mirjana",
+    "lastName": "Sedušak",
+    "notes": "Tunjiška mlaka 22a , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Mirko",
+    "lastName": "Sedušak",
+    "notes": "Tunjiška Mlaka 22c , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Mirna",
+    "lastName": "Macur",
+    "notes": "Steletova 13 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Mišakov",
+    "lastName": "Aleksej",
+    "notes": "Žvarulje 1 , 1411 Izlake",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Mitja",
+    "lastName": "Nerima",
+    "notes": "Cankarjeva cesta 1e , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Mitja",
+    "lastName": "Semeja",
+    "notes": "Ljubljanska c.32 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Močnik",
+    "lastName": "Mitja",
+    "notes": "Na jasi 1 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Mojca",
+    "lastName": "Čeligoj",
+    "notes": "Ljubljanska cesta 37 B , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Mojca",
+    "lastName": "Koželj",
+    "notes": "Oševek 5 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Mojca",
+    "lastName": "Krstić Kurbis",
+    "notes": "Bevkova 7 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Mojca",
+    "lastName": "Poljanšek",
+    "notes": "Okrog pri Motniku 9 , 1219 Laze v Tuhinju",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Mojca",
+    "lastName": "Vrhovnik",
+    "notes": "Stolnik 20a , 1242 Stahovica",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Mojca",
+    "lastName": "Žebaljec",
+    "notes": "Molkova pot 12 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Mojmir",
+    "lastName": "Mavrič",
+    "notes": "Ljubljanska cesta 9a , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Muharem",
+    "lastName": "Dizdarević",
+    "notes": "Ljubljanska cesta 4f , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Nada",
+    "lastName": "Kralj Matoh",
+    "notes": "Fužine 2a , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Narat",
+    "lastName": "Natalija",
+    "notes": "Vrhpolje pri Kamniku , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Natalija",
+    "lastName": "Pavlič",
+    "notes": "Podgorje 93 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Natalija",
+    "lastName": "Stojmanovska Gjorgjevikj",
+    "notes": "Fužine 2a , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Natalija",
+    "lastName": "Štih",
+    "notes": "Soteska 47 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Nataša",
+    "lastName": "Ahlin",
+    "notes": "Ježica 4 , 1000 Ljubljana",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Nataša",
+    "lastName": "Cerar",
+    "notes": "Škrjančevo 17 A , 1235 Radomlje",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Nataša",
+    "lastName": "Končan",
+    "notes": "Cankarjeva 16 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Nataša",
+    "lastName": "Košnjek",
+    "notes": "Samostanska 22 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Nataša",
+    "lastName": "Sitar",
+    "notes": "Prisojna pot 34 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Nataša",
+    "lastName": "Stehničar",
+    "notes": "Račni vrh 4 , 1233 Dob",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Nataša",
+    "lastName": "Sušnik",
+    "notes": "Vilka Rožiča 13 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Nataša",
+    "lastName": "Žebaljec",
+    "notes": "Rožično 1b , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Natja",
+    "lastName": "Griljc",
+    "notes": "Prisojna pot 34 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Nea",
+    "lastName": "Pavlovič",
+    "notes": "Glavarjeva 50 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Nejc",
+    "lastName": "Skubic",
+    "notes": "Klavčičeva 9 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Nela",
+    "lastName": "Perko",
+    "notes": "Molkova pot 4 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Neža",
+    "lastName": "Pavlinič",
+    "notes": "Drnovškova pot 13 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Neža",
+    "lastName": "Pungertar",
+    "notes": "Parapatzova 19 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Nik",
+    "lastName": "Nikolič",
+    "notes": "Groharjeva 2 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Nikolaj",
+    "lastName": "Hrabar",
+    "notes": "Klavčičeva 5 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Nina",
+    "lastName": "Fartek",
+    "notes": "Suhadole 41d , 1218 Komenda",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Nina",
+    "lastName": "Fartek",
+    "notes": "Suhadole 41d , 1218 Komenda",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Nina",
+    "lastName": "Klemen",
+    "notes": "Klavčičeva 12 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Nina",
+    "lastName": "Pečan",
+    "notes": "Mala pot 1 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Nina",
+    "lastName": "Vengust",
+    "notes": "Steletova cesta 3 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Nina",
+    "lastName": "Zavasnik",
+    "notes": "Šmartno 44  , 1219 Laze v Tuhinju",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Nives",
+    "lastName": "Rac",
+    "notes": "Cankarjeva 1j , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Novak",
+    "lastName": "Mitja",
+    "notes": "Ul. Josipa Ogrinca 10a , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Ocvirk",
+    "lastName": "Alojzija",
+    "notes": "Podgorje 94 b , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Ocvirk",
+    "lastName": "Maksimiljan",
+    "notes": "Podgorje 94b , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Ognjen",
+    "lastName": "Jovanović",
+    "notes": "Parmova 13 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Olga",
+    "lastName": "Tonin",
+    "notes": "Ravne pri Šmartnem 7 , 1219 Laze v Tuhinju",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Olgica",
+    "lastName": "Glavač",
+    "notes": "Matija Blejca 13 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Omrzu",
+    "lastName": "Rozalija",
+    "notes": "Olševek 3a , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Omrzu",
+    "lastName": "Rozalija",
+    "notes": "Olševek 3a , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Omrzu",
+    "lastName": "Rozalija",
+    "notes": "Olševek 3a , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Oražem",
+    "lastName": "Luka",
+    "notes": "Velika Lašna 5a , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Osolnik",
+    "lastName": "Mateja",
+    "notes": "Tunjiška mlaka 5k , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Osolnik",
+    "lastName": "Petra",
+    "notes": "Poreber 15a , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Ozimek",
+    "lastName": "Damjan",
+    "notes": "Nevlje 34 d , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Ozimek",
+    "lastName": "Damjan",
+    "notes": "Nevlje 34 d , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Ozimek",
+    "lastName": "Damjan",
+    "notes": "Nevlje 34d , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Ozimek",
+    "lastName": "Damjan",
+    "notes": "Nevlje 34d , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Pančur",
+    "lastName": "Florjan",
+    "notes": "Kostanj 8 , 1219 Laze v Tuhinju",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Paradžik",
+    "lastName": "Anica",
+    "notes": "Ljubljanska c. 33b , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Paradžik",
+    "lastName": "Vinko",
+    "notes": "Ljubljanska c.33 b , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Patricija",
+    "lastName": "Čebulj",
+    "notes": "Ljubljanska 4b , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Patricija",
+    "lastName": "Hribar",
+    "notes": "Vrhpolje 239 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Pavel",
+    "lastName": "Novak",
+    "notes": "Bakovniška 18 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Pavlič",
+    "lastName": "Juta",
+    "notes": "Županje njive 4c , 1242 Stahovica",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Pavlič",
+    "lastName": "Matej",
+    "notes": "Poreber 2 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Pavlinič",
+    "lastName": "Gal",
+    "notes": "Drnovškova pot 13 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Pestotnik",
+    "lastName": "Boštjan",
+    "notes": "Cesta treh talcev 28a , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Petač",
+    "lastName": "Simona",
+    "notes": "Ul. Vilka Rožiča 17 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Peter",
+    "lastName": "Baloh",
+    "notes": "Zg. Tuhinj 15a , 1219 Laze v Tuhinju",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Peter",
+    "lastName": "Kürbus",
+    "notes": "Bevkova 7 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Peter",
+    "lastName": "Mlinar",
+    "notes": "Zikova 8 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Petra",
+    "lastName": "Bastič",
+    "notes": "Tunjice 17 A , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Petra",
+    "lastName": "Bertoncelj",
+    "notes": "Stegne 14 , 1251 Moravče",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Petra",
+    "lastName": "Maradin",
+    "notes": "Zgornji Brnik 135 , 4207 Cerklje na Gorenjskem",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Petra",
+    "lastName": "Osolnik",
+    "notes": "Poreber 15a , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Petra",
+    "lastName": "Premk",
+    "notes": "Ljubljanska cesta 3b , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Petra",
+    "lastName": "Smolnikar",
+    "notes": "Zadružniška ul.10 , 1218 Komenda",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Petra",
+    "lastName": "Vodlan",
+    "notes": "Vranja peč 4 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Petra",
+    "lastName": "Vodušek",
+    "notes": "Zduša 19a , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Petra",
+    "lastName": "Vrhovnik",
+    "notes": "Tunjice 32 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Petra",
+    "lastName": "Vrhovnik",
+    "notes": "Tunjice 32 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Pirman",
+    "lastName": "Leon",
+    "notes": "Na bregu 34 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Plahutnik",
+    "lastName": "Marija",
+    "notes": "Brezje 10 , 1242 Stahovica",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Podbevšek",
+    "lastName": "Andrej",
+    "notes": "Žaga 4 , 1242 Stahovica",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Podjed",
+    "lastName": "Dejan",
+    "notes": "Perkova 10 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Podkoritnik",
+    "lastName": "Tomaž",
+    "notes": "Ul. Janka Ulriha 20 , 3320 Velenje",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Podrzavnik",
+    "lastName": "Ivan",
+    "notes": "Loke 20 , 1219 Laze v Tuhinju",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Podrzavnik",
+    "lastName": "Ivan",
+    "notes": "Loke 20 , 1219 Laze v Tuhinju",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Polona",
+    "lastName": "Hribar",
+    "notes": "Volčji potok 31 , 1235 Radomlje",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Polona",
+    "lastName": "Ravnjak",
+    "notes": "Volčji potok 42 , 1235 Radomlje",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Požek",
+    "lastName": "Dragica",
+    "notes": "Jakopičeva 13 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Pregl",
+    "lastName": "Jana",
+    "notes": "Kersnikova 12 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Pregl",
+    "lastName": "Jana",
+    "notes": "Kersnikova 12 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Pregl",
+    "lastName": "Jana",
+    "notes": "Kersnikova 12 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Pregl",
+    "lastName": "Jana",
+    "notes": "Kersnikova 12 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Prelec",
+    "lastName": "Sonja",
+    "notes": "Ljubljanska c.1 č , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Premelč",
+    "lastName": "Zdenka",
+    "notes": "Palovška cesta 9 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Premk",
+    "lastName": "Petra",
+    "notes": "Dragočajna 4 , 1216 Smlednik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Prešeren",
+    "lastName": "Marija",
+    "notes": "Jeranovo 13a , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Primož",
+    "lastName": "Bodlaj",
+    "notes": "Gradišče 3 , 1219 Laze v Tuhinju",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Primož",
+    "lastName": "Sever",
+    "notes": "Pestotnikova 3 , 1210 Ljubljana Šentvid",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Pungertar",
+    "lastName": "Neža",
+    "notes": "Parapatova ul.19 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Puškar",
+    "lastName": "Robert",
+    "notes": "Županje njive 10c , 1242 Stahovica",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Rahne",
+    "lastName": "Žiga",
+    "notes": "Nevelska pot 1 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Rajko",
+    "lastName": "Bevk",
+    "notes": "Križ 34 , 1218 Komenda",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Rak",
+    "lastName": "Laura",
+    "notes": "Vrhpolje pri Kamniku 30 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Rak",
+    "lastName": "Natalija",
+    "notes": "Olševek 7c , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Rauter",
+    "lastName": "Maja",
+    "notes": "Šutna 10 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Razpotnik",
+    "lastName": "Marjana",
+    "notes": "Jelovškova 1 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Renata",
+    "lastName": "Dornik",
+    "notes": "Zgornji Tuštanj 12 , 1251 Moravče",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Repnik",
+    "lastName": "Stanislav",
+    "notes": "Vrhpolje 232 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Rifko",
+    "lastName": "Korać",
+    "notes": "Klavčičeva 4 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Rok",
+    "lastName": "Česen",
+    "notes": "Kovinarska cesta 18 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Rok",
+    "lastName": "Podjed",
+    "notes": "Vojkova 91 , 1000 Ljubljana",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Rok",
+    "lastName": "Vidmar",
+    "notes": "Streliška ul,6 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Rok",
+    "lastName": "Vrhovnik",
+    "notes": "Stolnik 20a , 1242 Stahovica",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Rok",
+    "lastName": "Vrhovnik",
+    "notes": "Gornji trg 9 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Rok",
+    "lastName": "Zalaznik",
+    "notes": "Moste 84a , 1218 Komenda",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Roman",
+    "lastName": "Špenko",
+    "notes": "Frančiškanski trg 1 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Romana",
+    "lastName": "Ravnikar",
+    "notes": "Moste 66 , 1218 Komenda",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Rona",
+    "lastName": "Racaj",
+    "notes": "Ljubljanska 93 , 1230 Domžale",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Rudinka",
+    "lastName": "Kuzma",
+    "notes": "Knafličev prehod 3 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Rusalka",
+    "lastName": "Patelli",
+    "notes": "Bistričica 10 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Samir",
+    "lastName": "Osmanchevich",
+    "notes": "Možjanca 15b  , 4205 Preddvor",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Sara",
+    "lastName": "Hribar",
+    "notes": "Steletova 17 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Sara",
+    "lastName": "Hribar",
+    "notes": "Staretova 17 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Sara",
+    "lastName": "Juhant",
+    "notes": "Komendska Dobrava 7 , 1218 Komenda",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Sara",
+    "lastName": "Nahtigal",
+    "notes": "Tirosek 13 , 3342 Gornji Grad",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Sara",
+    "lastName": "Pustoslemšek",
+    "notes": "Dobajeva ulica 4 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Sara",
+    "lastName": "Sitar",
+    "notes": "Vrhpolje 193 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Saša",
+    "lastName": "Gašperlin",
+    "notes": "Vrh pri Višnji gori 28 , 1294 Višnja Gora",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Saša",
+    "lastName": "Kaučič",
+    "notes": "Parmova 19 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Saša",
+    "lastName": "Krč",
+    "notes": "Ulica Angelce Hlebce 5b , 4000 Kranj",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Saša",
+    "lastName": "Milanović",
+    "notes": "Nevlje 20  , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Sašo",
+    "lastName": "Nožič Serini",
+    "notes": "Zikova ulica 7 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Sašo",
+    "lastName": "Trebušak",
+    "notes": "Ravne pri Šmartnem 4 , 1219 Laze v Tuhinju",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Sead",
+    "lastName": "Šekerić",
+    "notes": "Livarska ulica 5 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Selko",
+    "lastName": "Alenka",
+    "notes": "Pšajnovica 10 , 1219 Laze v Tuhinju",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Selma",
+    "lastName": "Sabljaković",
+    "notes": "Breznikova cesta 39 , 1230 Domžale",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Semeja",
+    "lastName": "Mirko",
+    "notes": "Ljubljanska 32 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Senada",
+    "lastName": "Korać",
+    "notes": "Klavčičeva 4 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Senada",
+    "lastName": "Korać",
+    "notes": "Klavčičeva 4 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Senekovič",
+    "lastName": "Mojca",
+    "notes": "Frana Pirca ul. 1a , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "SERIANZ",
+    "lastName": "d.o.o.",
+    "notes": "Partizanska cesta 011 , 1251 Moravče",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Silva",
+    "lastName": "Grintal",
+    "notes": "Vremškova ul.3 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Simon",
+    "lastName": "Kveder",
+    "notes": "Cesta treh talcev 9 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Simona",
+    "lastName": "Cotman",
+    "notes": "Godič 86 , 1242 Stahovica",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Simona",
+    "lastName": "Garbatavičiute",
+    "notes": "Poljanska cesta 20b , 1000 Ljubljana",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Simona",
+    "lastName": "Garbavičiute",
+    "notes": "Poljanska cesta 20b , 1000 Ljubljana",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Sitar",
+    "lastName": "Amalija",
+    "notes": "Palovška 13 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Skubic",
+    "lastName": "Vida",
+    "notes": "Klavčičeva ul.9 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Slađana",
+    "lastName": "Milojević",
+    "notes": "Zikova 7 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Slapnik",
+    "lastName": "Milena",
+    "notes": "Bistriška c. 7 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Smolnikar",
+    "lastName": "Polona",
+    "notes": "Zadružna ul.10 , 1218 Komenda",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Sonja",
+    "lastName": "Ovijač",
+    "notes": "Moste 2b , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Sonja",
+    "lastName": "Porovne",
+    "notes": "Podgorje 104 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Sonja",
+    "lastName": "Šemrl",
+    "notes": "Zikova 5 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Spruk",
+    "lastName": "Jernej",
+    "notes": "Levstikova ul. 2 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Srečko",
+    "lastName": "Orel",
+    "notes": "Zikova 10 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Stanislav",
+    "lastName": "Janežič",
+    "notes": "Nova pot 1 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Stanislava",
+    "lastName": "Zarnik",
+    "notes": "Križ 13A , 1218 Komenda",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Stanko",
+    "lastName": "Breznik",
+    "notes": "Vojsko 14a , 1217 Vodice",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Stanko",
+    "lastName": "Komatar",
+    "notes": "Stolnik 21 , 1242 Stahovica",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Stanko",
+    "lastName": "Zdovc",
+    "notes": "Vrhpolje 90 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Staš",
+    "lastName": "Pintar",
+    "notes": "Ljubljanska cesta 4a , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Stehničar",
+    "lastName": "Nataša",
+    "notes": "Sela pri Kamniku 7 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Stopar",
+    "lastName": "Robert",
+    "notes": "Testenova ul.57 , 1234 Mengeš",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Sušnik",
+    "lastName": "Ajda",
+    "notes": "Levstikova ul.2 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Suzana",
+    "lastName": "Kotnik",
+    "notes": "Zikova 5 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Suzana",
+    "lastName": "Kralj",
+    "notes": "Ljubljanaska 3d , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Suzana",
+    "lastName": "Metelko",
+    "notes": "Sela pri Kamniku 3 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Svetina",
+    "lastName": "Peter",
+    "notes": "Klanec 33 , 1218 Komenda",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Šarec",
+    "lastName": "Mojca",
+    "notes": "Kamniška c. 26 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Šmid",
+    "lastName": "Janez",
+    "notes": "Košiše 8c , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Špela",
+    "lastName": "Klemen",
+    "notes": "Tunjiška Mlaka 18 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Špela",
+    "lastName": "Trampuš",
+    "notes": "Utik 27b , 1217 Vodice",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Špruk",
+    "lastName": "Mihael",
+    "notes": "Stahovica 31 , 1242 Stahovica",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Štefan",
+    "lastName": "Pucko",
+    "notes": "Matije Blejca 10 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Štefanija",
+    "lastName": "Zore",
+    "notes": "Zagorica nad Kamnikom 30 , 1242 Stahovica",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Štefka",
+    "lastName": "Močnik",
+    "notes": "Košiše 14a , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Šuštar",
+    "lastName": "Anton",
+    "notes": "Tunjiška mlaka 6 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Šuštar",
+    "lastName": "Anton",
+    "notes": "Arnače 3b , 3320 Velenje",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Šušterič",
+    "lastName": "Irt Inti",
+    "notes": "Tomšičeva ulica 11 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Tadej",
+    "lastName": "Stele",
+    "notes": "Tunjiška Mlaka 9e , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Tadeja",
+    "lastName": "Hafner",
+    "notes": "Pustnice 8 , 1217 Vodice",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Tadeja",
+    "lastName": "Ojsteršek",
+    "notes": "Lahovče 90 , 4207 Cerklje na Gorenjskem",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Tadeja",
+    "lastName": "Poglednik",
+    "notes": "Tunjice 25a , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Taja",
+    "lastName": "Brinovec",
+    "notes": "Livarska ulica 1 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Tanja",
+    "lastName": "Zupan",
+    "notes": "Poreber 2c , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Tanja",
+    "lastName": "Žunić",
+    "notes": "Zg. tuhinj 18 , 1219 Laze v Tuhinju",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Tanšek",
+    "lastName": "Tatjanca",
+    "notes": "Ljubljanska c. 3b , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Tatjana",
+    "lastName": "Brnot",
+    "notes": "Zg. Palovče 2 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Tatjana",
+    "lastName": "Hrovat",
+    "notes": "Bistričica 10c , 1242 Stahovica",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Tatjana",
+    "lastName": "Humar Jurič",
+    "notes": "Žale 4a , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Tatjana",
+    "lastName": "Husič",
+    "notes": "Zgornji Tuhinj 56B , 1219 Laze v Tuhinju",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Tatjana",
+    "lastName": "Klemen",
+    "notes": "Dobajeva 3 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Tatjana",
+    "lastName": "Novak",
+    "notes": "Pločanska 3 , 1211 Ljubljana - Šmartno",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Tatjana",
+    "lastName": "Škufca",
+    "notes": "Ljubljanska cesta 15b , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Tea",
+    "lastName": "Lavrič",
+    "notes": "Cankarjeva 27 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Tea",
+    "lastName": "Letonja",
+    "notes": "Podlože 43a , 2323 Ptujska Gora",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Teja",
+    "lastName": "Lavrič",
+    "notes": "Cankarjeva 27 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Terezija",
+    "lastName": "Balantič",
+    "notes": "Obrtniška 7 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Terezija",
+    "lastName": "Šimenc",
+    "notes": "Vrhpolje pri Kamniku 1241 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Tien",
+    "lastName": "Bao Thien Nguyen",
+    "notes": "Zadružniška 19 , 1234 Mengeš",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Tim",
+    "lastName": "Polanič",
+    "notes": "Nožice, Pionirska 3 , 1235 Radomlje",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Tim",
+    "lastName": "Smolnikar",
+    "notes": "Kajuhova pot 5 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Tina",
+    "lastName": "Berlec",
+    "notes": "Zikova ulica 3 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Tina",
+    "lastName": "Levak Žagar",
+    "notes": "Bistričica 19A , 1242 Stahovica",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Tina",
+    "lastName": "Podbelšek",
+    "notes": "Bistriška cesta 15 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Tjaša",
+    "lastName": "Jamšek",
+    "notes": "Steletova 5 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Tjaša",
+    "lastName": "Zadnikel",
+    "notes": "Ljubljanska 4b , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Tomaž",
+    "lastName": "Cerar",
+    "notes": "Pod hribom 29 , 1235 Radomlje",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Tomaž",
+    "lastName": "Petek",
+    "notes": "Čebuljeva ulica 3 , 1218 Komenda",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Tomaž",
+    "lastName": "Podkoritnik",
+    "notes": "Ulica Janka Ulriha 20 , 3320 Velenje",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Tomaž",
+    "lastName": "Spruk",
+    "notes": "Zg. Stranje 41 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Tomaž",
+    "lastName": "Spruk",
+    "notes": "Zgornje Stranje 41 , 1242 Stahovica",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Tomi",
+    "lastName": "Kirbus",
+    "notes": "Podgorje 26e , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Tone",
+    "lastName": "Prelesnik",
+    "notes": "Vrhpolje 221 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Toni",
+    "lastName": "Ulčar",
+    "notes": "Usnjarska cesta 14 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Trebušak",
+    "lastName": "Marija",
+    "notes": "Bakovniška 5 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Uranič",
+    "lastName": "Karmen",
+    "notes": "Godič 1c , 1242 Stahovica",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Uroš",
+    "lastName": "Košir",
+    "notes": "Pleterje 76 , 2324 Lovrenc na Dravskem polju",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Uroš",
+    "lastName": "Kramljak",
+    "notes": "Prisojna pot 6 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Uroš",
+    "lastName": "Pirc",
+    "notes": "Opekarniška 17 , 1235 Radomlje",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Uroš",
+    "lastName": "Stele",
+    "notes": "Tunjiška Mlaka 9e , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Uroš",
+    "lastName": "Šarc",
+    "notes": "Volčji Potok 35a , 1235 Radomlje",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Urša",
+    "lastName": "Vinšek",
+    "notes": "Godič 79a , 1242 Stahovica",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Uršič",
+    "lastName": "Dora",
+    "notes": "Župančičeva 6a , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Valentin",
+    "lastName": "Beznik",
+    "notes": "Na Produ 4 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Valerija",
+    "lastName": "Koller",
+    "notes": "Tunjiška cesta 2a , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Valerija",
+    "lastName": "Koper",
+    "notes": "Tunjiška cesta 2a , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Valter",
+    "lastName": "Cvek",
+    "notes": "Koritnica 22 , 5242 Grahovo ob Bači",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Van",
+    "lastName": "Pavlič",
+    "notes": "Podgorje 93 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Vanda",
+    "lastName": "Sakelšek",
+    "notes": "Samostanska 28  , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Vanja",
+    "lastName": "Sušnik",
+    "notes": "Cesta treh talcev 31 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Velečič",
+    "lastName": "Marko",
+    "notes": "Novi trg 37 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Vengust",
+    "lastName": "Rok",
+    "notes": "Steletova c. 3 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Veronika",
+    "lastName": "Beznik",
+    "notes": "Na produ 4 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Veronika",
+    "lastName": "Premk",
+    "notes": "Ljubljanska cesta 3d , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Vesić",
+    "lastName": "Leon",
+    "notes": "Knafličev prehod 3 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Vesna",
+    "lastName": "Uršič",
+    "notes": "Košiše 24a , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Vesna",
+    "lastName": "Vrhovnik",
+    "notes": "Stolnik 20a , 1242 Stahovica",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Vid",
+    "lastName": "Rozman",
+    "notes": "Žale 18b , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Vidergar",
+    "lastName": "Irena",
+    "notes": "Jamova 5 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Viduč",
+    "lastName": "Vojka",
+    "notes": "Radomeljska 16a , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Viktor",
+    "lastName": "Pogačar",
+    "notes": "Na Bregu 11a , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Viktor",
+    "lastName": "Vavpetič",
+    "notes": "Podgorje 110 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Vili",
+    "lastName": "Šeremet",
+    "notes": "Brezje nad Kamnikom 38 , 1242 Stahovica",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Vili",
+    "lastName": "Vončina",
+    "notes": "Jakopičeva ulica 19 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Vinšek",
+    "lastName": "Valerija",
+    "notes": "Moste 33 , 1218 Komenda",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Vladimir",
+    "lastName": "Kveder",
+    "notes": "Cesta treh talcev 9 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Volčanšek",
+    "lastName": "Marjeta",
+    "notes": "Stolnik 3 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Vrhovnik",
+    "lastName": "Jože",
+    "notes": "STOLNIK 20A , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Vrhovnik",
+    "lastName": "Vesna",
+    "notes": "Stolnik 20 , 1242 Stahovica",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Zabavnik",
+    "lastName": "Tanja",
+    "notes": "Košiše 16 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Zalokar",
+    "lastName": "Milena",
+    "notes": "Jakopičeva 19 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Zdenka",
+    "lastName": "Farter Halb",
+    "notes": "Šaranovičeva 2 , 1230 Domžale",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Zdravka",
+    "lastName": "Žibert",
+    "notes": "Ob Mlinščici 1 , 1235 Radomlje",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Zdravko",
+    "lastName": "Bizjak",
+    "notes": "Podgorje 61a , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Zlatko",
+    "lastName": "Emilijan Gorjup",
+    "notes": "Grilčeva ulica 32 , 5280 Idrija",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Zobavnik",
+    "lastName": "Mojca",
+    "notes": "Pibernikova 12 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Zofija",
+    "lastName": "Trobevšek",
+    "notes": "Jakopičeva 21 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Zorc",
+    "lastName": "Marija",
+    "notes": "Ljubljanska c. 70 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Zore",
+    "lastName": "Mira",
+    "notes": "Žebljarska pot 15 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Zorica",
+    "lastName": "Hudoklion",
+    "notes": "Polanškova 17 , 1231 Ljubljana Črnuče",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Zupin",
+    "lastName": "Ela",
+    "notes": "Križ 75 , 1218 Komenda",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Zvonko",
+    "lastName": "Mlinar",
+    "notes": "Velika Lašna 10 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Žabkar",
+    "lastName": "Bojana",
+    "notes": "Klavčičeva 5 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Žan",
+    "lastName": "Močnik",
+    "notes": "Moste 8b , 1218 Komenda",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Žarko",
+    "lastName": "Mihelj",
+    "notes": "Vrhpolje pri Kamniku 250 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Železnik",
+    "lastName": "Irenca",
+    "notes": "Špitalič 19 , 1221 Motnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Žiga",
+    "lastName": "Močnik",
+    "notes": "Moste 8b , 1218 Komenda",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Žiga",
+    "lastName": "Oražem",
+    "notes": "Pot na Poljane 13 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Žiga",
+    "lastName": "Planinc",
+    "notes": "Pot na Dobravo 14 , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Žiga",
+    "lastName": "Potočnik",
+    "notes": "Kajuhova ulica 10 , 1000 Ljubljana",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Žiga",
+    "lastName": "Ukmar",
+    "notes": "V Boršt 1 , 1235 Radomlje",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  },
+  {
+    "name": "Živa",
+    "lastName": "Uršič",
+    "notes": "Svetčeva pot 1a , 1241 Kamnik",
+    "gsm": null,
+    "email": null,
+    "countryCode": null
+  }
+]

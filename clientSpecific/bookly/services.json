@@ -1,0 +1,147 @@
+[
+  {
+    "name": "Depilacija brade",
+    "tag": "Depilacija",
+    "duration": 5,
+    "price": "6,00"
+  },
+  {
+    "name": "Depilacija pod nosom",
+    "tag": "Depilacija",
+    "duration": 5,
+    "price": "5,00"
+  },
+  {
+    "name": "Depilacija podpazduh",
+    "tag": "Depilacija",
+    "duration": 5,
+    "price": "8,00"
+  },
+  {
+    "name": "Depilacija celih rok",
+    "tag": "Depilacija",
+    "duration": 15,
+    "price": "20,00"
+  },
+  {
+    "name": "Depilacija podlahti",
+    "tag": "Depilacija",
+    "duration": 10,
+    "price": "15,00"
+  },
+  {
+    "name": "Depilacija pod popkom/trebuh",
+    "tag": "Depilacija",
+    "duration": 5,
+    "price": "7,00"
+  },
+  {
+    "name": "Depilacija bikini",
+    "tag": "Depilacija",
+    "duration": 10,
+    "price": "15,00"
+  },
+  {
+    "name": "Depilacija brazilski bikini",
+    "tag": "Depilacija",
+    "duration": 20,
+    "price": "20,00"
+  },
+  {
+    "name": "Depilacija zadnjice",
+    "tag": "Depilacija",
+    "duration": 10,
+    "price": "12,00"
+  },
+  {
+    "name": "Depilacija celih nog",
+    "tag": "Depilacija",
+    "duration": 30,
+    "price": "25,00"
+  },
+  {
+    "name": "Depilacija spodnjega dela nog",
+    "tag": "Depilacija",
+    "duration": 15,
+    "price": "15,00"
+  },
+  {
+    "name": "Depilacija stegen",
+    "tag": "Depilacija",
+    "duration": 15,
+    "price": "18,00"
+  },
+  {
+    "name": "Depilacija paket 1",
+    "tag": "Depilacija",
+    "duration": 40,
+    "price": "38,00"
+  },
+  {
+    "name": "Depilacija paket 2",
+    "tag": "Depilacija",
+    "duration": 45,
+    "price": "42,00"
+  },
+  {
+    "name": "Depilacija moški - hrbet",
+    "tag": "Depilacija",
+    "duration": 15,
+    "price": "20,00"
+  },
+  {
+    "name": "Depilacija moški - noge",
+    "tag": "Depilacija",
+    "duration": 40,
+    "price": "28,00"
+  },
+  {
+    "name": "Depilacija moški - prsa",
+    "tag": "Depilacija",
+    "duration": 10,
+    "price": "15,00"
+  },
+  {
+    "name": "Depilacija moški - prsa in trebuh",
+    "tag": "Depilacija",
+    "duration": 15,
+    "price": "20,00"
+  },
+  {
+    "name": "Maderoterapija stegen + zadnjice",
+    "tag": "Anticelulitni tretmaji",
+    "duration": 40,
+    "price": "30,00"
+  },
+  {
+    "name": "Maderoterapija celih nog + zadnjice",
+    "tag": "Anticelulitni tretmaji",
+    "duration": 50,
+    "price": "35,00"
+  },
+  {
+    "name": "Maderoterapija celih nog + zadnjice + trebuh",
+    "tag": "Anticelulitni tretmaji",
+    "duration": 60,
+    "price": "40,00"
+  },
+  {
+    "name": "Personalizirano urejanje obrvi",
+    "tag": "Obraz",
+    "duration": 15,
+    "price": "15,00"
+  },
+  { "name": "Barvanje obrvi", "tag": "Obraz", "duration": 5, "price": "8,00" },
+  {
+    "name": "Barvanje trepalnic",
+    "tag": "Obraz",
+    "duration": 15,
+    "price": "10,00"
+  },
+  {
+    "name": "Keratinsko vihanje trepalnic InLei",
+    "tag": "Obraz",
+    "duration": 60,
+    "price": "40,00"
+  }
+]

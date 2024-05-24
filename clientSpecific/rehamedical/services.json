@@ -1,0 +1,11 @@
+[
+  {
+    "name": "Google calendar",
+    "price": "10,00",
+    "duration": "60",
+    "min": "1",
+    "max": "1",
+    "tag": null,
+    "color": "#4DC739"
+  }
+]

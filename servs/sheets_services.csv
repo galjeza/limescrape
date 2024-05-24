@@ -1,0 +1,203 @@
+name,duration,price,blockedAfter,color,timeOffStart,timeOffDuration,description,tagName
+Strojna limfna drenaža z IR toploto (30min),30,25,0,#f7e967,0,0,Celoten shujševalni program: ob nakupu 6 obiskov 1 GRATIS,SHUJŠEVALNI PROGRAM
+Strojna limfna drenaža 5+1 gratis 30 min,30,125,0,#f7e967,0,0,Celoten shujševalni program: ob nakupu 6 obiskov 1 GRATIS,SHUJŠEVALNI PROGRAM
+Strojna limfna drenaža z IR toploto (45min),45,35,0,#f7e967,0,0,Celoten shujševalni program: ob nakupu 6 obiskov 1 GRATIS,SHUJŠEVALNI PROGRAM
+Body wrap + limfna drenaža + IR toplota (30min),30,35,0,#f7e967,0,0,Celoten shujševalni program: ob nakupu 6 obiskov 1 GRATIS,SHUJŠEVALNI PROGRAM
+Body wrap + limfna drenaža + IR toplota (45min),45,45,0,#f7e967,0,0,Celoten shujševalni program: ob nakupu 6 obiskov 1 GRATIS,SHUJŠEVALNI PROGRAM
+Body wrap,30,25,0,#f7e967,0,0,Celoten shujševalni program: ob nakupu 6 obiskov 1 GRATIS,SHUJŠEVALNI PROGRAM
+Body wrap 6+1 gratis,30,150,0,#f7e967,0,0,Celoten shujševalni program: ob nakupu 6 obiskov 1 GRATIS,SHUJŠEVALNI PROGRAM
+Kavitacija,20,25,0,#f7e967,0,0,Celoten shujševalni program: ob nakupu 6 obiskov 1 GRATIS,SHUJŠEVALNI PROGRAM
+Vakumska radiofrekvenca,20,25,0,#f7e967,0,0,Celoten shujševalni program: ob nakupu 6obiskov 1GRATIS,SHUJŠEVALNI PROGRAM
+Geliranje naravnih nohtov,90,35,0,#FB8CF5,0,0,,GELIRANJE NOHTOV
+Korektura geliranih nohtov s/m,75,30,0,#FB8CF5,0,0,,GELIRANJE NOHTOV
+Korektura geliranih nohtov m/l,75,35,0,#FB8CF5,0,0,,GELIRANJE NOHTOV
+Popravilo nohta,15,3,0,#FB8CF5,0,0,,GELIRANJE NOHTOV
+Odstranjevanje gel nohtov in osnovno urejanje,30,15,0,#FB8CF5,0,0,,GELIRANJE NOHTOV
+Odstranjevanje gela pred novim geliranjem (doplačilo),15,10,0,#FB8CF5,0,0,,GELIRANJE NOHTOV
+Gel lak - noge,30,20,0,#FB8CF5,0,0,,GELIRANJE NOHTOV
+Korektura gel lak- noge,45,23,0,#FB8CF5,0,0,,GELIRANJE NOHTOV
+Permanentno lakiranje roke,60,25,0,#FB8CF5,0,0,,GELIRANJE NOHTOV
+Odstranjevanje gel lak (roke/noge),10,10,0,#FB8CF5,0,0,,GELIRANJE NOHTOV
+Podaljševanje nohtov s/m,90,35,0,#FB8CF5,0,0,,GELIRANJE NOHTOV
+Podaljševanje nohtov m/l,105,38,0,#FB8CF5,0,0,,GELIRANJE NOHTOV
+Parafinska nega rok,30,20,0,#FB8CF5,0,0,,GELIRANJE NOHTOV
+Klasična pedikura,60,25,0,#DC2127,0,0,,PEDIKURA
+Medicinska pedikura,90,35,0,#DC2127,0,0,,PEDIKURA
+Medicinska pedikura diabetičnega stopala (suha pedikura),40,26,0,#DC2127,0,0,,PEDIKURA
+Zahtevna medicinska pedikura,75,40,0,#DC2127,0,0,,PEDIKURA
+Delna pedikura,30,20,0,#DC2127,0,0,,PEDIKURA
+Delna pedikura + nanos lak,40,22,0,#DC2127,0,0,,PEDIKURA
+Nanos laka,10,3,0,#DC2127,0,0,,PEDIKURA
+Nega nohtov + nanos gel laka,25,20,0,#DC2127,0,0,,PEDIKURA
+Nega nohtov + Korektura gel laka,50,25,0,#DC2127,0,0,,PEDIKURA
+Odstranjevanje gel laka + nega nohtov,20,12,0,#DC2127,0,0,,PEDIKURA
+Odstranjevanje kurjega očesa ali otiščancev,25,16,0,#DC2127,0,0,,PEDIKURA
+Nohtna protetika enega nohta = namestitev umetnega nohta,25,25,0,#DC2127,0,0,,PEDIKURA
+Nohtna protetika dveh nohtov,30,45,0,#DC2127,0,0,,PEDIKURA
+Sanacija vraščenega nohta s sponko - Podofix (1 noht),30,30,0,#DC2127,0,0,,PEDIKURA
+Sanacija vraščenega nohta s sponko - Combi ped (1 noht),30,40,0,#DC2127,0,0,,PEDIKURA
+Klasična pedikura + nanos navadnega laka,70,32,0,#DC2127,0,0,,PEDIKURA
+Klasična pedikura + nanos gel laka,80,45,0,#DC2127,0,0,,PEDIKURA
+Medicinska pedikura + navadni lak,100,37,0,#DC2127,0,0,,PEDIKURA
+Mini brušenj stopal (strojno + ročno),15,10,0,#DC2127,0,0,,PEDIKURA
+Mini nohtna protetika (1 noht),10,12,0,#DC2127,0,0,,PEDIKURA
+Sanacija vraščenih nohtov (zahtevna) + nega nohtov,25,25,0,#DC2127,0,0,,PEDIKURA
+Sanacija vraščenih nohtov (manj zahtevna) + nega nohtov,30,20,0,#DC2127,0,0,,PEDIKURA
+Zahtevno saniranje otiščancev,25,25,0,#DC2127,0,0,,PEDIKURA
+Saniranje zahtevnih izrastkov (1-2),45,40,0,#DC2127,0,0,,PEDIKURA
+Saniranje zahtevnih izrastkov (3 ali več),60,50,0,#DC2127,0,0,,PEDIKURA
+Posvet,0,5,0,#DC2127,0,0,,PEDIKURA
+Voskanje in puljenje,15,10,0,#f7e967,0,0,,UREJANJE OBRVI
+Brow Henna - barvanje obrvi s Kano,40,25,0,#f7e967,0,0,,UREJANJE OBRVI
+Oblikovanje in puljenje obrvi,15,10,0,#f7e967,0,0,,UREJANJE OBRVI
+Barvanje obrvi,15,10,0,#f7e967,0,0,,UREJANJE OBRVI
+Oblikovanje in barvanje obrvi,30,18,0,#f7e967,0,0,,UREJANJE OBRVI
+Laminacija obrvi,45,40,0,#f7e967,0,0,,UREJANJE OBRVI
+Mikroblading - vrisovanje dlačic,90,150,0,#d157ff,0,0,,PMU OBRVI
+Mikroblading korekcija (6-8 tednov),40,30,0,#d157ff,0,0,,PMU OBRVI
+Mikroblading osvežitev (po več kot 8. tednih),40,100,0,#d157ff,0,0,,PMU OBRVI
+Mikropigmentacija obrvi - powder brows,90,150,0,#d157ff,0,0,,PMU OBRVI
+Mikropigmentacija obrvi korekcija (6-8 tednov),40,50,0,#d157ff,0,0,,PMU OBRVI
+Mikropigmentacija osvežitev (po več kot 8. tednih),60,100,0,#d157ff,0,0,,PMU OBRVI
+Kombinacija senčenja in mikrobladinga,90,180,0,#d157ff,0,0,,PMU OBRVI
+Korektura combo brows,40,60,0,#d157ff,0,0,,PMU OBRVI
+Osvežitev combo brows,60,120,0,#d157ff,0,0,,PMU OBRVI
+Nega obraza z UZ in RF Afrodita,60,55,0,#DBDE3D,0,0,,NEGA OBRAZA
+Moška nega obraza dr. Voss,60,45,0,#f9f085,0,0,,NEGA OBRAZA
+Globinska nega Afrodita,90,45,0,#f7e967,0,0,,NEGA OBRAZA
+Ultrazvočna nega z globinskim čiščenjem Afrodita,120,55,0,#FFB818,0,0,,NEGA OBRAZA
+Vlažilna nega Afrodita,45,35,0,#f7e967,0,0,,NEGA OBRAZA
+Kolagenske niti obraz,45,90,0,#f7e968,0,0,,NEGA OBRAZA
+Kolagenske niti obraz+vrat,60,100,0,#f7e969,0,0,,NEGA OBRAZA
+Kolagenske niti obraz+vrat+dekolte,70,110,0,#f7e970,0,0,,NEGA OBRAZA
+Kolagenski film,20,30,0,#f7e970,0,0,,NEGA OBRAZA
+Diamantni piling Afrodita,60,35,0,#f7e967,0,0,,NEGA OBRAZA
+Diamantni piling - dodatek,15,10,0,#f7e967,0,0,,NEGA OBRAZA
+Face lift nega z GUA SHA ploščico,60,40,,#f7e968,0,0,,NEGA OBRAZA
+Beyoutiful nega,60,40,0,#f7e969,0,0,,NEGA OBRAZA
+Zlata nega Kleopatra,60,50,,,,,,
+Madero obraza,45,25,0,#f7e970,0,0,,NEGA OBRAZA
+Madero obraza paket 5+1 gratis,45,125,0,#f7e971,0,0,,NEGA OBRAZA
+Madero obraza - dodatek,15,10,0,#f7e972,0,0,,NEGA OBRAZA
+"Radiofrekvenca obraza, vratu in dekolteja",60,55,0,#f7e974,0,0,,NEGA OBRAZA
+Mask peel Dermaceutic - 1 obisk,30,50,0,#f7e967,0,0,,NEGA OBRAZA
+Mask peel Dermaceutic - 4 obiski,30,160,0,#f7e967,0,0,,NEGA OBRAZA
+Milk peel Dermaceutic - 1 obisk,30,60,0,#f7e967,0,0,,NEGA OBRAZA
+Milk peel Dermaceutic - 4 obiski,30,200,0,#f7e967,0,0,,NEGA OBRAZA
+Crystal peel Dermaceutic,30,90,0,#f7e967,0,0,,NEGA OBRAZA
+Brčice,10,10,0,#f7e967,0,0,,DEPILACIJA Z VOSKI LYNCON
+Brčice in brada,15,15,0,#f7e967,0,0,,DEPILACIJA Z VOSKI LYNCON
+Pazduhi,15,15,0,#f7e967,0,0,,DEPILACIJA Z VOSKI LYNCON
+Roke do komolca,20,20,0,#f7e967,0,0,,DEPILACIJA Z VOSKI LYNCON
+Cele roke,30,28,0,#f7e967,0,0,,DEPILACIJA Z VOSKI LYNCON
+Cele noge,45,35,0,#f7e967,0,0,,DEPILACIJA Z VOSKI LYNCON
+Noge do kolen,30,25,0,#f7e967,0,0,,DEPILACIJA Z VOSKI LYNCON
+Hrbet delno,30,30,0,#f7e967,0,0,,DEPILACIJA Z VOSKI LYNCON
+Hrbet cel,45,45,0,#f7e967,0,0,,DEPILACIJA Z VOSKI LYNCON
+Prsni koš ali trebuh,20,25,0,#f7e967,0,0,,DEPILACIJA Z VOSKI LYNCON
+Trebuh črtica,5,10,0,#f7e967,0,0,,DEPILACIJA Z VOSKI LYNCON
+Bikini mali,20,18,0,#f7e967,0,0,,DEPILACIJA Z VOSKI LYNCON
+Bikini brazil,30,30,0,#f7e967,0,0,,DEPILACIJA Z VOSKI LYNCON
+Klasična masaža,60,35,0,#f7e967,0,0,,MASAŽE
+Delna masaža,30,25,0,#f7e967,0,0,,MASAŽE
+XL masaža,75,40,0,#f7e967,0,0,,MASAŽE
+Brada,10,25,0,#f7e967,0,0,,DIODNI LASER-TRAJNA EPILACIJA
+Zalisci,10,25,0,#f7e967,0,0,,DIODNI LASER-TRAJNA EPILACIJA
+Linija pod popkom,10,25,0,#f7e967,0,0,,DIODNI LASER-TRAJNA EPILACIJA
+Med ritnicama,10,25,0,#f7e967,0,0,,DIODNI LASER-TRAJNA EPILACIJA
+Bikini,15,39,0,#f7e967,0,0,,DIODNI LASER-TRAJNA EPILACIJA
+Bikini brazil,25,49,0,#f7e967,0,0,,DIODNI LASER-TRAJNA EPILACIJA
+Pazduhi,15,39,0,#f7e967,0,0,,DIODNI LASER-TRAJNA EPILACIJA
+Noge do kolen ali stegna,20,70,0,#f7e967,0,0,,DIODNI LASER-TRAJNA EPILACIJA
+Hrbet ledveni ali prsni del,20,39,0,#f7e967,0,0,,DIODNI LASER-TRAJNA EPILACIJA
+Hrbet cel,40,78,0,#f7e967,0,0,,DIODNI LASER-TRAJNA EPILACIJA
+Roki do ramen,20,65,0,#f7e967,0,0,,DIODNI LASER-TRAJNA EPILACIJA
+Roki do komolca,15,39,0,#f7e967,0,0,,DIODNI LASER-TRAJNA EPILACIJA
+Prsni koš,20,39,0,#f7e967,0,0,,DIODNI LASER-TRAJNA EPILACIJA
+Ramena,15,39,0,#f7e967,0,0,,DIODNI LASER-TRAJNA EPILACIJA
+Noge cele,35,130,0,#f7e968,0,0,,DIODNI LASER-TRAJNA EPILACIJA
+Posamezna brazgotina do 10cm²,20,30,0,#f7e967,0,0,,MICRONEEDLING
+Posamezna brazgotina do 10cm² (4 terapije),20,100,0,#f7e967,0,0,,MICRONEEDLING
+Posamezna brazgotina do 10cm² (6 terapij),20,145,0,#f7e967,0,0,,MICRONEEDLING
+Strije/brazgotina do 100cm²,30,60,0,#f7e967,0,0,,MICRONEEDLING
+Strije/brazgotina do 100cm² (4 terapije),20,200,0,#f7e967,0,0,,MICRONEEDLING
+Strije/brazgotina do 100cm² (6 terapij),30,285,0,#f7e967,0,0,,MICRONEEDLING
+Rast las 1/4 glave,20,50,0,#DA5030,,,,MICRONEEDLING
+Rast las 1/4 glave (4 terapije),20,160,0,#DA5030,,,,MICRONEEDLING
+Rast las 1/2 glave,30,80,0,#DA5030,,,,MICRONEEDLING
+Rast las 1/2 glave (4 terapije),30,250,0,#DA5030,,,,MICRONEEDLING
+Rast las cela glava,40,120,0,#DA5030,,,,MICRONEEDLING
+Rast las cela glava (4 terapije),40,400,0,#DA5030,,,,MICRONEEDLING
+Dvigovanje vek,45,200,0,#f7e967,0,0,,MICRONEEDLING
+Dvigovanje vek korekcija,45,100,0,#f7e967,0,0,,MICRONEEDLING
+Velike gube okoli oči,45,200,0,#f7e967,0,0,,MICRONEEDLING
+Velike gube okoli oči korekcija,45,100,0,#f7e967,0,0,,MICRONEEDLING
+Gube celotno čelo,45,200,0,#f7e967,0,0,,MICRONEEDLING
+Odstranjevanje strij (1/2 trebuha),40,250,0,#f7e967,0,0,,MICRONEEDLING
+Odstranjevanje strij (cel trebuh),60,350,0,#f7e967,0,0,,MICRONEEDLING
+Odstranjevanje strij (boki/noge),60,250,0,#f7e967,0,0,,MICRONEEDLING
+Pigmentni madeži 1mm,5,15,0,#f7e967,0,0,,MICRONEEDLING
+Pigmentni madeži 1-5mm,5,30,0,#f7e967,0,0,,MICRONEEDLING
+Pigmentni madeži 5-10mm,10,50,0,#f7e967,0,0,,MICRONEEDLING
+Odstranjevanje 1 izrastka,10,40,0,#f7e967,0,0,,MICRONEEDLING
+Odstranjevanje 2-5 izrastkov,30,60,0,#f7e967,0,0,,MICRONEEDLING
+Odstranjevanje 5-10 izrastkov,30,80,0,#f7e967,0,0,,MICRONEEDLING
+Odstranjevanje 10 ali več izrastkov,40,100,0,#f7e967,0,0,,MICRONEEDLING
+Kapilare 0-10mm,20,30,0,#DA5030,,,,MICRONEEDLING
+Dnevno/večerno ličenje brez trepalnic,60,30,0,#9954bb,0,0,,LIČENJE
+Dnevno/večerno ličenje z trepalnicami,70,35,0,#9954bb,0,0,,LIČENJE
+Moško striženje,30,13,0,#9954bb,0,0,,FRIZERSKE STORITVE
+Žensko striženje (kratki lasje),60,25,0,#9954bb,0,0,,FRIZERSKE STORITVE
+Žensko striženje (dolgi lasje),60,28,0,#9954bb,0,0,,FRIZERSKE STORITVE
+Otroško striženje,30,9,0,#9954bb,0,0,,FRIZERSKE STORITVE
+Barvanje narastka,120,50,0,#9954bb,0,0,s striženjem in frizuro,FRIZERSKE STORITVE
+Barvanje kratki las,120,55,0,#9954bb,0,0,s striženjem in frizuro,FRIZERSKE STORITVE
+Barvanje dolgi las,120,60,0,#9954bb,0,0,s striženjem in frizuro,FRIZERSKE STORITVE
+Svetlenje kratki las,60,30,0,#9954bb,0,0,,FRIZERSKE STORITVE
+Svetlenje dolgi las,60,50,0,#9954bb,0,0,,FRIZERSKE STORITVE
+Prameni kratki las,180,80,0,#9954bb,0,0,"komplet(preliv, striženje, frizura)",FRIZERSKE STORITVE
+Prameni dolgi las,180,100,0,#9954bb,0,0,"komplet(preliv, striženje, frizura)",FRIZERSKE STORITVE
+Balayage,180,100,0,#9954bb,0,0,,FRIZERSKE STORITVE
+Preliv,30,25,0,#9954bb,0,0,Preliv,FRIZERSKE STORITVE
+Sušenje kratki las,30,14,0,#9954bb,0,0,"Pranje, fen frizura",FRIZERSKE STORITVE
+Sušenje dolgi las,30,17,0,#9954bb,0,0,"Pranje, fen frizura",FRIZERSKE STORITVE
+Spenjanje,60,30,0,#9954bb,0,0,,FRIZERSKE STORITVE
+Poročna frizura,120,50,0,#9954bb,0,0,V storitev je vključena probna frizura,FRIZERSKE STORITVE
+Likanje - suhi las,15,13,0,#9954bb,0,0,,FRIZERSKE STORITVE
+Rekonstrukcijska nega,60,45,0,#9954bb,0,0,"Nega primerna za poškodovane lase, lase barvane z belili, krhke in oslabljene lase. Vzpodbudi rekonstrukcijo in obnovo las, poudari sijaj in mehkobo, pripomore k elastičnosti las, vrne vlago v lase.",FRIZERSKE STORITVE
+Kodranje suhi las,30,19,0,#9013fe,0,0,,FRIZERSKE STORITVE
+Moška in otroško,45,19,0,#ff6666,0,0,,FRIZERSKE STORITVE
+Radiofrekvenca,20,25,0,#f7e967,,,Celoten shujševalni program: ob nakupu 6obiskov 1GRATIS,SHUJŠEVALNI PROGRAM
+Tesla 30 min,30,35,0,#f7e967,,,Celoten shujševalni program: ob nakupu 6obiskov 1GRATIS,SHUJŠEVALNI PROGRAM
+Tesla 30 min 6x,30,180,0,#f7e967,,,Celoten shujševalni program: ob nakupu 6obiskov 1GRATIS,SHUJŠEVALNI PROGRAM
+Lipolaser,30,30,0,#f7e967,,,Celoten shujševalni program: ob nakupu 6obiskov 1GRATIS,SHUJŠEVALNI PROGRAM
+Krilipoliza 360 - 1 aplikator,90,70,0,#f7e967,0,0,V vse kriolipolize je v ceni še 30min strojne limfne drenaže,KRIOLIPOLIZA
+Krilipoliza 360 - 2 aplikator,90,130,0,#f7e967,0,0,V vse kriolipolize je v ceni še 30min strojne limfne drenaže,KRIOLIPOLIZA
+Krilipoliza 360 - podbradek,45,60,0,#f7e967,0,0,V vse kriolipolize je v ceni še 30min strojne limfne drenaže,KRIOLIPOLIZA
+UZ nega z globinskim čiščenjem Afrodita,120,50,0,#f7e967,,,,NEGA OBRAZA
+Radiofrekveca obraza,45,45,0,#f7e967,,,,NEGA OBRAZA
+BB glow Proskin,45,75,0,#f7e967,,,,NEGA OBRAZA
+BB glow z booster ampulami Proskin,60,85,0,#f7e967,,,,NEGA OBRAZA
+Moška nega dr. Voss,60,45,0,#f7e967,,,,NEGA OBRAZA
+Vlažilna nega dr. Voss,60,40,0,#f7e967,,,,NEGA OBRAZA
+Nega obraza z UZ in RF dr. Voss,60,65,0,#f7e967,,,,NEGA OBRAZA
+Nega kuperozne kože dr. Voss,60,45,0,#f7e967,,,,NEGA OBRAZA
+Globinska nega dr. Voss,90,55,0,#f7e967,,,,NEGA OBRAZA
+UZ nega z globinskim čiščenjem dr. Voss,120,65,0,#f7e967,,,,NEGA OBRAZA
+,,,,,,,,
+Microneedling dr. Voss,60,90,0,#f7e967,,,Zajema masko s serumi za domačo uporabo za nadaljnje 3 dni.,NEGA OBRAZA
+Microneedling dr. Voss 3x,60,240,0,#f7e967,,,Zajema masko s serumi za domačo uporabo za nadaljnje 3 dni.,NEGA OBRAZA
+Diamantni piling dr. Voss,60,35,0,#f7e967,,,,NEGA OBRAZA
+Kolagenske nitke obraz,45,90,0,#f7e967,,,,NEGA OBRAZA
+Kolagenske nitke obraz + vrat,60,100,0,#f7e967,,,,NEGA OBRAZA
+Kolagenske nitke obraz + vrat + dekolte,70,110,0,#f7e967,,,,NEGA OBRAZA
+Zelena nega z delci koral Proskin MILD,30,40,0,#f7e967,,,,NEGA OBRAZA
+Zelena nega z delci koral Proskin hrbet,45,80,0,#f7e967,,,,NEGA OBRAZA
+Zelena nega z delci koral Proskin MEDIUM,30,60,0,#f7e967,,,,NEGA OBRAZA
+Poskusno poročno ličenje,60,40,0,#9954bb,,,,LIČENJE
+Poročno ličenje,90,50,0,#9954bb,,,,LIČENJE
+Olaplex kraljeva nega,60,50,0,#8d74ab,0,0,Globinsko obnovi in okrepi poškodovane disulfidnih vezi v lasni strukturi. Priporočeno vsaj 4x letno kot odnovitvena nega kemično obdelanih las.,FRIZERSKE STORITVE
+Olaplex mini nega,30,25,0,#a0d959,,,Obnovi in krepi poškodovane disulfidne vezi. Priporočeno 1x mesečno kot dodatna nega po kemijskih postopkih.,FRIZERSKE STORITVE
+Kitke,15,10,0,#a0d959,,,,FRIZERSKE STORITVE
+Keratinsko ravnanje las,120,80,0,#8864a0,,,"Keratinsko ravnanje las je primerno va vse tipe las-barvane, beljene in naravne.",FRIZERSKE STORITVE
+Laminacija las,60,20,0,#a26ed1,0,0,,FRIZERSKE STORITVE
