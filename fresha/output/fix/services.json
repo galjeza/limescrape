@@ -1,0 +1,113 @@
+[
+  {
+    "name": "KLASIČNI TRETMAN ",
+    "duration": "70",
+    "price": "35",
+    "min": "1",
+    "max": "1",
+    "color": "#2E305A"
+  },
+  {
+    "name": "EXTRA PRANJE KOSE (MASAŽA VLASIŠTA)",
+    "duration": "10",
+    "price": "5",
+    "min": "1",
+    "max": "1",
+    "color": "#2E305A"
+  },
+  {
+    "name": "BRIJANJE GLAVE (VRUĆI RUČNICI)",
+    "duration": "30",
+    "price": "15",
+    "min": "1",
+    "max": "1",
+    "color": "#2E305A"
+  },
+  {
+    "name": "SREĐIVANJE OBRVA ",
+    "duration": "10",
+    "price": "5",
+    "min": "1",
+    "max": "1",
+    "color": "#2E305A"
+  },
+  {
+    "name": "BRIJANJE LICA (VRUĆI RUČNICI)",
+    "duration": "30",
+    "price": "15",
+    "min": "1",
+    "max": "1",
+    "color": "#2E305A"
+  },
+  {
+    "name": "MODERNO ŠIŠANJE (SKINFADE) ",
+    "duration": "40",
+    "price": "15",
+    "min": "1",
+    "max": "1",
+    "color": "#2E305A"
+  },
+  {
+    "name": "FIX TRETMAN ",
+    "duration": "80",
+    "price": "45",
+    "min": "1",
+    "max": "1",
+    "color": "#2E305A"
+  },
+  {
+    "name": "TRIMANJE BRADE+ BRIJANJE KONTURA (VRUĆI RUČNICI)",
+    "duration": "40",
+    "price": "15",
+    "min": "1",
+    "max": "1",
+    "color": "#2E305A"
+  },
+  {
+    "name": "TRIMANJE BRADE (KRATKA)",
+    "duration": "15",
+    "price": "5",
+    "min": "1",
+    "max": "1",
+    "color": "#2E305A"
+  },
+  {
+    "name": "KLASIČNO ŠIŠANJE ",
+    "duration": "30",
+    "price": "10",
+    "min": "1",
+    "max": "1",
+    "color": "#2E305A"
+  },
+  {
+    "name": "TRIMANJE BRADE (DUGA)",
+    "duration": "20",
+    "price": "8",
+    "min": "1",
+    "max": "1",
+    "color": "#2E305A"
+  },
+  {
+    "name": "BUZZ FADE ",
+    "duration": "30",
+    "price": "10",
+    "min": "1",
+    "max": "1",
+    "color": "#2E305A"
+  },
+  {
+    "name": "DJEČJE ŠIŠANJE (DO 12 GOD)",
+    "duration": "25",
+    "price": "8",
+    "min": "1",
+    "max": "1",
+    "color": "#2E305A"
+  },
+  {
+    "name": "Brez storitve",
+    "duration": "0",
+    "price": "0",
+    "min": "1",
+    "max": "1"
+  }
+]

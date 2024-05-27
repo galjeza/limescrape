@@ -15,7 +15,7 @@ const generateColor = (str) => {
 };
 
 const LOGINURL = "https://partners.fresha.com/users/sign-in";
-const USERNAME = "programerji.statera@gmail.com";
+const USERNAME = "gal.jeza@protonmail.com";
 const PASSWORD = "Geslo123.";
 const DATEFROM = "2023-01-01";
 const DATETO = "2024-12-31";
@@ -78,6 +78,9 @@ const formatDateAndTime = (dateTimeObj) => {
 
   await page.waitForTimeout(2000);
 
+  const cookies = await page.cookies();
+  const csrfToken = cookies.find(cookie => cookie.name === '_partners_session').value;
+
   const graphqlUrl = 'https://partners-calendar-api.fresha.com/alpha-graphql';
   
   // Fetch services
@@ -138,12 +141,9 @@ const formatDateAndTime = (dateTimeObj) => {
           customer: customer.attributes["name"],
           email: customer.attributes["email"],
           phone:
-            "386" +
               customer.attributes["contact-number"]
                 ?.replaceAll("+", "")
-                .replaceAll(" ", "")
-                .split("386")
-                .join(" ") || "",
+                ?.replaceAll(" ", ""),
           id: customer.id,
         };
         customers.push(newCustomer);
@@ -159,7 +159,6 @@ const formatDateAndTime = (dateTimeObj) => {
 
   // Fetch employees
   await page.goto('https://partners-api.fresha.com/employees');
-  await page.waitForTimeout(10000);
   const employeesResponse = await page.evaluate(() => {
     return JSON.parse(document.querySelector("body").innerText).data;
   });
@@ -238,9 +237,12 @@ const formatDateAndTime = (dateTimeObj) => {
     'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0',
     'Accept': 'application/json',
     'content-type': 'application/json',
+    'Cookie': cookies.map(cookie => `${cookie.name}=${cookie.value}`).join('; ')
   };
 
   const bookingsResponse = await axios.post(graphqlUrl, bookingsQuery, { headers });
+
+
 
   const bookings = [];
   bookingsResponse.data.data.calendarBookingsV1.forEach((booking) => {
@@ -282,17 +284,17 @@ const formatDateAndTime = (dateTimeObj) => {
     const [name, ...lastNameParts] = customer?.customer?.split(" ") || [];
     const lastName = lastNameParts?.join(" ");
 
-    const countryCode = customer?.phone.substring(0, 3);
-    const gsm = "0" + customer?.phone.substring(3).replaceAll(" ", "");
+    const countryCode = customer?.phone?.substring(0, 3) || null;
+    const gsm =  customer?.phone?.substring(3).replaceAll(" ", "") || null;
 
     newBooking = {
-      location: "Almin Svet",
-      subject: employee?.fullName || "",
+      locationLabel: "Almin Svet",
+      userLabel: employee?.fullName || "",
       name: name || "",
       lastName: lastName || "",
       email: customer?.email || "",
-      countryCode: countryCode || "",
-      gsm: gsm || "",
+      countryCode: countryCode || null,
+      gsm: gsm || null,
       service: service?.name || "Brez storitve",
       date: formattedStart.date,
       timeFrom: formattedStart.time,
@@ -302,7 +304,8 @@ const formatDateAndTime = (dateTimeObj) => {
     bookings.push(newBooking);
   });
 
-  // log first 10  bookings
+
+  console.log("Number of bookings", bookings.length);
 
   fs.writeFileSync(
     "./output/fix/appointments.json",

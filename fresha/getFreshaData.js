@@ -1,5 +1,4 @@
 const puppeteer = require("puppeteer");
-const { wait } = require("./utils/utils");
 const fs = require("fs");
 const axios = require("axios");
 const qs = require("querystring");
@@ -20,8 +19,9 @@ const USERNAME = "programerji.statera@gmail.com";
 const PASSWORD = "Geslo123.";
 const DATEFROM = "2023-01-01";
 const DATETO = "2024-12-31";
-const SUBJECTID = "2926193%2C2695543%2C2521550%2C2438226";
+const SUBJECTID = ["2926193", "2695543", "2521550", "2438226"];
 const LOCATIONID = "1005836";
+const CUSTOMER_LIMIT = 49;
 
 const manualLogin = false;
 
@@ -53,7 +53,6 @@ const formatDateAndTime = (dateTimeObj) => {
 };
 
 (async () => {
-  // Your puppeteer code...
   const browser = await puppeteer.launch({
     headless: false,
     ignoreHTTPSErrors: true,
@@ -67,20 +66,23 @@ const formatDateAndTime = (dateTimeObj) => {
     await page.click('input[type="email"]');
     await page.type('input[type="email"]', USERNAME);
     await page.keyboard.press("Enter");
-    await wait(1);
+    await page.waitForTimeout(1000);
     await page.click('input[type="password"]');
     await page.type('input[type="password"]', PASSWORD);
-    await wait(1);
+    await page.waitForTimeout(1000);
     await page.click('button[type="submit"]');
   } else {
     // wait for 100 seconds to login manually
-    await wait(100);
+    await page.waitForTimeout(100000);
   }
 
-  await wait(2);
+  await page.waitForTimeout(2000);
+
+  const graphqlUrl = 'https://partners-calendar-api.fresha.com/alpha-graphql';
+  
+  // Fetch services
   await page.goto("https://partners-api.fresha.com/offer-catalog-menu");
-  // parse the json on the page
-  await wait(2);
+  await page.waitForTimeout(2000);
   const services = [];
   const servicesResponse = await page.evaluate(() => {
     return JSON.parse(document.querySelector("body").innerText).data;
@@ -111,55 +113,56 @@ const formatDateAndTime = (dateTimeObj) => {
   );
 
   console.log("Number of services", services.length);
-  await page.goto(
-    "https://customers-api.fresha.com/v2/customer-search?offset=0&query=&genders=&customer-type=&sort-order=desc&sort-by=created-at&limit=9999999&include-customers-count=true"
-  );
 
-  await wait(2);
+  // Fetch customers
   const customers = [];
-  const customersResponse = await page.evaluate(() => {
-    return JSON.parse(document.querySelector("body").innerText).data;
-  });
-  customersResponse.forEach((customer) => {
-    try {
-      const newCustomer = {
-        customer: customer.attributes["name"],
-        email: customer.attributes["email"],
-        phone:
-          "386" +
-            customer.attributes["contact-number"]
-              ?.replaceAll("+", "")
-              .replaceAll(" ", "")
-              .split("386")
-              .join(" ") || "",
-        id: customer.id,
-      };
-      customers.push(newCustomer);
-    } catch (e) {
-      console.log(e);
-      console.log(customer);
+  let offset = 0;
+  let hasMoreCustomers = true;
+
+  while (hasMoreCustomers) {
+    const customerUrl = `https://customers-api.fresha.com/v2/customer-search?offset=${offset}&limit=${CUSTOMER_LIMIT}&include-customers-count=true`;
+    await page.goto(customerUrl);
+    await page.waitForTimeout(2000);
+
+    const customersResponse = await page.evaluate(() => {
+      return JSON.parse(document.querySelector("body").innerText).data;
+    });
+
+    if (customersResponse.length < CUSTOMER_LIMIT) {
+      hasMoreCustomers = false;
     }
-  });
+
+    customersResponse.forEach((customer) => {
+      try {
+        const newCustomer = {
+          customer: customer.attributes["name"],
+          email: customer.attributes["email"],
+          phone:
+            "386" +
+              customer.attributes["contact-number"]
+                ?.replaceAll("+", "")
+                .replaceAll(" ", "")
+                .split("386")
+                .join(" ") || "",
+          id: customer.id,
+        };
+        customers.push(newCustomer);
+      } catch (e) {
+        console.log(e);
+        console.log(customer);
+      }
+    });
+
+    offset += CUSTOMER_LIMIT;
+  }
   console.log("Number of customers", customers.length);
 
-  const bookingsURL = `https://partners-api.fresha.com/calendar-bookings?date-from=${DATEFROM}&date-to=${DATETO}&location-id=${LOCATIONID}&resource-ids=${SUBJECTID}&resource-type=employees`;
-  await page.goto(bookingsURL);
-  await wait(2);
-  const bookings = [];
-  const bookingsResponse = await page.evaluate(() => {
-    return JSON.parse(document.querySelector("body").innerText).data;
-  });
-
-  // go to employe  https://partners-api.fresha.com/employees
-
-  const employeesURL = `https://partners-api.fresha.com/employees`;
-  await page.goto(employeesURL);
-  await wait(10);
-
+  // Fetch employees
+  await page.goto('https://partners-api.fresha.com/employees');
+  await page.waitForTimeout(10000);
   const employeesResponse = await page.evaluate(() => {
     return JSON.parse(document.querySelector("body").innerText).data;
   });
-
   const employees = employeesResponse.map((employee) => {
     return {
       id: employee.id,
@@ -168,16 +171,85 @@ const formatDateAndTime = (dateTimeObj) => {
     };
   });
 
-  // log first 10  bookings
+  // Fetch bookings using GraphQL
+  const bookingsQuery = {
+    operationName: "calendarBookings",
+    query: `query calendarBookings($dateFrom: Date!, $dateTo: Date!, $locationId: ID!, $resourceIds: [ID!], $resourceType: ResourceType!) {
+      calendarBookingsV1(
+        dateFrom: $dateFrom
+        dateTo: $dateTo
+        locationId: $locationId
+        resourceIds: $resourceIds
+        resourceType: $resourceType
+      ) {
+        appointmentId
+        basePrice
+        bookingSequenceId
+        cardRequired
+        createdAt
+        createdByEmployeeId
+        customerId
+        customerName
+        date
+        depositId
+        employeeId
+        employeeIsRequested
+        end
+        extraTimeInSeconds
+        extraTimeIsBlocking
+        groupId
+        groupOwnerId
+        groupOwnerName
+        id
+        isOnline
+        locationId
+        notes
+        packageInstanceName
+        paidPlanInstanceId
+        parentId
+        price
+        priceType
+        reference
+        relatedBookingIds
+        roomId
+        salePaymentStatus
+        serviceId
+        serviceName
+        servicePricingLevelId
+        servicePricingLevelName
+        start
+        status
+        timeEndInSeconds
+        timeStartInSeconds
+        updatedAt
+        __typename
+      }
+    }`,
+    variables: {
+      dateFrom: DATEFROM,
+      dateTo: DATETO,
+      locationId: LOCATIONID,
+      resourceIds: SUBJECTID,
+      resourceType: "EMPLOYEES"
+    }
+  };
 
-  bookingsResponse.forEach((booking) => {
-    // Parse start and end time
-    if (booking.attributes["status"] === "cancelled") {
+  const headers = {
+    'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0',
+    'Accept': 'application/json',
+    'content-type': 'application/json',
+  };
+
+  const bookingsResponse = await axios.post(graphqlUrl, bookingsQuery, { headers });
+
+  const bookings = [];
+  bookingsResponse.data.data.calendarBookingsV1.forEach((booking) => {
+    if (booking.status === "cancelled") {
       return;
     }
 
-    const startTimeObj = new Date(booking.attributes["start"]);
-    const endTimeObj = new Date(booking.attributes["end"]);
+    const startTimeObj = new Date(booking.start);
+    const endTimeObj = new Date(booking.end);
 
     const formattedStart = formatDateAndTime(startTimeObj);
     const formattedEnd = formatDateAndTime(endTimeObj);
@@ -185,14 +257,14 @@ const formatDateAndTime = (dateTimeObj) => {
     const timeFormatted = `${formattedStart.time} - ${formattedEnd.time}`;
 
     const service = services.find(
-      (service) => service["name"] === booking.attributes["service-name"]
+      (service) => service["name"] === booking.serviceName
     );
     const customer = customers.find(
-      (customer) => customer.id === booking.attributes["customer-id"]
+      (customer) => customer.id === booking.customerId
     );
 
     const employee = employees.find(
-      (employee) => employee.id === booking.attributes["employee-id"]
+      (employee) => employee.id === booking.employeeId
     );
 
     const generateRandomString = (length) => {
@@ -212,7 +284,7 @@ const formatDateAndTime = (dateTimeObj) => {
 
     const countryCode = customer?.phone.substring(0, 3);
     const gsm = "0" + customer?.phone.substring(3).replaceAll(" ", "");
-    console.log(services);
+
     newBooking = {
       location: "Almin Svet",
       subject: employee?.fullName || "",
@@ -225,7 +297,7 @@ const formatDateAndTime = (dateTimeObj) => {
       date: formattedStart.date,
       timeFrom: formattedStart.time,
       timeTo: formattedEnd.time,
-      comment: booking.attributes["notes"] || "",
+      comment: booking.notes || "",
     };
     bookings.push(newBooking);
   });
@@ -236,4 +308,6 @@ const formatDateAndTime = (dateTimeObj) => {
     "./output/fix/appointments.json",
     JSON.stringify(bookings, null, 2)
   );
+
+  await browser.close();
 })();
