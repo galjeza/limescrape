@@ -214,7 +214,7 @@ const generateColor = (str) => {
           const formattedComment = comment ? comment : "";
 
           const appointment = {
-            resourcleLabel: roomName,
+            resourceLabel: roomName,
             locationLabel: location,
             gsm: r.user.phone?.replace("+", "").split(" ")[1] || "",
             countryCode: r.user.phone?.replace("+", "").split(" ")[0] || "",
