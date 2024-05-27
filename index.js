@@ -2,8 +2,8 @@ const puppeteer = require("puppeteer");
 const { wait } = require("./utils/utils");
 const fs = require("fs");
 
-const EMAIL = "viktor.jarc9@icloud.com";
-const PASSWORD = "Viktor123!";
+const EMAIL = "viki.jarc9@icloud.com";
+const PASSWORD = "viktor123";
 
 const prostori = ["WELLNES", "MASAŽA", "NEGA OBRAZA", "PEDIKURA"];
 (async () => {
@@ -61,7 +61,7 @@ const prostori = ["WELLNES", "MASAŽA", "NEGA OBRAZA", "PEDIKURA"];
       await wait(5);
       let currentDate = new Date();
 
-      currentDate.setFullYear(2024, 3, 25);
+      currentDate.setFullYear(2023, 10, 10);
       const scrapeToDate = new Date();
       scrapeToDate.setFullYear(2024, 8, 5);
       const numberOfDays = Math.floor(

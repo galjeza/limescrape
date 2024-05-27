@@ -16,11 +16,11 @@ const generateColor = (str) => {
 };
 
 const LOGINURL = "https://partners.fresha.com/users/sign-in";
-const USERNAME = "programerji.statera@gmail.com";
+const USERNAME = "gal.jeza@protonmail.com";
 const PASSWORD = "Geslo123.";
 const DATEFROM = "2023-01-01";
 const DATETO = "2024-12-31";
-const SUBJECTID = "2926193%2C2695543%2C2521550%2C2438226";
+const SUBJECTID = "3024647&3024657&2958104&2695543&2521550&2438226";
 const LOCATIONID = "1005836";
 
 const manualLogin = false;
@@ -106,16 +106,16 @@ const formatDateAndTime = (dateTimeObj) => {
   });
 
   fs.writeFileSync(
-    "./output/fix/services.json",
+    "./output/hrvat/services.json",
     JSON.stringify(services, null, 2)
   );
 
   console.log("Number of services", services.length);
   await page.goto(
-    "https://customers-api.fresha.com/v2/customer-search?offset=0&query=&genders=&customer-type=&sort-order=desc&sort-by=created-at&limit=9999999&include-customers-count=true"
+    "https://customers-api.fresha.com/v2/customer-search?offset=0&query=&genders=&customer-type=&sort-order=desc&sort-by=created-at&limit=50&include-customers-count=true"
   );
 
-  await wait(2);
+  await wait(10);
   const customers = [];
   const customersResponse = await page.evaluate(() => {
     return JSON.parse(document.querySelector("body").innerText).data;
@@ -144,7 +144,7 @@ const formatDateAndTime = (dateTimeObj) => {
 
   const bookingsURL = `https://partners-api.fresha.com/calendar-bookings?date-from=${DATEFROM}&date-to=${DATETO}&location-id=${LOCATIONID}&resource-ids=${SUBJECTID}&resource-type=employees`;
   await page.goto(bookingsURL);
-  await wait(2);
+  await wait(100);
   const bookings = [];
   const bookingsResponse = await page.evaluate(() => {
     return JSON.parse(document.querySelector("body").innerText).data;
@@ -214,13 +214,13 @@ const formatDateAndTime = (dateTimeObj) => {
     const gsm = "0" + customer?.phone.substring(3).replaceAll(" ", "");
     console.log(services);
     newBooking = {
-      location: "Almin Svet",
-      subject: employee?.fullName || "",
+      locationLabel: "Almin Svet",
+      userLabel: employee?.fullName || "",
       name: name || "",
       lastName: lastName || "",
       email: customer?.email || "",
-      countryCode: countryCode || "",
-      gsm: gsm || "",
+      countryCode: gsm.length > 5 ? countryCode : null,
+      gsm: gsm || null,
       service: service?.name || "Brez storitve",
       date: formattedStart.date,
       timeFrom: formattedStart.time,
@@ -233,7 +233,7 @@ const formatDateAndTime = (dateTimeObj) => {
   // log first 10  bookings
 
   fs.writeFileSync(
-    "./output/fix/appointments.json",
+    "./output/hrvat/appointments.json",
     JSON.stringify(bookings, null, 2)
   );
 })();

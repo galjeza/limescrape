@@ -2,10 +2,10 @@ const fs = require("fs");
 const axios = require("axios");
 const { formatAppointment } = require("./utils/utils");
 
-const CLIENT_ID = 2437;
-const USER_ID = 3490;
-const MIGRATE_SERVICES = true;
-const MIGRATE_APPOINTMENTS = false;
+const CLIENT_ID = 631;
+const USER_ID = 760;
+const MIGRATE_SERVICES = false;
+const MIGRATE_APPOINTMENTS = true;
 
 const generateColorBasedOnString = (str) => {
   let hash = 0;
@@ -24,10 +24,12 @@ const generateColorBasedOnString = (str) => {
 
 (async () => {
   console.log("Migration started");
-  const services = JSON.parse(fs.readFileSync("./output/2437/services.json"));
+  const services = JSON.parse(
+    fs.readFileSync("./output/ajla.muric28@gmail.com/services.json")
+  );
 
   let appointments = JSON.parse(
-    fs.readFileSync("./output/spavmestu/manca.json")
+    fs.readFileSync("./output/ajla.muric28@gmail.com/appointments.json")
   );
 
   console.log("Number of appointments: " + appointments.length);
@@ -88,7 +90,20 @@ const generateColorBasedOnString = (str) => {
     return;
   }
 
-  const demoAppointments = appointments;
+  let demoAppointments = appointments;
+
+  // remove duplicates
+  let uniqueAppointments = [];
+  let uniqueKeys = [];
+  for (let i = 0; i < demoAppointments.length; i++) {
+    let key = JSON.stringify(demoAppointments[i]);
+    if (!uniqueKeys.includes(key)) {
+      uniqueKeys.push(key);
+      uniqueAppointments.push(demoAppointments[i]);
+    }
+  }
+
+  demoAppointments = uniqueAppointments;
 
   for (let i = 0; i < demoAppointments.length; i++) {
     console.log("Migrating appointment: " + i);
@@ -114,14 +129,16 @@ const generateColorBasedOnString = (str) => {
     const appointmentMonth = appointment.date.split(".")[1];
     const appointmentDay = appointment.date.split(".")[0];
 
-    // check if appointment is in the past
     const appointmentDate = new Date(
       appoitnmentYear,
       appointmentMonth - 1,
       appointmentDay
     );
     const today = new Date();
-    if (appointmentDate < today) {
+    let yesterday = new Date();
+    yesterday.setDate(today.getDate() - 1);
+
+    if (appointmentDate < yesterday) {
       console.log("Appointment is in the past: " + appointment.date);
       continue;
     }
