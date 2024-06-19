@@ -2,9 +2,8 @@ const puppeteer = require("puppeteer");
 const { wait } = require("./utils/utils");
 const fs = require("fs");
 
-const EMAIL = "viki.jarc9@icloud.com";
-const PASSWORD = "viktor123";
-
+const EMAIL = "baj.nina@gmail.com";
+const PASSWORD = "ZL$T$jajca!";
 (async () => {
   console.log("Migration started");
   const browser = await puppeteer.launch({
@@ -94,7 +93,7 @@ const PASSWORD = "viktor123";
 
   await browser.close();
   fs.writeFileSync(
-    "./output/viktorjarc/services.json",
+    "./output/ninabaj/services.json",
     JSON.stringify(services, null, 2)
   );
 })();

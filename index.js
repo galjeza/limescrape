@@ -2,8 +2,8 @@ const puppeteer = require("puppeteer");
 const { wait } = require("./utils/utils");
 const fs = require("fs");
 
-const EMAIL = "viki.jarc9@icloud.com";
-const PASSWORD = "viktor123";
+const EMAIL = "baj.nina@gmail.com";
+const PASSWORD = "ZL$T$jajca!";
 
 const prostori = ["WELLNES", "MASAŽA", "NEGA OBRAZA", "PEDIKURA"];
 (async () => {
@@ -61,9 +61,9 @@ const prostori = ["WELLNES", "MASAŽA", "NEGA OBRAZA", "PEDIKURA"];
       await wait(5);
       let currentDate = new Date();
 
-      currentDate.setFullYear(2023, 10, 10);
+      currentDate.setFullYear(2023, 1, 1);
       const scrapeToDate = new Date();
-      scrapeToDate.setFullYear(2024, 8, 5);
+      scrapeToDate.setFullYear(2025, 1, 1);
       const numberOfDays = Math.floor(
         (scrapeToDate.getTime() - currentDate.getTime()) / (1000 * 3600 * 24)
       );
@@ -266,7 +266,7 @@ const prostori = ["WELLNES", "MASAŽA", "NEGA OBRAZA", "PEDIKURA"];
 
     await browser.close();
     fs.writeFileSync(
-      "./output/viktorjarc/appointments.json",
+      "./output/ninabaj/appointments.json",
       JSON.stringify(appointments, null, 2)
     );
 

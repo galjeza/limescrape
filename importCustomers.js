@@ -1,14 +1,14 @@
 const fs = require("fs");
 const axios = require("axios");
 
-const CLIENT_ID = 2414;
+const CLIENT_ID = 2485;
 (async () => {
   console.log("Migration started");
   const customers = JSON.parse(
-    fs.readFileSync("./output/marusamocnik/customers.json")
+    fs.readFileSync("./output/smit.nova.gorica@siol.net/customers.json")
   );
   console.log("Customers read from file");
-
+  console.log("Number of customers:", customers.length);
   for (let i = 0; i < customers.length; i++) {
     try {
       const customer = customers[i];

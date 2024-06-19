@@ -12,7 +12,7 @@ function generateRandomString() {
   return result;
 }
 
-fs.readFile("./output/spavmestu/vanja.ics", "utf8", function (err, data) {
+fs.readFile("./output/konstant/export.ics", "utf8", function (err, data) {
   if (err) throw err;
 
   // Parse the .ics data
@@ -73,8 +73,8 @@ fs.readFile("./output/spavmestu/vanja.ics", "utf8", function (err, data) {
     const randomName = generateRandomString();
     const randomLastName = generateRandomString();
     const appointment = {
-      locationLabel: "Spa v mestu",
-      userLabel: "Vanja 1",
+      locationLabel: "Konstantin Beauty Studio",
+      userLabel: "Tjaša Konstantinovič",
       gsm: null,
       countryCode: null,
       name: randomName,
@@ -90,7 +90,7 @@ fs.readFile("./output/spavmestu/vanja.ics", "utf8", function (err, data) {
   }
 
   fs.writeFileSync(
-    "./output/spavmestu/vanja.json",
+    "./output/konstant/appointments.json",
     JSON.stringify(appointments, null, 2)
   );
 });

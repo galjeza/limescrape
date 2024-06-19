@@ -2,10 +2,11 @@ const fs = require("fs");
 const axios = require("axios");
 const { formatAppointment } = require("./utils/utils");
 
-const CLIENT_ID = 631;
-const USER_ID = 760;
-const MIGRATE_SERVICES = false;
+const CLIENT_ID = 2618;
+const USER_ID = 3746;
+const MIGRATE_SERVICES = true;
 const MIGRATE_APPOINTMENTS = true;
+const PROSTORI = false;
 
 const generateColorBasedOnString = (str) => {
   let hash = 0;
@@ -25,11 +26,11 @@ const generateColorBasedOnString = (str) => {
 (async () => {
   console.log("Migration started");
   const services = JSON.parse(
-    fs.readFileSync("./output/ajla.muric28@gmail.com/services.json")
+    fs.readFileSync("./output/ninabaj/services.json")
   );
 
   let appointments = JSON.parse(
-    fs.readFileSync("./output/ajla.muric28@gmail.com/appointments.json")
+    fs.readFileSync("./output/ninabaj/appointments.json")
   );
 
   console.log("Number of appointments: " + appointments.length);
@@ -73,7 +74,9 @@ const generateColorBasedOnString = (str) => {
         color: services[i].color,
         clientId: CLIENT_ID,
         userId: USER_ID,
-        blockedAfter: 0,
+        blockAfterMins: services[i].blockAfter
+          ? parseInt(services[i].blockAfter)
+          : undefined,
         maxAmountUsers: parseInt(services[i].max),
         timeOffStart: services[i].timeOffStart,
         timeOffDuration: services[i].timeOffDuration,
@@ -117,13 +120,9 @@ const generateColorBasedOnString = (str) => {
       (service) => service.name === appointment.service
     );
 
-    const prostori = [
-      "NEGA OBRAZA",
-      "PEDIKURA",
-      "MANIKURA",
-      "MASAŽA",
-      "WELLNESS",
-    ];
+    if (PROSTORI !== true) {
+      delete appointment.resourceLabel;
+    }
 
     const appoitnmentYear = appointment.date.split(".")[2];
     const appointmentMonth = appointment.date.split(".")[1];
@@ -134,12 +133,10 @@ const generateColorBasedOnString = (str) => {
       appointmentMonth - 1,
       appointmentDay
     );
-    const today = new Date();
-    let yesterday = new Date();
-    yesterday.setDate(today.getDate() - 1);
+    const fromDate = new Date("2024-01-01");
+    const toDate = new Date("2026-01-01");
 
-    if (appointmentDate < yesterday) {
-      console.log("Appointment is in the past: " + appointment.date);
+    if (appointmentDate < fromDate || appointmentDate > toDate) {
       continue;
     }
 

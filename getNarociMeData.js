@@ -24,12 +24,12 @@ function addMinutesToTimeString(timeStr, minutesToAdd) {
   return `${newHoursStr}:${newMinutesStr}`;
 }
 
-const LOGINURL = "https://urbanspa-siska.naroci.me/login";
-const USERNAME = "urbanspa-siska907";
-const PASSWORD = "musŠIŠKA2023!";
+const LOGINURL = "https://danstudio.naroci.me/login";
+const USERNAME = "danstudio";
+const PASSWORD = "DanCelje12";
 
 const START_DATE = new Date("2021-10-10");
-const END_DATE = new Date("2023-10-10");
+const END_DATE = new Date("2025-10-10");
 
 const START_DATE_UNIX = Math.floor(START_DATE.getTime() / 1000);
 const END_DATE_UNIX = Math.floor(END_DATE.getTime() / 1000);
@@ -95,7 +95,7 @@ const END_DATE_UNIX = Math.floor(END_DATE.getTime() / 1000);
   let eventsData = [];
 
   const CLIENTSURL =
-    "https://urbanspa-siska.naroci.me/provider/settings/client_list_page?sEcho=1&iColumns=1000000&sColumns=&iDisplayStart=0&iDisplayLength=1000000&mDataProp_0=0&mDataProp_1=1&mDataProp_2=2&mDataProp_3=3&mDataProp_4=4&mDataProp_5=5&mDataProp_6=6&sSearch=&bRegex=false&sSearch_0=&bRegex_0=false&bSearchable_0=true&sSearch_1=&bRegex_1=false&bSearchable_1=true&sSearch_2=&bRegex_2=false&bSearchable_2=true&sSearch_3=&bRegex_3=false&bSearchable_3=true&sSearch_4=&bRegex_4=false&bSearchable_4=true&sSearch_5=&bRegex_5=false&bSearchable_5=true&sSearch_6=&bRegex_6=false&bSearchable_6=true&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&bSortable_0=true&bSortable_1=true&bSortable_2=true&bSortable_3=true&bSortable_4=true&bSortable_5=false&bSortable_6=false&_=1687099071576";
+    "https://danstudio.naroci.me/provider/settings/client_list_page?sEcho=1&iColumns=1000000&sColumns=&iDisplayStart=0&iDisplayLength=1000000&mDataProp_0=0&mDataProp_1=1&mDataProp_2=2&mDataProp_3=3&mDataProp_4=4&mDataProp_5=5&mDataProp_6=6&sSearch=&bRegex=false&sSearch_0=&bRegex_0=false&bSearchable_0=true&sSearch_1=&bRegex_1=false&bSearchable_1=true&sSearch_2=&bRegex_2=false&bSearchable_2=true&sSearch_3=&bRegex_3=false&bSearchable_3=true&sSearch_4=&bRegex_4=false&bSearchable_4=true&sSearch_5=&bRegex_5=false&bSearchable_5=true&sSearch_6=&bRegex_6=false&bSearchable_6=true&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&bSortable_0=true&bSortable_1=true&bSortable_2=true&bSortable_3=true&bSortable_4=true&bSortable_5=false&bSortable_6=false&_=1687099071576";
 
   const clients = await axios.get(CLIENTSURL, config).then((response) => {
     return response.data.aaData;
@@ -119,7 +119,7 @@ const END_DATE_UNIX = Math.floor(END_DATE.getTime() / 1000);
   });
 
   fs.writeFileSync(
-    "./output/amak/customers_2.json",
+    "./output/danstudio/customers.json",
     JSON.stringify(clientData, null, 2)
   );
 
@@ -196,7 +196,7 @@ const END_DATE_UNIX = Math.floor(END_DATE.getTime() / 1000);
       );
 
       formattedAppointments.push({
-        location: "ZamenjajTO",
+        locationLabel: appointment.event.workplace,
         gsm,
         countryCode: client?.countryCode ? client.countryCode : null,
         name: client?.name ? client.name : formattedAppointmentClientName,
@@ -206,9 +206,8 @@ const END_DATE_UNIX = Math.floor(END_DATE.getTime() / 1000);
         service: serviceName,
         timeFrom: startTimeForService,
         timeTo: endTimeForService,
-        address: "",
         email,
-        subject,
+        userLabel: subject,
         date,
         comment,
       });
@@ -232,14 +231,14 @@ const END_DATE_UNIX = Math.floor(END_DATE.getTime() / 1000);
   );
 
   fs.writeFileSync(
-    "./output/amak/appointments_2.json",
+    "./output/danstudio/appointments.json",
     JSON.stringify(formattedAppointments, null, 2)
   );
 
   // GET SERVICES
 
   const SERVICESHTMLURL =
-    "https://urbanspa-siska.naroci.me/provider/settings/service_list";
+    "https://danstudio.naroci.me/provider/settings/service_list";
   const servicesHTML = await axios
     .get(SERVICESHTMLURL, config)
     .then((response) => {
@@ -294,11 +293,10 @@ const END_DATE_UNIX = Math.floor(END_DATE.getTime() / 1000);
 
   console.log("Number of services: " + services.length);
 
-  /*
   fs.writeFileSync(
-    "./output/amak/services.json",
+    "./output/danstudio/services.json",
     JSON.stringify(services, null, 2)
   );
-  */
+
   await browser.close();
 })();

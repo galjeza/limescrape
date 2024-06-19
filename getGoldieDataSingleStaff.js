@@ -3,8 +3,8 @@ const { wait } = require("./utils/utils");
 const fs = require("fs");
 const axios = require("axios");
 
-const EMAIL = "karin.zore@gmail.com";
-const PASSWORD = "Geslo123";
+const EMAIL = "Studio@lampetie.si";
+const PASSWORD = "taja0099";
 // create a new date object with the current date and time
 const DATEFROM = new Date(2023, 10, 24);
 
@@ -136,7 +136,7 @@ const DATETO = new Date(2025, 12, 31);
         service: "Brez storitve",
         comment: appointment.title ? appointment.title : "",
         customerId: "0",
-        subject: "Špohtl",
+        userLabel: "Taja",
       };
       user_appts.push(userAppointmentObject);
       //console.log(userAppointmentObject);
@@ -188,7 +188,7 @@ const DATETO = new Date(2025, 12, 31);
         }),
         comment: "",
         customerId: appointment.clients[0].id,
-        subject: "Špohtl",
+        userLabel: "Taja",
       };
       user_appts.push(userAppointmentObject);
     }
@@ -224,19 +224,19 @@ const DATETO = new Date(2025, 12, 31);
     a.gsm = cust.phone?.replace("+386", "") || "";
     a.countryCode = "386";
     a.email = cust.email || null;
-    a.location = "Špohtl";
+    a.locationLabel = "Studio Lampetie";
     delete a.customerId;
   }
   // remove all duplicates
   user_appts = [...new Set(user_appts.map(JSON.stringify))].map(JSON.parse);
   const json = JSON.stringify(user_appts);
   fs.writeFileSync(
-    "./output/karinzore/appointments.json",
+    "./output/tanita/appointments.json",
     JSON.stringify(user_appts, null, 2)
   );
   // write services to file
   fs.writeFileSync(
-    "./output/karinzore/services.json",
+    "./output/tanita/services.json",
     JSON.stringify(services, null, 2)
   );
 

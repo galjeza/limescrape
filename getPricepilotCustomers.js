@@ -3,9 +3,9 @@ const { wait } = require("./utils/utils");
 const fs = require("fs");
 const axios = require("axios");
 
-const EMAIL = "sobica.claudia@gmail.com";
-const PASSWORD = "lanablaz";
-const PRICEPILOTID = "199";
+const EMAIL = "smit.nova.gorica@siol.net";
+const PASSWORD = "na1209vo";
+const PRICEPILOTID = "63";
 
 (async () => {
   const browser = await puppeteer.launch({
@@ -38,7 +38,6 @@ const PRICEPILOTID = "199";
   let customersFormatted = [];
   for (const c of customersRaw) {
     const customer = c.user;
-    console.log(customer);
     let notes = "";
     if (customer.dateOfBirth) {
       notes += `Datum rojstva: ${customer.dateOfBirth}\n`;
@@ -71,7 +70,7 @@ const PRICEPILOTID = "199";
   }
 
   fs.writeFileSync(
-    "./output/fika/customersNew3.json",
+    "./output/smit.nova.gorica@siol.net/customers.json",
     JSON.stringify(customersFormatted)
   );
 })();

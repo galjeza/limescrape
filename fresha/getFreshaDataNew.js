@@ -15,12 +15,12 @@ const generateColor = (str) => {
 };
 
 const LOGINURL = "https://partners.fresha.com/users/sign-in";
-const USERNAME = "gal.jeza@protonmail.com";
-const PASSWORD = "Geslo123.";
-const DATEFROM = "2023-01-01";
+const USERNAME = "businessbylora@gmail.com";
+const PASSWORD = "LoraBuuStudio2022";
+const DATEFROM = "2022-01-01";
 const DATETO = "2024-12-31";
-const SUBJECTID = ["2926193", "2695543", "2521550", "2438226"];
-const LOCATIONID = "1005836";
+const SUBJECTID = ["2978909", "2087207"];
+const LOCATIONID = "810259";
 const CUSTOMER_LIMIT = 49;
 
 const manualLogin = false;
@@ -79,10 +79,12 @@ const formatDateAndTime = (dateTimeObj) => {
   await page.waitForTimeout(2000);
 
   const cookies = await page.cookies();
-  const csrfToken = cookies.find(cookie => cookie.name === '_partners_session').value;
+  const csrfToken = cookies.find(
+    (cookie) => cookie.name === "_partners_session"
+  ).value;
 
-  const graphqlUrl = 'https://partners-calendar-api.fresha.com/alpha-graphql';
-  
+  const graphqlUrl = "https://partners-calendar-api.fresha.com/alpha-graphql";
+
   // Fetch services
   await page.goto("https://partners-api.fresha.com/offer-catalog-menu");
   await page.waitForTimeout(2000);
@@ -111,7 +113,7 @@ const formatDateAndTime = (dateTimeObj) => {
   });
 
   fs.writeFileSync(
-    "./output/fix/services.json",
+    "./output/lora/services.json",
     JSON.stringify(services, null, 2)
   );
 
@@ -140,10 +142,9 @@ const formatDateAndTime = (dateTimeObj) => {
         const newCustomer = {
           customer: customer.attributes["name"],
           email: customer.attributes["email"],
-          phone:
-              customer.attributes["contact-number"]
-                ?.replaceAll("+", "")
-                ?.replaceAll(" ", ""),
+          phone: customer.attributes["contact-number"]
+            ?.replaceAll("+", "")
+            ?.replaceAll(" ", ""),
           id: customer.id,
         };
         customers.push(newCustomer);
@@ -158,7 +159,7 @@ const formatDateAndTime = (dateTimeObj) => {
   console.log("Number of customers", customers.length);
 
   // Fetch employees
-  await page.goto('https://partners-api.fresha.com/employees');
+  await page.goto("https://partners-api.fresha.com/employees");
   const employeesResponse = await page.evaluate(() => {
     return JSON.parse(document.querySelector("body").innerText).data;
   });
@@ -229,20 +230,23 @@ const formatDateAndTime = (dateTimeObj) => {
       dateTo: DATETO,
       locationId: LOCATIONID,
       resourceIds: SUBJECTID,
-      resourceType: "EMPLOYEES"
-    }
+      resourceType: "EMPLOYEES",
+    },
   };
 
   const headers = {
-    'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0',
-    'Accept': 'application/json',
-    'content-type': 'application/json',
-    'Cookie': cookies.map(cookie => `${cookie.name}=${cookie.value}`).join('; ')
+    "User-Agent":
+      "Mozilla/5.0 (X11; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0",
+    Accept: "application/json",
+    "content-type": "application/json",
+    Cookie: cookies
+      .map((cookie) => `${cookie.name}=${cookie.value}`)
+      .join("; "),
   };
 
-  const bookingsResponse = await axios.post(graphqlUrl, bookingsQuery, { headers });
-
-
+  const bookingsResponse = await axios.post(graphqlUrl, bookingsQuery, {
+    headers,
+  });
 
   const bookings = [];
   bookingsResponse.data.data.calendarBookingsV1.forEach((booking) => {
@@ -285,7 +289,7 @@ const formatDateAndTime = (dateTimeObj) => {
     const lastName = lastNameParts?.join(" ");
 
     const countryCode = customer?.phone?.substring(0, 3) || null;
-    const gsm =  customer?.phone?.substring(3).replaceAll(" ", "") || null;
+    const gsm = customer?.phone?.substring(3).replaceAll(" ", "") || null;
 
     newBooking = {
       locationLabel: "Almin Svet",
@@ -304,11 +308,10 @@ const formatDateAndTime = (dateTimeObj) => {
     bookings.push(newBooking);
   });
 
-
   console.log("Number of bookings", bookings.length);
 
   fs.writeFileSync(
-    "./output/fix/appointments.json",
+    "./output/lora/appointments.json",
     JSON.stringify(bookings, null, 2)
   );
 

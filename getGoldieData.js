@@ -3,8 +3,8 @@ const { wait } = require("./utils/utils");
 const fs = require("fs");
 const axios = require("axios");
 
-const EMAIL = "zigakobe@gmail.com";
-const PASSWORD = "novogeslo123";
+const EMAIL = "info@lampetie.si";
+const PASSWORD = "tanita55";
 // create a new date object with the current date and time
 const DATEFROM = new Date(2023, 10, 24);
 

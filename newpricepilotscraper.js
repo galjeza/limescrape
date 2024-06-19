@@ -2,11 +2,11 @@ const puppeteer = require("puppeteer");
 const fs = require("fs");
 const axios = require("axios");
 
-const PASSWORD = "mbeauty";
-const EMAIL = "ajla.muric28@gmail.com";
-const PRICEPILOTID = "342";
-const FROMDATE = new Date("2024-02-02");
-const TODATE = new Date("2026-11-11");
+const PASSWORD = "InfrA!";
+const EMAIL = "info@infragym.si";
+const PRICEPILOTID = "420";
+const FROMDATE = new Date("2019-01-01");
+const TODATE = new Date("2025-11-11");
 const GETSERVICES = true;
 const GETAPPOINTMENTS = true;
 
@@ -18,6 +18,147 @@ const generateColor = (str) => {
   const c = (hash & 0x00ffffff).toString(16).toUpperCase();
 
   return "#" + "00000".substring(0, 6 - c.length) + c;
+};
+
+const removeDuplicates = (appointments) => {
+  const uniqueAppointments = [];
+  const appointmentSet = new Set();
+
+  appointments.forEach((appointment) => {
+    const key = `${appointment.name}-${appointment.date}-${appointment.timeFrom}-${appointment.timeTo}-${appointment.service}`;
+    if (!appointmentSet.has(key)) {
+      appointmentSet.add(key);
+      uniqueAppointments.push(appointment);
+    }
+  });
+
+  return uniqueAppointments;
+};
+
+const fetchAppointments = async (token, startDateString, endDateString) => {
+  const reservationsURL = `https://api.pricepilot.io/providers/${PRICEPILOTID}/bookings?end=${endDateString}&pageSize=10000&start=${startDateString}`;
+
+  try {
+    const reservationsResponse = await axios.get(reservationsURL, {
+      headers: {
+        Authorization: `Bearer ${token}`,
+      },
+    });
+
+    console.log(
+      "Getting data for date range: ",
+      startDateString,
+      endDateString
+    );
+
+    if (!reservationsResponse.data._embedded) {
+      return [];
+    }
+
+    const reservationsResponseList =
+      reservationsResponse.data._embedded.bookingbyprovider;
+
+    const appointments = [];
+
+    for (const r of reservationsResponseList) {
+      if (r.canceled === true || r.canceledByAdmin === true) {
+        continue;
+      }
+
+      for (
+        let i = 0;
+        i < r.bookingAttendees[0].bookingAttendeeBookingServices.length;
+        i++
+      ) {
+        const location =
+          r.bookingAttendees[0].bookingAttendeeBookingServices[i].bookingService
+            .bookingServiceSelectionItems[0].selectionItem.item.name;
+        const subject =
+          r.bookingAttendees[0].bookingAttendeeBookingServices[i].bookingService
+            .bookingServiceSelectionItems[1].selectionItem.item.name;
+        const serviceName =
+          r.bookingAttendees[0].bookingAttendeeBookingServices[i].bookingService
+            .service.name;
+
+        const roomName =
+          r.bookingAttendees[0].bookingAttendeeBookingServices[i].bookingService
+            .room?.name || undefined;
+
+        const date = new Date(
+          r.bookingAttendees[0].bookingAttendeeBookingServices[
+            i
+          ].bookingService.start
+        );
+
+        const comment = r.editorNotes;
+
+        let year = date.getFullYear();
+        let day = date.getDate();
+        let month = date.getMonth() + 1;
+
+        if (day < 10) {
+          day = "0" + day;
+        }
+        if (month < 10) {
+          month = "0" + month;
+        }
+        let startHours = date.getHours();
+        let startMinutes = date.getMinutes();
+        if (startHours < 10) {
+          startHours = "0" + startHours;
+        }
+        if (startMinutes < 10) {
+          startMinutes = "0" + startMinutes;
+        }
+
+        const time = startHours + ":" + startMinutes;
+
+        let end = new Date(
+          r.bookingAttendees[0].bookingAttendeeBookingServices[
+            i
+          ].bookingService.end
+        );
+        let hours = end.getHours();
+        let minutes = end.getMinutes();
+        if (hours < 10) {
+          hours = "0" + hours;
+        }
+        if (minutes < 10) {
+          minutes = "0" + minutes;
+        }
+
+        const endTime = hours + ":" + minutes;
+        const lastNameFixed = r.user.lastname ? r.user.lastname : "";
+        const firstNameFixed = r.user.firstname ? r.user.firstname : "";
+        const formattedComment = comment ? comment : "";
+
+        const appointment = {
+          resourceLabel: roomName,
+          locationLabel: location,
+          gsm: r.user.phone?.replace("+", "").split(" ")[1] || "",
+          countryCode: r.user.phone?.replace("+", "").split(" ")[0] || "",
+          name: firstNameFixed,
+          lastName: lastNameFixed,
+          service: GETSERVICES ? serviceName : "Brez storitve",
+          timeFrom: time.replaceAll(" ", ""),
+          timeTo: endTime.replaceAll(" ", ""),
+          address: "",
+          email: r.user.contactEmail ? r.user.contactEmail : "",
+          userLabel: subject,
+          date: (day + ". " + month + ". " + year).replaceAll(" ", ""),
+          comment: GETSERVICES
+            ? formattedComment
+            : serviceName + " " + formattedComment,
+        };
+
+        appointments.push(appointment);
+      }
+    }
+    return appointments;
+  } catch (error) {
+    console.error("Error fetching data: ", error);
+    return [];
+  }
 };
 
 (async () => {
@@ -99,6 +240,9 @@ const generateColor = (str) => {
   }
 
   if (GETAPPOINTMENTS) {
+    const tasks = [];
+    const MAX_PARALLEL_REQUESTS = 5;
+
     while (currentDate <= TODATE) {
       let endDate = new Date(currentDate);
       endDate.setDate(endDate.getDate() + 7);
@@ -121,131 +265,28 @@ const generateColor = (str) => {
         .toString()
         .padStart(2, "0")}T00:00:00Z`;
 
-      const reservationsURL = `https://api.pricepilot.io/providers/${PRICEPILOTID}/bookings?end=${endDateString}&pageSize=10000&start=${startDateString}`;
+      tasks.push(fetchAppointments(token, startDateString, endDateString));
 
-      try {
-        const reservationsResponse = await axios.get(reservationsURL, {
-          headers: {
-            Authorization: `Bearer ${token}`,
-          },
+      if (tasks.length >= MAX_PARALLEL_REQUESTS) {
+        const results = await Promise.all(tasks);
+        results.forEach((appointments) => {
+          reservations = reservations.concat(appointments);
         });
-
-        console.log(
-          "Getting data for date range: ",
-          startDateString,
-          endDateString
-        );
-
-        if (!reservationsResponse.data._embedded) {
-          currentDate.setDate(currentDate.getDate() + 1);
-          continue;
-        }
-
-        const reservationsResponseList =
-          reservationsResponse.data._embedded.bookingbyprovider;
-
-        for (const r of reservationsResponseList) {
-          if (r.canceled === true || r.canceledByAdmin === true) {
-            continue;
-          }
-
-          for (
-            let i = 0;
-            i < r.bookingAttendees[0].bookingAttendeeBookingServices.length;
-            i++
-          ) {
-            const location =
-              r.bookingAttendees[0].bookingAttendeeBookingServices[i]
-                .bookingService.bookingServiceSelectionItems[0].selectionItem
-                .item.name;
-            const subject =
-              r.bookingAttendees[0].bookingAttendeeBookingServices[i]
-                .bookingService.bookingServiceSelectionItems[1].selectionItem
-                .item.name;
-            const serviceName =
-              r.bookingAttendees[0].bookingAttendeeBookingServices[i]
-                .bookingService.service.name;
-
-            const roomName =
-              r.bookingAttendees[0].bookingAttendeeBookingServices[i]
-                .bookingService.room?.name || undefined;
-
-            const date = new Date(
-              r.bookingAttendees[0].bookingAttendeeBookingServices[
-                i
-              ].bookingService.start
-            );
-
-            const comment = r.editorNotes;
-
-            let year = date.getFullYear();
-            let day = date.getDate();
-            let month = date.getMonth() + 1;
-
-            if (day < 10) {
-              day = "0" + day;
-            }
-            if (month < 10) {
-              month = "0" + month;
-            }
-            let startHours = date.getHours();
-            let startMinutes = date.getMinutes();
-            if (startHours < 10) {
-              startHours = "0" + startHours;
-            }
-            if (startMinutes < 10) {
-              startMinutes = "0" + startMinutes;
-            }
-
-            const time = startHours + ":" + startMinutes;
-
-            let end = new Date(
-              r.bookingAttendees[0].bookingAttendeeBookingServices[
-                i
-              ].bookingService.end
-            );
-            let hours = end.getHours();
-            let minutes = end.getMinutes();
-            if (hours < 10) {
-              hours = "0" + hours;
-            }
-            if (minutes < 10) {
-              minutes = "0" + minutes;
-            }
-
-            const endTime = hours + ":" + minutes;
-            const lastNameFixed = r.user.lastname ? r.user.lastname : "";
-            const firstNameFixed = r.user.firstname ? r.user.firstname : "";
-            const formattedComment = comment ? comment : "";
-
-            const appointment = {
-              resourcleLabel: roomName,
-              locationLabel: location,
-              gsm: r.user.phone?.replace("+", "").split(" ")[1] || "",
-              countryCode: r.user.phone?.replace("+", "").split(" ")[0] || "",
-              name: firstNameFixed,
-              lastName: lastNameFixed,
-              service: GETSERVICES ? serviceName : "Brez storitve",
-              timeFrom: time.replaceAll(" ", ""),
-              timeTo: endTime.replaceAll(" ", ""),
-              address: "",
-              email: r.user.contactEmail ? r.user.contactEmail : "",
-              userLabel: subject,
-              date: (day + ". " + month + ". " + year).replaceAll(" ", ""),
-              comment: GETSERVICES
-                ? formattedComment
-                : serviceName + " " + formattedComment,
-            };
-
-            reservations.push(appointment);
-          }
-        }
-      } catch (error) {
-        console.error("Error fetching data: ", error);
+        tasks.length = 0; // Clear the tasks array
       }
 
-      currentDate.setDate(currentDate.getDate() + 1);
+      currentDate.setDate(currentDate.getDate() + 6); // Increment by 6 days for a 1-day overlap
     }
+
+    // Process any remaining tasks
+    if (tasks.length > 0) {
+      const results = await Promise.all(tasks);
+      results.forEach((appointments) => {
+        reservations = reservations.concat(appointments);
+      });
+    }
+
+    reservations = removeDuplicates(reservations);
 
     fs.writeFileSync(
       `./output/${EMAIL}/appointments.json`,
@@ -258,19 +299,15 @@ function getRoomName(booking) {
   if (
     booking.bookingAttendees &&
     booking.bookingAttendees.length > 0 &&
-    booking.bookingAttendees[0].bookingAttendeeBookingServices &&
-    booking.bookingAttendees[0].bookingAttendeeBookingServices.length > 0 &&
-    booking.bookingAttendees[0].bookingAttendeeBookingServices[0]
-      .bookingService &&
-    booking.bookingAttendees[0].bookingAttendeeBookingServices[0].bookingService
-      .service &&
-    booking.bookingAttendees[0].bookingAttendeeBookingServices[0].bookingService
-      .service.room &&
-    booking.bookingAttendees[0].bookingAttendeeBookingServices[0].bookingService
-      .service.room.name
+    booking.bookingAttendeeBookingServices &&
+    booking.bookingAttendeeBookingServices.length > 0 &&
+    booking.bookingAttendeeBookingServices[0].bookingService &&
+    booking.bookingAttendeeBookingServices[0].bookingService.service &&
+    booking.bookingAttendeeBookingServices[0].bookingService.service.room &&
+    booking.bookingAttendeeBookingServices[0].bookingService.service.room.name
   ) {
-    return booking.bookingAttendees[0].bookingAttendeeBookingServices[0]
-      .bookingService.room.name;
+    return booking.bookingAttendeeBookingServices[0].bookingService.service.room
+      .name;
   }
   return "Room name not found";
 }

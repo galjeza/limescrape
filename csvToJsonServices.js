@@ -10,14 +10,15 @@ const generateColor = (str) => {
 };
 (() => {
   const rawServices = JSON.parse(
-    fs.readFileSync("./output/2437/servicesraw.json")
+    fs.readFileSync("./output/larak/servicesraw.json")
   );
   const services = [];
   for (const s of rawServices) {
     console.log(s);
     const name = s["Ime storitve"].trim();
-    const price = s["Cena (€, uporabi piko ne vejice)"];
-    const duration = s["Čas trajanja (min)"];
+    const price = s["Cena (€, uporabi piko ne vejice)"].replaceAll(/\D/g, "");
+    let blockAfter = s["blockAfter"].replaceAll(/\D/g, "");
+    const duration = s["Čas trajanja (min)"].replaceAll(/\D/g, "");
     const description = s["Opis storitve (neobvezno)"];
     let tag = s["Tagi"] || null;
     if (tag && tag.length < 1) {
@@ -27,14 +28,20 @@ const generateColor = (str) => {
       continue;
     }
     console.log(s);
-    let timeOffStart = s["Time without client on the service (min)(neobvezno)"];
-    let timeOffDuration = s["Lasts (min) (neobvezno)"];
+    let timeOffStart = s[
+      "Time without client on the service (min)(neobvezno)"
+    ].replaceAll(/\D/g, "");
+    let timeOffDuration = s["Lasts (min) (neobvezno)"].replaceAll(/\D/g, "");
 
     if (timeOffStart === "") {
       timeOffStart = null;
     }
     if (timeOffDuration === "") {
       timeOffDuration = null;
+    }
+
+    if (blockAfter === "") {
+      blockAfter = undefined;
     }
 
     let workers = s["Izvajalci (Nobvezno, Ločeni z vejico)"].split(",");
@@ -54,12 +61,13 @@ const generateColor = (str) => {
       timeOffStart,
       timeOffDuration,
       description,
+      blockAfter,
     };
     services.push(service);
   }
 
   fs.writeFileSync(
-    "./output/2437/services.json",
+    "./output/larak/services.json",
     JSON.stringify(services, null, 2)
   );
 })();
