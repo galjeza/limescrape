@@ -2,11 +2,11 @@ const puppeteer = require("puppeteer");
 const fs = require("fs");
 const axios = require("axios");
 
-const PASSWORD = "InfrA!";
-const EMAIL = "info@infragym.si";
-const PRICEPILOTID = "420";
+const EMAIL = "info@marubeauty.si";
+const PASSWORD = "Marusarigler1707";
+const PRICEPILOTID = "232";
 const FROMDATE = new Date("2019-01-01");
-const TODATE = new Date("2025-11-11");
+const TODATE = new Date("2025-08-25");
 const GETSERVICES = true;
 const GETAPPOINTMENTS = true;
 
@@ -133,7 +133,7 @@ const fetchAppointments = async (token, startDateString, endDateString) => {
         const formattedComment = comment ? comment : "";
 
         const appointment = {
-          resourceLabel: roomName,
+          resourceLabel: roomName ? roomName : null,
           locationLabel: location,
           gsm: r.user.phone?.replace("+", "").split(" ")[1] || "",
           countryCode: r.user.phone?.replace("+", "").split(" ")[0] || "",

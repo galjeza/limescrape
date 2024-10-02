@@ -3,9 +3,9 @@ const { wait } = require("./utils/utils");
 const fs = require("fs");
 const axios = require("axios");
 
-const EMAIL = "Info@illumestudio.si";
-const PASSWORD = "Illume2021!";
-const PRICEPILOTID = "111";
+const EMAIL = "info@marubeauty.si";
+const PASSWORD = "Marusarigler1707";
+const PRICEPILOTID = "232";
 const ALREADYHAVETOKEN = "";
 const WITHOUTLOGIN = false;
 

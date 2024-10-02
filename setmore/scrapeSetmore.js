@@ -2,11 +2,8 @@ const puppeteer = require("puppeteer");
 const { wait } = require(".././utils/utils");
 const fs = require("fs");
 
-//const EMAIL = "tina@arbadakarba.si";
-//const PASSWORD = "Ljubezen123-";
-
-const EMAIL = "tl.estetichouse@gmail.com";
-const PASSWORD = "Cocolada_5";
+const EMAIL = "dfreshcut1@gmail.com";
+const PASSWORD = "Vednofresh1";
 const SCRAPE_SERVICES = true;
 
 const generateColor = (str) => {
@@ -32,27 +29,31 @@ const generateColor = (str) => {
   await page.type("#password", PASSWORD);
   await wait(1);
   await page.click("#sm-login-btn");
-  await page.waitForSelector("#cn-main-nav");
+
+  // Wait until navigation or certain content is loaded
+  await page.waitForSelector("#cn-main-nav", { timeout: 10000000 });
 
   if (SCRAPE_SERVICES) {
     let services = [];
     await page.goto("https://go.setmore.com/easy-share");
 
-    await page.waitForSelector(".meeting-card__top");
+    await page.waitForSelector(".meeting-card__top", { timeout: 1000000 });
     await wait(2);
 
-    // get all list items inside of ul which has a classname meeting-card-container
-    const listContrainer = await page.$("#list-container");
-    // get list items by role = listitem
-    const listItems = await listContrainer.$$("[role=listitem]");
+    const listContainer = await page.$("#list-container");
+    const listItems = await listContainer.$$("[role=listitem]");
 
-    await wait(5);
-    console.log(listItems.length);
+    console.log("Total items found:", listItems.length);
+
     for (const item of listItems) {
-      console.log("clicking item number: ", listItems.indexOf(item));
+      console.log("Clicking item number:", listItems.indexOf(item));
+      await page.waitForTimeout(5000);
       await item.click(".meeting-card__more-btn");
+      await page.waitForTimeout(4000);
 
-      await page.waitForSelector("#duration");
+      // Wait for details to be loaded after clicking the item
+      await page.waitForSelector("#duration", { timeout: 10000 });
+
       const duration = await page.$eval("#duration", (node) => node.value);
       const buffer = await page.$eval("#buffer\\.after", (el) => el.value);
       const price = await page.$eval("#price", (node) => node.value);
@@ -67,8 +68,8 @@ const generateColor = (str) => {
 
       const workerElements = await page.$$(".awd-sidebar__label.ml-4");
       const workers = [];
+
       for (const workerElement of workerElements) {
-        // get the parent element of the worker element
         const parent = await page.evaluateHandle(
           (el) => el.parentElement,
           workerElement
@@ -107,12 +108,32 @@ const generateColor = (str) => {
       console.log(service);
 
       services.push(service);
-      await page.click(".aw-122jk53.back-btn.mr-1");
+
+      // Wait for the element with class 'back-btn' to be available in the DOM
+      await page.waitForSelector(
+        ".back-btn.inline-flex.items-center.justify-center",
+        { timeout: 10000 }
+      );
+
+      // Refetch the element to ensure it's the latest one in the DOM
+      const element = await page.$(
+        ".back-btn.inline-flex.items-center.justify-center"
+      );
+
+      if (element) {
+        await element.click();
+        // Add a short wait to ensure all scripts tied to click events are executed
+        await page.waitForTimeout(500);
+      } else {
+        console.error("Element not found");
+      }
+
+      // Add a delay to ensure any dynamic updates finish
+      await page.waitForTimeout(4000);
     }
 
-    fs.writeFileSync(
-      "./estetichouse/services_setmore.json",
-      JSON.stringify(services)
-    );
+    fs.writeFileSync("./services.json", JSON.stringify(services));
   }
+
+  await browser.close();
 })();

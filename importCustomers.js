@@ -1,11 +1,11 @@
 const fs = require("fs");
 const axios = require("axios");
 
-const CLIENT_ID = 2485;
+const CLIENT_ID = 1612;
 (async () => {
   console.log("Migration started");
   const customers = JSON.parse(
-    fs.readFileSync("./output/smit.nova.gorica@siol.net/customers.json")
+    fs.readFileSync("./output/ludababacustomers/ludabacustomerskids.json")
   );
   console.log("Customers read from file");
   console.log("Number of customers:", customers.length);
@@ -15,7 +15,7 @@ const CLIENT_ID = 2485;
       console.log(i);
       console.log(customer);
 
-      // remove charac
+      // remove chara
       if (!customer.lastName) {
         customer.lastName = "";
       }

@@ -2,13 +2,13 @@ const fs = require("fs");
 const axios = require("axios");
 const { formatAppointment } = require("./utils/utils");
 
-const CLIENT_ID = 2618;
-const USER_ID = 3746;
-const MIGRATE_SERVICES = true;
+const CLIENT_ID = 3336;
+const USER_ID = 4783;
+const MIGRATE_SERVICES = false;
 const MIGRATE_APPOINTMENTS = true;
-const PROSTORI = false;
-
-const generateColorBasedOnString = (str) => {
+const PROSTORI = true;
+const HARDCODED_LOCATION = null;
+const REMOVE_COMMENTS = false;glconst generateColorBasedOnString = (str) => {
   let hash = 0;
   for (let i = 0; i < str.length; i++) {
     hash = str.charCodeAt(i) + ((hash << 5) - hash);
@@ -26,11 +26,11 @@ const generateColorBasedOnString = (str) => {
 (async () => {
   console.log("Migration started");
   const services = JSON.parse(
-    fs.readFileSync("./output/ninabaj/services.json")
+    fs.readFileSync("./output/info@marubeauty.si/services.json")
   );
 
   let appointments = JSON.parse(
-    fs.readFileSync("./output/ninabaj/appointments.json")
+    fs.readFileSync("./output/info@marubeauty.si/appointments.json")
   );
 
   console.log("Number of appointments: " + appointments.length);
@@ -109,7 +109,6 @@ const generateColorBasedOnString = (str) => {
   demoAppointments = uniqueAppointments;
 
   for (let i = 0; i < demoAppointments.length; i++) {
-    console.log("Migrating appointment: " + i);
     // appointment has timeFrom and timeTo in format HH:mm (e.g. 10:00) and date in format DD.MM.YYYY (e.g. 01.01.2021)
     // we need to convert it a datetime in format YYYY-MM-DDTHH:mm:ss (e.g. 2021-01-01T10:00:00)
     // set demoappointment[i] time to 10:00
@@ -133,8 +132,8 @@ const generateColorBasedOnString = (str) => {
       appointmentMonth - 1,
       appointmentDay
     );
-    const fromDate = new Date("2024-01-01");
-    const toDate = new Date("2026-01-01");
+    const fromDate = new Date("2024-02-12");
+    const toDate = new Date("2026-05-05");
 
     if (appointmentDate < fromDate || appointmentDate > toDate) {
       continue;
@@ -147,7 +146,6 @@ const generateColorBasedOnString = (str) => {
       service === null ||
       service === undefined
     ) {
-      console.log("Service not found: " + appointment.service);
       service = {
         description: null,
         name: "Brez storitve",
@@ -158,7 +156,7 @@ const generateColorBasedOnString = (str) => {
         min: "1",
         max: "1",
       };
-      appointment.service = "Brez storitve";
+      appointment.serviceName = "Brez storitve";
     }
 
     appointment.clientId = CLIENT_ID;
@@ -171,7 +169,18 @@ const generateColorBasedOnString = (str) => {
         : null;
     appointment.countryCode = appointment.gsm ? appointment.countryCode : null;
 
+    if (REMOVE_COMMENTS) {
+      appointment.comment = "";
+    }
     appointment.price = parseFloat(service.price.replace(",", "."));
+    if (HARDCODED_LOCATION) {
+      appointment.locationLabel = HARDCODED_LOCATION;
+    }
+
+    appointment.locationLabel = appointment.locationLabel.replaceAll(
+      "Izbrisano - ",
+      ""
+    );
 
     delete appointment.service;
 

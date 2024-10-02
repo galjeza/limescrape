@@ -3,17 +3,17 @@ const { wait } = require("./utils/utils");
 const fs = require("fs");
 const ProgressBar = require("progress");
 
-const GLOSSIQID = "b512032b-2d2a-45c1-a4d7-7261ebb5ff80";
+const GLOSSIQID = "7b2184c2-15f3-4cf7-ba17-6e208a50d961";
 const GETSERVICES = false;
 
-const EMAIL = "samanthabeautyluxe@gmail.com";
+const EMAIL = "maja.beautysalon@gmail.com";
 const PASSWORD = "Glossiq55!";
 const LOGINURL =
   "https://sso.glossiq.com/account/login?returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3DGlossiq%26redirect_uri%3Dhttps%253A%252F%252Fwww.glossiq.com%252Fsignin-oidc%26response_type%3Dcode%26scope%3Dopenid%2520profile%2520email%2520GlossiqApi%26state%3D2e44065535f54a2789fb4db8004f62be%26code_challenge%3D8CdWF12gEs_gLT8wZXK7HyQsvDWnQE1ZNB1zqyWVW-A%26code_challenge_method%3DS256%26response_mode%3Dquery";
 
 // Parallel scraping configuration
-const NUM_BROWSERS = 5;
-const DAYS_PER_BROWSER = 73;
+const NUM_BROWSERS = 1;
+const DAYS_PER_BROWSER = 365;
 
 function formatDate(date) {
   return date.toISOString().split("T")[0];
@@ -29,7 +29,7 @@ async function loginAndFetchAppointments(
 
   const browser = await puppeteer.launch({
     args: ["--force-device-scale-factor=0.5"],
-    headless: true,
+    headless: false,
   });
 
   const page = await browser.newPage();
@@ -57,7 +57,7 @@ async function loginAndFetchAppointments(
   for (let i = 0; i < numDays; i++) {
     const formattedDate = formatDate(currentDate);
     await page.goto(
-      `https://www.glossiq.com/shop/${GLOSSIQID}/appointments/ebf7dc39-148b-4c27-b62e-5f50f71631ef?calendarDate=${formattedDate}T00%3A00%3A00.000Z`
+      `https://www.glossiq.com/shop/${GLOSSIQID}/appointments/b9bfaecb-aabe-4e95-8ce0-7405a5e61ed4?calendarDate=${formattedDate}T00%3A00%3A00.000Z`
     );
 
     await wait(7);
@@ -172,7 +172,7 @@ async function loginAndFetchAppointments(
   const totalDays = NUM_BROWSERS * DAYS_PER_BROWSER;
   const bar = new ProgressBar(":bar :current/:total", { total: totalDays });
 
-  const startDate = new Date("2023-08-01"); // Starting date
+  const startDate = new Date("2024-10-01"); // Starting date
 
   for (let i = 0; i < NUM_BROWSERS; i++) {
     const browserStartDate = new Date(startDate);
@@ -188,7 +188,7 @@ async function loginAndFetchAppointments(
   });
 
   fs.writeFileSync(
-    "./output/samanthabeautyluxe@gmail.com/appointments1.json",
+    "./output/majavuk/appointments.json",
     JSON.stringify(allAppointments, null, 2)
   );
 })();

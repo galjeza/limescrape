@@ -2,8 +2,8 @@ const puppeteer = require("puppeteer");
 const { wait } = require("./utils/utils");
 const fs = require("fs");
 
-const EMAIL = "marusamocnik14@gmail.com";
-const PASSWORD = "Lusyka71";
+const EMAIL = "odskocnica@gmail.com";
+const PASSWORD = "niko123";
 
 (async () => {
   const browser = await puppeteer.launch({
@@ -85,7 +85,7 @@ const PASSWORD = "Lusyka71";
   }
   await browser.close();
   fs.writeFileSync(
-    "./output/marusamocnik/customers.json",
+    "./output/odskocnica/customers.json",
     JSON.stringify(customers, null, 2)
   );
 })();

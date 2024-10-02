@@ -24,12 +24,12 @@ function addMinutesToTimeString(timeStr, minutesToAdd) {
   return `${newHoursStr}:${newMinutesStr}`;
 }
 
-const LOGINURL = "https://danstudio.naroci.me/login";
-const USERNAME = "danstudio";
-const PASSWORD = "DanCelje12";
+const LOGINURL = "https://ac-zvezda.naroci.me/login";
+const USERNAME = "ac-zvezda931";
+const PASSWORD = "Zvezda123!";
 
-const START_DATE = new Date("2021-10-10");
-const END_DATE = new Date("2025-10-10");
+const START_DATE = new Date("2024-06-08");
+const END_DATE = new Date("2024-10-10");
 
 const START_DATE_UNIX = Math.floor(START_DATE.getTime() / 1000);
 const END_DATE_UNIX = Math.floor(END_DATE.getTime() / 1000);
@@ -119,7 +119,7 @@ const END_DATE_UNIX = Math.floor(END_DATE.getTime() / 1000);
   });
 
   fs.writeFileSync(
-    "./output/danstudio/customers.json",
+    "./output/zvezda/customers.json",
     JSON.stringify(clientData, null, 2)
   );
 
@@ -156,6 +156,14 @@ const END_DATE_UNIX = Math.floor(END_DATE.getTime() / 1000);
       .split("-")[1]
       .trim()
       .padStart(5, "0");
+
+    if (timeTo == timeFrom) {
+      console.log(appointment.event);
+    }
+
+    if (timeTo.includes("NaN")) {
+      console.log(appointment.appointment.event.from_to);
+    }
     const servicesForAppointment = appointment.event.service.split(", ");
 
     const duration = appointment.event.service.duration;
@@ -183,8 +191,18 @@ const END_DATE_UNIX = Math.floor(END_DATE.getTime() / 1000);
     // check if service includes service "Ž oblika" and frufru
 
     for (const s of servicesForAppointment) {
-      const serviceName = s?.split("(")[0].trim();
-      const serviceDuration = s?.split("(")[1]?.split(")")[0]?.trim() || 1;
+      const lastParentIndex = s?.lastIndexOf("(");
+      const serviceName = s.slice(0, lastParentIndex).trim();
+      let match = s?.match(/\((\d+)\s*min\)$/);
+
+      let serviceDuration = 0;
+      if (match) {
+        serviceDuration = match[1];
+      }
+
+      // Default service duration to a safe value if parsing fails
+      serviceDuration = parseInt(serviceDuration) || 0;
+
       const startTimeForService = addMinutesToTimeString(
         timeFrom,
         currentOffset
@@ -192,8 +210,19 @@ const END_DATE_UNIX = Math.floor(END_DATE.getTime() / 1000);
 
       const endTimeForService = addMinutesToTimeString(
         startTimeForService,
-        parseInt(serviceDuration)
+        serviceDuration
       );
+
+      // If endTimeForService is NaN, log an error and skip this service
+      if (endTimeForService.includes("NaN")) {
+        console.error(`Invalid time calculation for service: ${serviceName}`);
+        continue;
+      }
+
+      if (startTimeForService === endTimeForService) {
+        console.log("FUCKK");
+        console.log(s);
+      }
 
       formattedAppointments.push({
         locationLabel: appointment.event.workplace,
@@ -212,10 +241,9 @@ const END_DATE_UNIX = Math.floor(END_DATE.getTime() / 1000);
         comment,
       });
 
-      currentOffset += parseInt(serviceDuration);
+      currentOffset += serviceDuration;
     }
   }
-
   // remove any duplicates
   formattedAppointments = formattedAppointments.filter(
     (thing, index, self) =>
@@ -231,7 +259,7 @@ const END_DATE_UNIX = Math.floor(END_DATE.getTime() / 1000);
   );
 
   fs.writeFileSync(
-    "./output/danstudio/appointments.json",
+    "./output/zvezda/appointments.json",
     JSON.stringify(formattedAppointments, null, 2)
   );
 
@@ -294,7 +322,7 @@ const END_DATE_UNIX = Math.floor(END_DATE.getTime() / 1000);
   console.log("Number of services: " + services.length);
 
   fs.writeFileSync(
-    "./output/danstudio/services.json",
+    "./output/zvezda/services.json",
     JSON.stringify(services, null, 2)
   );
 

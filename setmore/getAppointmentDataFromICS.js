@@ -1,7 +1,7 @@
 const ICAL = require("ical.js");
 const fs = require("fs");
 
-fs.readFile("./output/513.ics", "utf8", function (err, data) {
+fs.readFile("./fresh2.ics", "utf8", function (err, data) {
   if (err) throw err;
 
   // Parse the .ics data
@@ -24,7 +24,11 @@ fs.readFile("./output/513.ics", "utf8", function (err, data) {
   let appointments = [];
 
   for (const event of events) {
-    const description = event.description.split("\n");
+    console.log(event);
+    const description = event.description?.split("\n") || null;
+    if (!description) {
+      continue;
+    }
     // Find an array item that includes string "PROVIDER:"
     const providerItem = description.find((item) => item.includes("PROVIDER:"));
     const provider = providerItem.split(":")[1].trim();
@@ -72,9 +76,9 @@ fs.readFile("./output/513.ics", "utf8", function (err, data) {
 
     const appointment = {
       locationLabel: "temp",
-      useLabel: provider,
-      gsm,
-      countryCode,
+      userLabel: provider,
+      gsm: gsm.trim() !== "" ? gsm : null,
+      countryCode: countryCode.trim() !== "" ? countryCode : null,
       name,
       lastName,
       date,
@@ -88,7 +92,7 @@ fs.readFile("./output/513.ics", "utf8", function (err, data) {
   }
 
   fs.writeFileSync(
-    "./appointments_lara.json",
+    "./appointments_fresh2.json",
     JSON.stringify(appointments, null, 2)
   );
 });

@@ -15,12 +15,12 @@ const generateColor = (str) => {
 };
 
 const LOGINURL = "https://partners.fresha.com/users/sign-in";
-const USERNAME = "businessbylora@gmail.com";
-const PASSWORD = "LoraBuuStudio2022";
+const USERNAME = "ermanmateja@hotmail.com";
+const PASSWORD = "Novigrad1";
 const DATEFROM = "2022-01-01";
-const DATETO = "2024-12-31";
-const SUBJECTID = ["2978909", "2087207"];
-const LOCATIONID = "810259";
+const DATETO = "2025-12-31";
+const SUBJECTID = ["3034132", "2757374", "2429187", "1181324"];
+const LOCATIONID = "403391";
 const CUSTOMER_LIMIT = 49;
 
 const manualLogin = false;
@@ -113,7 +113,7 @@ const formatDateAndTime = (dateTimeObj) => {
   });
 
   fs.writeFileSync(
-    "./output/lora/services.json",
+    "../output/novigrad/services.json",
     JSON.stringify(services, null, 2)
   );
 
@@ -311,7 +311,7 @@ const formatDateAndTime = (dateTimeObj) => {
   console.log("Number of bookings", bookings.length);
 
   fs.writeFileSync(
-    "./output/lora/appointments.json",
+    "../output/novigrad/appointments.json",
     JSON.stringify(bookings, null, 2)
   );
 

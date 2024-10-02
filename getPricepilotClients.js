@@ -43,7 +43,7 @@ const getAllBusinesses = async () => {
 getAllBusinesses()
   .then((clientInfo) => {
     console.log(clientInfo); // print all clients' info
-    fs.writeFileSync("./ppclients2.json", JSON.stringify(clientInfo, null, 2));
+    fs.writeFileSync("./ppclients99.json", JSON.stringify(clientInfo, null, 2));
   })
   .catch((err) => {
     console.error(err); // handle request errors

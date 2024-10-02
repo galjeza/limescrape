@@ -3,9 +3,9 @@ const { wait } = require("./utils/utils");
 const fs = require("fs");
 const axios = require("axios");
 
-const EMAIL = "smit.nova.gorica@siol.net";
-const PASSWORD = "na1209vo";
-const PRICEPILOTID = "63";
+const PASSWORD = "TjasaG21Pili10a";
+const EMAIL = "tjasa@hairhitekt.si";
+const PRICEPILOTID = "156";
 
 (async () => {
   const browser = await puppeteer.launch({
@@ -70,7 +70,7 @@ const PRICEPILOTID = "63";
   }
 
   fs.writeFileSync(
-    "./output/smit.nova.gorica@siol.net/customers.json",
+    "./output/tjasa@hairhitekt.si/customers.json",
     JSON.stringify(customersFormatted)
   );
 })();

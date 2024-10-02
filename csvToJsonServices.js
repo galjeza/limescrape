@@ -1,4 +1,5 @@
 const fs = require("fs");
+
 const generateColor = (str) => {
   let hash = 0;
   for (let i = 0; i < str.length; i++) {
@@ -8,16 +9,32 @@ const generateColor = (str) => {
 
   return "#" + "00000".substring(0, 6 - c.length) + c;
 };
+
+const generatePastelColor = (str) => {
+  const color = generateColor(str);
+  const r = parseInt(color.slice(1, 3), 16);
+  const g = parseInt(color.slice(3, 5), 16);
+  const b = parseInt(color.slice(5, 7), 16);
+  const pastelR = Math.floor((r + 255) / 2);
+  const pastelG = Math.floor((g + 255) / 2);
+  const pastelB = Math.floor((b + 255) / 2);
+  const pastelColor = `#${pastelR.toString(16).padStart(2, "0")}${pastelG
+    .toString(16)
+    .padStart(2, "0")}${pastelB.toString(16).padStart(2, "0")}`;
+  return pastelColor;
+};
 (() => {
   const rawServices = JSON.parse(
-    fs.readFileSync("./output/larak/servicesraw.json")
+    fs.readFileSync("./output/jernej/servicesraw.json")
   );
+
+  console.log(rawServices);
   const services = [];
   for (const s of rawServices) {
     console.log(s);
     const name = s["Ime storitve"].trim();
     const price = s["Cena (€, uporabi piko ne vejice)"].replaceAll(/\D/g, "");
-    let blockAfter = s["blockAfter"].replaceAll(/\D/g, "");
+    let blockAfter = s["blockAfter"]?.replaceAll(/\D/g, "");
     const duration = s["Čas trajanja (min)"].replaceAll(/\D/g, "");
     const description = s["Opis storitve (neobvezno)"];
     let tag = s["Tagi"] || null;
@@ -28,10 +45,13 @@ const generateColor = (str) => {
       continue;
     }
     console.log(s);
-    let timeOffStart = s[
-      "Time without client on the service (min)(neobvezno)"
-    ].replaceAll(/\D/g, "");
-    let timeOffDuration = s["Lasts (min) (neobvezno)"].replaceAll(/\D/g, "");
+    let timeOffStart =
+      s["Time without client on the service (min)(neobvezno)"]?.replaceAll(
+        /\D/g,
+        ""
+      ) || undefined;
+    let timeOffDuration =
+      s["Lasts (min) (neobvezno)"]?.replaceAll(/\D/g, "") || undefined;
 
     if (timeOffStart === "") {
       timeOffStart = null;
@@ -48,7 +68,7 @@ const generateColor = (str) => {
     workers = workers.filter((worker) => worker !== "");
 
     const randomString = Math.random().toString(36).substring(2, 15);
-    const color = s["Barva(neobvezno) "] || generateColor(tag || randomString);
+    const color = s["Barva(neobvezno) "] || generatePastelColor(tag);
     const service = {
       name,
       price: price.replace(".", ",").replace("'", ""),
@@ -67,7 +87,7 @@ const generateColor = (str) => {
   }
 
   fs.writeFileSync(
-    "./output/larak/services.json",
+    "./output/jernej/services.json",
     JSON.stringify(services, null, 2)
   );
 })();
