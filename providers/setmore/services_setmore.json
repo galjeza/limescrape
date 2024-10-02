@@ -1,0 +1,135 @@
+[
+  {
+    "name": "Striženje",
+    "duration": "30",
+    "price": "15.00",
+    "description": "",
+    "tag": null,
+    "available_online": true,
+    "color": "#2ade81",
+    "min": 1,
+    "max": 1
+  },
+  {
+    "name": "Striženje + Urejanje Brade Mašinca",
+    "duration": "50",
+    "price": "20.00",
+    "description": "",
+    "tag": null,
+    "available_online": true,
+    "color": "#2ade81",
+    "min": 1,
+    "max": 1
+  },
+  {
+    "name": "Otroško Klasično Striženje",
+    "duration": "15",
+    "price": "10.00",
+    "description": "",
+    "tag": null,
+    "available_online": true,
+    "color": "#2ade81",
+    "min": 1,
+    "max": 1
+  },
+  {
+    "name": "S. Fade/modno + Dolga Brada",
+    "duration": "60",
+    "price": "20.00",
+    "description": "",
+    "tag": null,
+    "available_online": true,
+    "color": "#2ade81",
+    "min": 1,
+    "max": 1
+  },
+  {
+    "name": "Striženje + Cleanshave",
+    "duration": "65",
+    "price": "28.00",
+    "description": "",
+    "tag": null,
+    "available_online": true,
+    "color": "#2ade81",
+    "min": 1,
+    "max": 1
+  },
+  {
+    "name": "Striženje + Tretman Britje",
+    "duration": "60",
+    "price": "25.00",
+    "description": "",
+    "tag": null,
+    "available_online": true,
+    "color": "#2ade81",
+    "min": 1,
+    "max": 1
+  },
+  {
+    "name": "Urejanje Brade (masinca)",
+    "duration": "10",
+    "price": "10.00",
+    "description": "",
+    "tag": null,
+    "available_online": true,
+    "color": "#2ade81",
+    "min": 1,
+    "max": 1
+  },
+  {
+    "name": "Urejanje Brade Tretman",
+    "duration": "30",
+    "price": "15.00",
+    "description": "",
+    "tag": null,
+    "available_online": true,
+    "color": "#2ade81",
+    "min": 1,
+    "max": 1
+  },
+  {
+    "name": "Cleanave ( Klasicno Britje)",
+    "duration": "45",
+    "price": "18.00",
+    "description": "",
+    "tag": null,
+    "available_online": true,
+    "color": "#2ade81",
+    "min": 1,
+    "max": 1
+  },
+  {
+    "name": "Drugo",
+    "duration": "25",
+    "price": "15.00",
+    "description": "",
+    "tag": null,
+    "available_online": true,
+    "color": "#2ade81",
+    "min": 1,
+    "max": 1
+  },
+  {
+    "name": "Vosek",
+    "duration": "5",
+    "price": "5.00",
+    "description": "",
+    "tag": null,
+    "available_online": true,
+    "color": "#2ade81",
+    "min": 1,
+    "max": 1
+  },
+
+  {
+    "name": "Brez storitve",
+    "duration": "1",
+    "price": "0.00",
+    "description": "",
+    "tag": null,
+    "available_online": true,
+    "color": "#2ade81",
+    "min": 1,
+    "max": 1
+  }
+]

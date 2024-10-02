@@ -1,8 +1,0 @@
--- Set isDeleted to 1 for all related user_appointments
-UPDATE service
-SET isDeleted = 1
-WHERE FK_clientId = 292
-
-
-
-
