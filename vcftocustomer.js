@@ -20,7 +20,7 @@ const insertCustomer = async (customer) => {
   }
 };
 
-const inputFile = "./output/1701/customers.json";
+const inputFile = "./output/biona/export.json";
 
 const CLIENT_ID = 1071;
 
@@ -59,8 +59,8 @@ const CLIENT_ID = 1071;
       }
 
       const newCustomer = {
-        name: fixedFirstName,
-        lastName: fixedLastName,
+        name: fixedFirstName.replace(/[^a-zA-Z0-9]/g, ""),
+        lastName: fixedLastName.replace(/[^a-zA-Z0-9\s]/g, ""),
         gsm: formattedGSM,
         email: formattedEmail,
         countryCode: countryCode,
@@ -69,7 +69,10 @@ const CLIENT_ID = 1071;
       customers.push(newCustomer);
       console.log(newCustomer);
     }
-    fs.writeFileSync("./customersvcf.json", JSON.stringify(customers, null, 2));
+    fs.writeFileSync(
+      "./output/biona/customers.json",
+      JSON.stringify(customers, null, 2)
+    );
   } catch (error) {
     console.error("Error processing the JSON file:", error);
   }

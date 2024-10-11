@@ -2,13 +2,15 @@ const fs = require("fs");
 const axios = require("axios");
 const { formatAppointment } = require("./utils/utils");
 
-const CLIENT_ID = 3336;
-const USER_ID = 4783;
-const MIGRATE_SERVICES = false;
+const CLIENT_ID = 3391;
+const USER_ID = 4877;
+const MIGRATE_SERVICES = true;
 const MIGRATE_APPOINTMENTS = true;
 const PROSTORI = true;
-const HARDCODED_LOCATION = null;
-const REMOVE_COMMENTS = false;glconst generateColorBasedOnString = (str) => {
+const HARDCODED_LOCATION = "Demo lokacija";
+const REMOVE_COMMENTS = false;
+const LANGUAGE = "hr";
+const generateColorBasedOnString = (str) => {
   let hash = 0;
   for (let i = 0; i < str.length; i++) {
     hash = str.charCodeAt(i) + ((hash << 5) - hash);
@@ -26,11 +28,11 @@ const REMOVE_COMMENTS = false;glconst generateColorBasedOnString = (str) => {
 (async () => {
   console.log("Migration started");
   const services = JSON.parse(
-    fs.readFileSync("./output/info@marubeauty.si/services.json")
+    fs.readFileSync("./providers/zoya/services.json")
   );
 
   let appointments = JSON.parse(
-    fs.readFileSync("./output/info@marubeauty.si/appointments.json")
+    fs.readFileSync("./providers/zoya/appointmentsFormatted.json")
   );
 
   console.log("Number of appointments: " + appointments.length);
@@ -63,6 +65,10 @@ const REMOVE_COMMENTS = false;glconst generateColorBasedOnString = (str) => {
         continue;
       }
 
+      if (typeof services[i].price === "number") {
+        services[i].price = services[i].price.toString();
+      }
+      console.log(services[i]);
       const serviceFormatted = {
         name: services[i].name,
         priceBaseCents: parseInt(
@@ -80,6 +86,7 @@ const REMOVE_COMMENTS = false;glconst generateColorBasedOnString = (str) => {
         maxAmountUsers: parseInt(services[i].max),
         timeOffStart: services[i].timeOffStart,
         timeOffDuration: services[i].timeOffDuration,
+        lamguage: LANGUAGE,
       };
 
       await axios.post(
@@ -92,6 +99,8 @@ const REMOVE_COMMENTS = false;glconst generateColorBasedOnString = (str) => {
   if (!MIGRATE_APPOINTMENTS) {
     return;
   }
+
+  console.log("Number of appointments: " + appointments.length);
 
   let demoAppointments = appointments;
 
@@ -132,8 +141,8 @@ const REMOVE_COMMENTS = false;glconst generateColorBasedOnString = (str) => {
       appointmentMonth - 1,
       appointmentDay
     );
-    const fromDate = new Date("2024-02-12");
-    const toDate = new Date("2026-05-05");
+    const fromDate = new Date("2022-05-06");
+    const toDate = new Date("2026-06-04");
 
     if (appointmentDate < fromDate || appointmentDate > toDate) {
       continue;
@@ -159,6 +168,8 @@ const REMOVE_COMMENTS = false;glconst generateColorBasedOnString = (str) => {
       appointment.serviceName = "Brez storitve";
     }
 
+    console.log(service);
+
     appointment.clientId = CLIENT_ID;
     appointment.userId = USER_ID;
     appointment.serviceName = appointment.service;
@@ -172,6 +183,11 @@ const REMOVE_COMMENTS = false;glconst generateColorBasedOnString = (str) => {
     if (REMOVE_COMMENTS) {
       appointment.comment = "";
     }
+
+    if (typeof service.price === "number") {
+      service.price = service.price.toString();
+    }
+
     appointment.price = parseFloat(service.price.replace(",", "."));
     if (HARDCODED_LOCATION) {
       appointment.locationLabel = HARDCODED_LOCATION;
@@ -192,16 +208,5 @@ const REMOVE_COMMENTS = false;glconst generateColorBasedOnString = (str) => {
         ...appointment,
       }
     );
-    if (Object.keys(response.data).length === 0) {
-      fs.appendFileSync(
-        "./output/jasminasuban/migration.log",
-        JSON.stringify(appointment) + "\n"
-      );
-    } else {
-      fs.appendFileSync(
-        "./simplybook/migration.log",
-        JSON.stringify(response.data) + "\n"
-      );
-    }
   }
 })();

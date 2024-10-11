@@ -2,10 +2,22 @@ const puppeteer = require("puppeteer");
 const { wait } = require("./utils/utils");
 const fs = require("fs");
 
-const EMAIL = "matjaz@studiominimal.si";
-const PASSWORD = "mini4412mal";
+const EMAIL = "tamara.bajt@gmail.com";
+const PASSWORD = "tamara123";
 
-const prostori = ["WELLNES", "MASAŽA", "NEGA OBRAZA", "PEDIKURA", "NAPRAVA"];
+const prostori = [
+  "WELLNES",
+  "MASAŽA",
+  "NEGA OBRAZA",
+  "PEDIKURA",
+  "NAPRAVA",
+  "prostor 1",
+  "prostor 2",
+  "prostor 3",
+  "miza za manikuro 1",
+  "miza za manikuro 2",
+  "box za body wrapping",
+];
 const subjectsToSkip = ["NAPRAVA"]; // Add subjects to skip here
 
 (async () => {
@@ -53,9 +65,9 @@ const subjectsToSkip = ["NAPRAVA"]; // Add subjects to skip here
       await page.select("#calendar", subject.value);
       await wait(5);
       let currentDate = new Date();
-      currentDate.setFullYear(2024, 5, 5);
+      currentDate.setFullYear(2024, 8, 8);
       const scrapeToDate = new Date();
-      scrapeToDate.setFullYear(2024, 8, 27);
+      scrapeToDate.setFullYear(2025, 1, 1);
       const numberOfDays = Math.floor(
         (scrapeToDate.getTime() - currentDate.getTime()) / (1000 * 3600 * 24)
       );

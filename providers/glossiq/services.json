@@ -4,7 +4,7 @@
     "description": null,
     "price": 80,
     "duration": 90,
-    "tag": "Duo paket (Laminacija & keratinsko)",
+    "tag": null,
     "color": "#64DED8"
   },
   {
@@ -12,7 +12,7 @@
     "description": null,
     "price": 45,
     "duration": 60,
-    "tag": "Laminacija obrvi",
+    "tag": null,
     "color": "#714893"
   },
   {
@@ -20,7 +20,7 @@
     "description": "V navadno storitev sta vključeni poslikavi dveh nohtov. Za več kot dva nohta, izberi to opcijo zraven\nLa verniciatura di due chiodi è inclusa. Per ulteriori chiodi, seleziona l'opzione accanto a loro",
     "price": 0.3,
     "duration": 5,
-    "tag": "Dodatki (Bleščice, poslikava, baby boomer, francoska…)",
+    "tag": null,
     "color": "#84E82D"
   },
   {
@@ -28,7 +28,7 @@
     "description": "Rimozione gelish / gel",
     "price": 25,
     "duration": 30,
-    "tag": "Odstranejvanje gelish / gel nohtov ",
+    "tag": null,
     "color": "#9193E9"
   },
   {
@@ -36,7 +36,7 @@
     "description": "Correzione delle unghie in gel",
     "price": 38,
     "duration": 90,
-    "tag": "Obnova gel nohtov",
+    "tag": null,
     "color": "#547867"
   },
   {
@@ -44,7 +44,7 @@
     "description": null,
     "price": 50,
     "duration": 90,
-    "tag": "Podaljševanje gel nohtov",
+    "tag": null,
     "color": "#1EB606"
   },
   {
@@ -52,7 +52,7 @@
     "description": "Sand - dodatno utrjevanje nohtov\nSand - ulteriore rafforzamento delle unghie",
     "price": 32,
     "duration": 60,
-    "tag": "Gelish soak off + sand (mani)",
+    "tag": null,
     "color": "#EF3BBE"
   },
   {
@@ -60,7 +60,7 @@
     "description": "Manicure con vernice",
     "price": 25,
     "duration": 60,
-    "tag": "Manikura z lakiranjem",
+    "tag": null,
     "color": "#F181E4"
   },
   {
@@ -68,7 +68,7 @@
     "description": null,
     "price": 90,
     "duration": 90,
-    "tag": "Body strategist 90 min",
+    "tag": null,
     "color": "#0DB187"
   },
   {
@@ -76,7 +76,7 @@
     "description": "",
     "price": 35,
     "duration": 30,
-    "tag": "Body strategist 30 min",
+    "tag": null,
     "color": "#D09DCD"
   },
   {
@@ -84,7 +84,7 @@
     "description": "",
     "price": 75,
     "duration": 75,
-    "tag": "Body strategist 75 min",
+    "tag": null,
     "color": "#EA75CE"
   },
   {
@@ -92,7 +92,7 @@
     "description": "Anticelulitni tretma ",
     "price": 60,
     "duration": 60,
-    "tag": "Body strategist 60 min",
+    "tag": null,
     "color": "#EF27AA"
   },
   {
@@ -100,7 +100,7 @@
     "description": "Maderoterapia gambe glutei",
     "price": 30,
     "duration": 30,
-    "tag": "Maderoterapija (noge, zadnjica)",
+    "tag": null,
     "color": "#31F19E"
   },
   {
@@ -108,7 +108,7 @@
     "description": "Peeling con acido",
     "price": 85,
     "duration": 60,
-    "tag": "Kislinski piling dr. Babor Pro",
+    "tag": null,
     "color": "#BE902D"
   },
   {
@@ -116,7 +116,7 @@
     "description": "Lash lift con colorazione",
     "price": 45,
     "duration": 60,
-    "tag": "Keratinsko vihanje trepalnic z barvanjem",
+    "tag": null,
     "color": "#679DD4"
   },
   {
@@ -124,7 +124,7 @@
     "description": "Depilazione laser - Baffi",
     "price": 40,
     "duration": 15,
-    "tag": "IPL Brčice",
+    "tag": null,
     "color": "#56DB49"
   },
   {
@@ -132,7 +132,7 @@
     "description": "Depilazione laser - Bikini picolo",
     "price": 80,
     "duration": 15,
-    "tag": "IPL Bikini mali ",
+    "tag": null,
     "color": "#B84CCA"
   },
   {
@@ -140,7 +140,7 @@
     "description": null,
     "price": 20,
     "duration": 45,
-    "tag": "Gelish soak off (pedi)",
+    "tag": null,
     "color": "#CCDA22"
   },
   {
@@ -148,7 +148,7 @@
     "description": null,
     "price": 10,
     "duration": 15,
-    "tag": "IBX nadaljni nanos",
+    "tag": null,
     "color": "#4CE669"
   },
   {
@@ -156,7 +156,7 @@
     "description": null,
     "price": 25,
     "duration": 30,
-    "tag": "IBX prvi nanos",
+    "tag": null,
     "color": "#5834F5"
   },
   {
@@ -164,7 +164,7 @@
     "description": null,
     "price": 120,
     "duration": 30,
-    "tag": "IPL Bikini velik",
+    "tag": null,
     "color": "#38F21A"
   },
   {
@@ -172,7 +172,7 @@
     "description": "Viso",
     "price": 60,
     "duration": 30,
-    "tag": "Akne - obraz",
+    "tag": null,
     "color": "#C3AA26"
   },
   {
@@ -180,7 +180,7 @@
     "description": "Gambe",
     "price": 100,
     "duration": 30,
-    "tag": "Kapilare; Noge",
+    "tag": null,
     "color": "#C056DB"
   },
   {
@@ -188,7 +188,7 @@
     "description": "Guancia",
     "price": 80,
     "duration": 30,
-    "tag": "Kapilare; Lica",
+    "tag": null,
     "color": "#BF5717"
   },
   {
@@ -196,7 +196,7 @@
     "description": "Naso",
     "price": 35,
     "duration": 15,
-    "tag": "Kapilare; Nos",
+    "tag": null,
     "color": "#4002D6"
   },
   {
@@ -204,7 +204,7 @@
     "description": "Mani",
     "price": 80,
     "duration": 30,
-    "tag": "Madeži; Roke ",
+    "tag": null,
     "color": "#E373C4"
   },
   {
@@ -212,7 +212,7 @@
     "description": "Cena celja za en madež posebej. Il prezzo è per una macchia separatamente",
     "price": 35,
     "duration": 10,
-    "tag": "Madeži posamezno",
+    "tag": null,
     "color": "#1D0536"
   },
   {
@@ -220,7 +220,7 @@
     "description": "Viso",
     "price": 100,
     "duration": 30,
-    "tag": "Madeži; Obraz",
+    "tag": null,
     "color": "#B35E93"
   },
   {
@@ -228,7 +228,7 @@
     "description": "Viso + Collo + Decolte",
     "price": 120,
     "duration": 60,
-    "tag": "Fotopomlajevanje; Obraz + Vrat + Dekolte",
+    "tag": null,
     "color": "#9656D8"
   },
   {
@@ -236,7 +236,7 @@
     "description": "Viso + Collo",
     "price": 100,
     "duration": 60,
-    "tag": "Fotopomlajevanje; Obraz + Vrat",
+    "tag": null,
     "color": "#D5D035"
   },
   {
@@ -244,7 +244,7 @@
     "description": "Viso",
     "price": 80,
     "duration": 45,
-    "tag": "Fotopomlajevanje; Obraz",
+    "tag": null,
     "color": "#D1BFEF"
   },
   {
@@ -252,7 +252,7 @@
     "description": "Aquapeel viso e collo",
     "price": 85,
     "duration": 45,
-    "tag": "Aquapeel obraz + vrat",
+    "tag": null,
     "color": "#72CF54"
   },
   {
@@ -260,7 +260,7 @@
     "description": "Depilazione laser - Gambe alle ginocchia",
     "price": 160,
     "duration": 45,
-    "tag": "IPL Noge do kolen",
+    "tag": null,
     "color": "#DCB602"
   },
   {
@@ -268,7 +268,7 @@
     "description": "Depilazione laser - Gambe",
     "price": 250,
     "duration": 90,
-    "tag": "IPL Cele noge",
+    "tag": null,
     "color": "#249389"
   },
   {
@@ -276,7 +276,7 @@
     "description": "Depilazione laser - Braccia",
     "price": 160,
     "duration": 30,
-    "tag": "IPL Roke",
+    "tag": null,
     "color": "#C283B2"
   },
   {
@@ -284,7 +284,7 @@
     "description": "Depilazione laser - Ascelle",
     "price": 80,
     "duration": 15,
-    "tag": "IPL Pazduhe",
+    "tag": null,
     "color": "#FFE83C"
   },
   {
@@ -292,7 +292,7 @@
     "description": "Depilazione laser - Baffi + Barba",
     "price": 65,
     "duration": 15,
-    "tag": "IPL Brčice  + Brada",
+    "tag": null,
     "color": "#F2A4D0"
   },
   {
@@ -300,7 +300,7 @@
     "description": "Depilazione laser - Barba",
     "price": 45,
     "duration": 15,
-    "tag": "IPL Brada",
+    "tag": null,
     "color": "#ADB253"
   },
   {
@@ -308,7 +308,7 @@
     "description": "Ceretta Brasiliana",
     "price": 25,
     "duration": 30,
-    "tag": "Brazilska depilacija",
+    "tag": null,
     "color": "#F633CF"
   },
   {
@@ -316,7 +316,7 @@
     "description": "Depilazione bikini",
     "price": 15,
     "duration": 15,
-    "tag": "Depilacija bikini",
+    "tag": null,
     "color": "#6CC914"
   },
   {
@@ -324,7 +324,7 @@
     "description": "Depilazione ascelle",
     "price": 12,
     "duration": 10,
-    "tag": "Depilacija pazduha",
+    "tag": null,
     "color": "#EE073F"
   },
   {
@@ -332,7 +332,7 @@
     "description": "Depilazione braccia",
     "price": 17,
     "duration": 15,
-    "tag": "Depilacija rok",
+    "tag": null,
     "color": "#D6199A"
   },
   {
@@ -340,7 +340,7 @@
     "description": "Depilazione sotto ginocchio",
     "price": 20,
     "duration": 15,
-    "tag": "Depilacija do kolen",
+    "tag": null,
     "color": "#A7D610"
   },
   {
@@ -348,7 +348,7 @@
     "description": "Depilazione gambe",
     "price": 27,
     "duration": 30,
-    "tag": "Depilacija cele noge",
+    "tag": null,
     "color": "#070CD0"
   },
   {
@@ -356,7 +356,7 @@
     "description": "Colore sopraciglia",
     "price": 10,
     "duration": 15,
-    "tag": "Barvanje obrvi",
+    "tag": null,
     "color": "#8C8B1D"
   },
   {
@@ -364,7 +364,7 @@
     "description": "Modellamento e colore sopraciglia",
     "price": 15,
     "duration": 30,
-    "tag": "Barvanje in oblikovanje obrvi",
+    "tag": null,
     "color": "#B79BB6"
   },
   {
@@ -372,7 +372,7 @@
     "description": "Modellamento sopracciglia",
     "price": 9,
     "duration": 15,
-    "tag": "Oblikovanje obrvi",
+    "tag": null,
     "color": "#32D85C"
   },
   {
@@ -380,7 +380,7 @@
     "description": "Colore ciglia",
     "price": 10,
     "duration": 15,
-    "tag": "Barvanje trepalnic",
+    "tag": null,
     "color": "#249D9F"
   },
   {
@@ -388,7 +388,7 @@
     "description": "Depilazione baffetti",
     "price": 5,
     "duration": 5,
-    "tag": "Depilacija nad zgornjo ustnico",
+    "tag": null,
     "color": "#EAA7FD"
   },
   {
@@ -396,7 +396,7 @@
     "description": "Massagio parziale. Di solito copre la schiena, i piedi e il viso, ma ci adattiamo ai desideri dei clienti.\n\nObičajno zajema hrbet, stopala in obraz, ampak se prilagodimo željam strank.",
     "price": 45,
     "duration": 45,
-    "tag": "Delna masaža",
+    "tag": null,
     "color": "#744C87"
   },
   {
@@ -404,7 +404,7 @@
     "description": "Japonska metoda vrisovanja obrvi. V prvi tretma je vključena korekcija v roku 2 mesecev/Il metodo giapponese per disegnare le sopracciglia. La correzione entro 2 mesi è inclusa nel primo trattamento.",
     "price": 200,
     "duration": 60,
-    "tag": "Microblading",
+    "tag": null,
     "color": "#B2B7B1"
   },
   {
@@ -412,7 +412,7 @@
     "description": "Paraffina delle piedi",
     "price": 10,
     "duration": 20,
-    "tag": "Parafinska obloga nog",
+    "tag": null,
     "color": "#6200D8"
   },
   {
@@ -420,7 +420,7 @@
     "description": null,
     "price": 27,
     "duration": 60,
-    "tag": "Gelish soak off (mani)",
+    "tag": null,
     "color": "#A0E7AD"
   },
   {
@@ -428,7 +428,7 @@
     "description": "Pedicure + Gelish soak off",
     "price": 50,
     "duration": 90,
-    "tag": "Pedikura + Gelish soak off",
+    "tag": null,
     "color": "#6DB603"
   },
   {
@@ -436,7 +436,7 @@
     "description": "Pedicure parziale",
     "price": 25,
     "duration": 20,
-    "tag": "Delna pedikura",
+    "tag": null,
     "color": "#2B1C55"
   },
   {
@@ -444,7 +444,7 @@
     "description": "Pedicure con smalto",
     "price": 40,
     "duration": 60,
-    "tag": "Pedikura z lakiranjem",
+    "tag": null,
     "color": "#9BEA59"
   },
   {
@@ -452,7 +452,7 @@
     "description": "Pedicure medico",
     "price": 40,
     "duration": 70,
-    "tag": "Medicinska pedikura",
+    "tag": null,
     "color": "#D85575"
   },
   {
@@ -460,7 +460,7 @@
     "description": "Pedicura",
     "price": 35,
     "duration": 60,
-    "tag": "Pedikura",
+    "tag": null,
     "color": "#D21173"
   },
   {
@@ -468,7 +468,7 @@
     "description": "Paraffina delle mani",
     "price": 10,
     "duration": 20,
-    "tag": "Parafinska obloga rok",
+    "tag": null,
     "color": "#620FE0"
   },
   {
@@ -476,7 +476,7 @@
     "description": "Correzione di un'unghia in gel",
     "price": 5,
     "duration": 10,
-    "tag": "Popravilo enega gel nohta ",
+    "tag": null,
     "color": "#D33F32"
   },
   {
@@ -484,7 +484,7 @@
     "description": "Maderoterapia (tutto il corpo)",
     "price": 60,
     "duration": 60,
-    "tag": "Maderoterapija (celo telo)",
+    "tag": null,
     "color": "#3B2904"
   },
   {
@@ -492,7 +492,7 @@
     "description": "Maderoterapia (gambe, glutei, pancia)",
     "price": 45,
     "duration": 45,
-    "tag": "Maderoterapija (noge, zadnjica, trebuh)",
+    "tag": null,
     "color": "#7942FC"
   },
   {
@@ -500,7 +500,7 @@
     "description": null,
     "price": 30,
     "duration": 30,
-    "tag": "Refleksna masaža stopal",
+    "tag": null,
     "color": "#9D530F"
   },
   {
@@ -508,7 +508,7 @@
     "description": "Massaggio indiano alla testa (più breve)",
     "price": 30,
     "duration": 30,
-    "tag": "Indijska masaža glave (krajša)",
+    "tag": null,
     "color": "#01F24A"
   },
   {
@@ -516,7 +516,7 @@
     "description": "Massaggio indiano alla testa",
     "price": 50,
     "duration": 60,
-    "tag": "Indijska masaža glave",
+    "tag": null,
     "color": "#75CBC7"
   },
   {
@@ -524,7 +524,7 @@
     "description": "Massaggio anticelulite",
     "price": 30,
     "duration": 30,
-    "tag": "Anticelulitna masaža",
+    "tag": null,
     "color": "#952BC8"
   },
   {
@@ -532,7 +532,7 @@
     "description": "Massaggio corpo",
     "price": 55,
     "duration": 60,
-    "tag": "Masaža celega telesa",
+    "tag": null,
     "color": "#34AEC8"
   },
   {
@@ -540,7 +540,7 @@
     "description": "Massaggio schiena",
     "price": 30,
     "duration": 30,
-    "tag": "Masaža hrbta",
+    "tag": null,
     "color": "#C9B24A"
   },
   {
@@ -548,7 +548,7 @@
     "description": "Trattamento luxury biolift intensivo",
     "price": 70,
     "duration": 70,
-    "tag": "Luxury biolift intenzivna nega",
+    "tag": null,
     "color": "#8CBAEF"
   },
   {
@@ -556,7 +556,7 @@
     "description": "Trattamento luxury biolift",
     "price": 55,
     "duration": 45,
-    "tag": "Luxury biolift nega",
+    "tag": null,
     "color": "#FB66D1"
   },
   {
@@ -564,7 +564,7 @@
     "description": "Trattamento skin expert",
     "price": 35,
     "duration": 30,
-    "tag": "Nega skin expert",
+    "tag": null,
     "color": "#4A817E"
   },
   {
@@ -572,7 +572,7 @@
     "description": "Trattamento con vitamina C",
     "price": 55,
     "duration": 45,
-    "tag": "Vitamin C nega",
+    "tag": null,
     "color": "#909C9C"
   },
   {
@@ -580,7 +580,7 @@
     "description": "Cura veloce",
     "price": 30,
     "duration": 30,
-    "tag": "Hitra nega",
+    "tag": null,
     "color": "#C49D4F"
   },
   {
@@ -588,7 +588,7 @@
     "description": "Trattamento viso per i giovani",
     "price": 45,
     "duration": 50,
-    "tag": "Mladostniška nega",
+    "tag": null,
     "color": "#7BD3C3"
   },
   {
@@ -596,7 +596,7 @@
     "description": "Trattamento viso purificante",
     "price": 65,
     "duration": 90,
-    "tag": "Čistilna nega ",
+    "tag": null,
     "color": "#2FA163"
   },
   {
@@ -604,7 +604,7 @@
     "description": "Trattamento viso idratante",
     "price": 55,
     "duration": 60,
-    "tag": "Vlažilna nega obraza",
+    "tag": null,
     "color": "#6F89A1"
   },
   {
@@ -612,7 +612,7 @@
     "description": "Coccole al viso con pulizia profonda",
     "price": 80,
     "duration": 90,
-    "tag": "Razvajanje obraza z globinskim čiščenjem ",
+    "tag": null,
     "color": "#3DDF8D"
   },
   {
@@ -620,7 +620,7 @@
     "description": "Coccole viso arricchite",
     "price": 80,
     "duration": 90,
-    "tag": "Obogateno razvajanje obraza ",
+    "tag": null,
     "color": "#22E9EB"
   },
   {
@@ -628,7 +628,7 @@
     "description": "coccole viso ultra-arricchite",
     "price": 90,
     "duration": 90,
-    "tag": "Ultra obogateno razvajanje obraza",
+    "tag": null,
     "color": "#275261"
   },
   {
@@ -636,7 +636,7 @@
     "description": "Coccole per il viso",
     "price": 70,
     "duration": 60,
-    "tag": "Razvajanje obraza ",
+    "tag": null,
     "color": "#AE1293"
   },
   {
@@ -644,7 +644,7 @@
     "description": null,
     "price": 65,
     "duration": 45,
-    "tag": "CO2 Carboxy",
+    "tag": null,
     "color": "#4444E8"
   },
   {
@@ -652,23 +652,23 @@
     "description": null,
     "price": 120,
     "duration": 60,
-    "tag": "Microneedling",
+    "tag": null,
     "color": "#BB6830"
   },
   {
-    "name": "Diamantni piling 💎 z ultrazvokom",
+    "name": "Diamantni piling z ultrazvokom",
     "description": "Piling di diamanti con ultrasuon",
     "price": 50,
     "duration": 60,
-    "tag": "Diamantni piling 💎 z ultrazvokom",
+    "tag": null,
     "color": "#E1806F"
   },
   {
-    "name": "Diamantni piling 💎",
+    "name": "Diamantni piling",
     "description": "Piling di diamanti ",
     "price": 45,
     "duration": 50,
-    "tag": "Diamantni piling 💎",
+    "tag": null,
     "color": "#A1E7D3"
   },
   {
@@ -676,7 +676,7 @@
     "description": "Rezervirate se na prvi termin v paketu, za ostale termine se dogovorite osebno v salonu. \nPer il primo appuntamento del pacchetto si effettua la prenotazione, per gli altri appuntamenti - in salone.",
     "price": 600,
     "duration": 60,
-    "tag": "Mezoterapija Pink-aging tretma Paket 4 + 1",
+    "tag": null,
     "color": "#60B712"
   },
   {
@@ -684,7 +684,7 @@
     "description": null,
     "price": 150,
     "duration": 60,
-    "tag": "Mezoterapija Pink-aging tretma",
+    "tag": null,
     "color": "#D99159"
   },
   {
@@ -692,7 +692,7 @@
     "description": "V navadno storitev sta vključeni poslikavi dveh nohtov. Za več kot dva nohta, izberi to opcijo zraven\nLa verniciatura di due chiodi è inclusa. Per ulteriori chiodi, seleziona l'opzione accanto a loro",
     "price": 5,
     "duration": 30,
-    "tag": "Dodatki (Bleščice, poslikava, baby boomer, francoska…)",
+    "tag": null,
     "color": "#84E82D"
   },
   {
@@ -700,7 +700,7 @@
     "description": "Japonska metoda vrisovanja obrvi. V prvi tretma je vključena korekcija v roku 2 mesecev/Il metodo giapponese per disegnare le sopracciglia. La correzione entro 2 mesi è inclusa nel primo trattamento.",
     "price": 60,
     "duration": 60,
-    "tag": "Microblading",
+    "tag": null,
     "color": "#B2B7B1"
   },
   {
@@ -708,7 +708,15 @@
     "description": "Japonska metoda vrisovanja obrvi. V prvi tretma je vključena korekcija v roku 2 mesecev/Il metodo giapponese per disegnare le sopracciglia. La correzione entro 2 mesi è inclusa nel primo trattamento.",
     "price": 100,
     "duration": 60,
-    "tag": "Microblading",
+    "tag": null,
+    "color": "#B2B7B1"
+  },
+  {
+    "name": "Brez storitve",
+    "description": "Za prenos",
+    "price": 0,
+    "duration": 60,
+    "tag": null,
     "color": "#B2B7B1"
   }
 ]
