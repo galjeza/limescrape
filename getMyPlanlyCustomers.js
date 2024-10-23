@@ -2,8 +2,8 @@ const puppeteer = require("puppeteer");
 const { wait } = require("./utils/utils");
 const fs = require("fs");
 
-const EMAIL = "odskocnica@gmail.com";
-const PASSWORD = "niko123";
+const EMAIL = "tilen@actinia.si";
+const PASSWORD = "MyPlanly1Tilen";
 
 (async () => {
   const browser = await puppeteer.launch({
@@ -21,18 +21,31 @@ const PASSWORD = "niko123";
   await page.click('button[type="submit"]');
   await wait(3);
   await page.goto("https://www.myplanly.com/clients");
+  await wait(10);
 
   const customers = [];
   let currentPage = 1;
+  let totalPages = 1;
+  let summaryElement = null;
+  try {
+    summaryElement = await page.$("b.dxp-lead.dxp-summary");
+  } catch (err) {
+    summaryElement = null;
+  }
+  if (summaryElement) {
+    const totalPagesFromSummary = await page.$eval(
+      "b.dxp-lead.dxp-summary",
+      (element) => {
+        const content = element.textContent; // e.g., "Page 1 of 3 (60 items)"
 
-  const totalPages = await page.$eval("b.dxp-lead.dxp-summary", (element) => {
-    const content = element.textContent; // e.g., "Page 1 of 3 (60 items)"
+        // Use a regular expression to extract the number of total pages
+        const match = content.match(/of (\d+)/); // Matches "of " followed by one or more digits
 
-    // Use a regular expression to extract the number of total pages
-    const match = content.match(/of (\d+)/); // Matches "of " followed by one or more digits
-
-    return match ? parseInt(match[1], 10) : null; // Returns the total number of pages, or null if not found
-  });
+        return match ? parseInt(match[1], 10) : null; // Returns the total number of pages, or null if not found
+      }
+    );
+    totalPages = totalPagesFromSummary;
+  }
 
   console.log("Total number of customer pages: ", totalPages);
 
@@ -64,6 +77,7 @@ const PASSWORD = "niko123";
       const gsm = fullPhone.length > 6 ? fullPhone : null;
       const notes = await cells[5].evaluate((node) => node.innerText.trim()) || null;
 
+      const notes = await cells[5].evaluate((node) => node.innerText.trim());
 
       const customer = {
         name: name,
@@ -71,7 +85,7 @@ const PASSWORD = "niko123";
         email: email,
         gsm: gsm,
         countryCode: countryCode,
-        notes: notes,
+        note: notes,
       };
       customers.push(customer);
     }
@@ -88,7 +102,7 @@ const PASSWORD = "niko123";
   }
   await browser.close();
   fs.writeFileSync(
-    "./output/odskocnica/customers.json",
+    "./output/tilen/customers.json",
     JSON.stringify(customers, null, 2)
   );
 })();

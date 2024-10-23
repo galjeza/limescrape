@@ -2,9 +2,9 @@ const puppeteer = require("puppeteer");
 const fs = require("fs");
 const axios = require("axios");
 
-const EMAIL = "info@marubeauty.si";
-const PASSWORD = "Marusarigler1707";
-const PRICEPILOTID = "232";
+const EMAIL = "infravital.lenart@gmail.com";
+const PASSWORD = "IndustrijskaUlica8";
+const PRICEPILOTID = "472";
 const FROMDATE = new Date("2019-01-01");
 const TODATE = new Date("2025-08-25");
 const GETSERVICES = true;

@@ -2,8 +2,8 @@ const puppeteer = require("puppeteer");
 const { wait } = require("../../utils/utils");
 const fs = require("fs");
 
-const EMAIL = "dfreshcut1@gmail.com";
-const PASSWORD = "Vednofresh1";
+const EMAIL = "aja.sverko123@gmail.com";
+const PASSWORD = "Aja010699";
 const SCRAPE_SERVICES = true;
 
 const generateColor = (str) => {
@@ -132,7 +132,7 @@ const generateColor = (str) => {
       await page.waitForTimeout(4000);
     }
 
-    fs.writeFileSync("./services.json", JSON.stringify(services));
+    fs.writeFileSync("./ajasverko/services.json", JSON.stringify(services));
   }
 
   await browser.close();

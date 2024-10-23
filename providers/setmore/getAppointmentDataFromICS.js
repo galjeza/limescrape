@@ -1,7 +1,7 @@
 const ICAL = require("ical.js");
 const fs = require("fs");
 
-fs.readFile("./fresh2.ics", "utf8", function (err, data) {
+fs.readFile("./ajasverko/export.ics", "utf8", function (err, data) {
   if (err) throw err;
 
   // Parse the .ics data
@@ -92,7 +92,7 @@ fs.readFile("./fresh2.ics", "utf8", function (err, data) {
   }
 
   fs.writeFileSync(
-    "./appointments_fresh2.json",
+    "./ajasverko/appointments.json",
     JSON.stringify(appointments, null, 2)
   );
 });
