@@ -62,6 +62,8 @@ const PASSWORD = "niko123";
       const fullPhone = await cells[2].evaluate((node) => node.innerText);
       const countryCode = fullPhone.length > 6 ? "386" : null;
       const gsm = fullPhone.length > 6 ? fullPhone : null;
+      const notes = await cells[5].evaluate((node) => node.innerText.trim()) || null;
+
 
       const customer = {
         name: name,
@@ -69,6 +71,7 @@ const PASSWORD = "niko123";
         email: email,
         gsm: gsm,
         countryCode: countryCode,
+        notes: notes,
       };
       customers.push(customer);
     }

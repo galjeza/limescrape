@@ -1,279 +1,181 @@
 const puppeteer = require("puppeteer");
-const { wait } = require("./utils/utils");
 const fs = require("fs");
+const cheerio = require("cheerio");
 
 const EMAIL = "tamara.bajt@gmail.com";
 const PASSWORD = "tamara123";
 
-const prostori = [
-  "WELLNES",
-  "MASAŽA",
-  "NEGA OBRAZA",
-  "PEDIKURA",
-  "NAPRAVA",
-  "prostor 1",
-  "prostor 2",
-  "prostor 3",
-  "miza za manikuro 1",
-  "miza za manikuro 2",
-  "box za body wrapping",
-];
-const subjectsToSkip = ["NAPRAVA"]; // Add subjects to skip here
+const FROM_DATE = "01.10.2024"; // Hardcoded start date (dd.mm.yyyy)
+const TO_DATE = "11.10.2024";   // Hardcoded end date (dd.mm.yyyy)
 
 (async () => {
-  try {
-    const browser = await puppeteer.launch({ headless: false });
-    const page = await browser.newPage();
-    await page.setViewport({ width: 1080, height: 1024 });
+  // Launch a new browser instance and create a new page
+  const browser = await puppeteer.launch({ headless: false });
+  const page = await browser.newPage();
+  await page.setViewport({ width: 1080, height: 1024 });
 
-    // Login
-    await page.goto("https://www.myplanly.com/login");
-    await page.type("#email", EMAIL);
-    await wait(1);
-    await page.type("#pass", PASSWORD);
-    await wait(1);
-    await page.click('button[type="submit"]');
-    await wait(5);
+  // Login
+  await page.goto("https://www.myplanly.com/login");
+  await page.type("#email", EMAIL); // Type in the email address
+  await page.type("#pass", PASSWORD); // Type in the password
+  await page.click('button[type="submit"]'); // Click the login button
+  await page.waitForSelector("#username"); // Wait until the page loads and the username element appears
 
-    await page.waitForSelector("#username");
-    await wait(10);
+  // Navigate to /home to capture the original request
+  await page.goto("https://www.myplanly.com/home");
 
-    await page.goto("https://www.myplanly.com/home");
-    await wait(3);
+  // Extract all subjects (calendar options) from the dropdown
+  const subjects = await page.evaluate(() => {
+    const selectElement = document.querySelector("#calendar");
+    const options = Array.from(selectElement.options);
+    return options.map((option) => option.value);
+  });
 
-    // Get subjects
-    const options = await page.$$("#calendar option");
-    const subjects = [];
-    for (const option of options) {
-      const text = await option.evaluate((node) => node.innerText);
-      const value = await option.evaluate((node) => node.getAttribute("value"));
-      subjects.push({ text, value });
+  console.log(subjects);
+
+  await page.waitForTimeout(3000);
+
+  // Submit the form to generate the first POST request
+  const currentDate = new Date();
+  let dateString = currentDate.toLocaleDateString("sl-SI", {
+    day: "2-digit",
+    month: "2-digit",
+    year: "numeric",
+  });
+
+  let calendarRequestData = null; // To store the captured POST request data
+  let requestUrl = null; // To store the request URL
+
+  // Capture the first POST request to /home
+  page.on("request", (request) => {
+    if (request.method() === "POST" && request.url().includes("home")) {
+      calendarRequestData = request.postData(); // Save the request data
+      requestUrl = request.url(); // Save the request URL
     }
+  });
 
-    let appointments = [];
-    const errorLog = []; // Array to store errored dates and subjects
+  // Set the date and submit the form
+  await page.evaluate((dateString) => {
+    document.querySelector("#date").value = dateString;
+    document.querySelector("#Form1").submit();
+  }, dateString);
 
-    // Select each subject on dropdown one by one
-    for (const subject of subjects) {
-      if (
-        subject.text.trim() === "Vsi koledarji" ||
-        subjectsToSkip.some((skip) => subject.text.toUpperCase().includes(skip))
-      ) {
-        continue;
-      }
+  await page.waitForTimeout(3000);
 
-      await page.select("#calendar", subject.value);
-      await wait(5);
-      let currentDate = new Date();
-      currentDate.setFullYear(2024, 8, 8);
-      const scrapeToDate = new Date();
-      scrapeToDate.setFullYear(2025, 1, 1);
-      const numberOfDays = Math.floor(
-        (scrapeToDate.getTime() - currentDate.getTime()) / (1000 * 3600 * 24)
-      );
-      console.log(numberOfDays);
+  // Wait to ensure the request is captured
+  await page.waitForTimeout(5000);
 
-      for (let i = 0; i < numberOfDays; i++) {
-        console.log("Subject: " + subject.text + " Date: " + currentDate);
-        try {
-          const appointmentDivs = await page.$$(".panel-body");
-          appointmentDivs.shift();
-          console.log(appointmentDivs.length);
+  if (calendarRequestData && requestUrl) {
+    const params = new URLSearchParams(calendarRequestData); // Parse the captured request data
+    const dates = generateDateRange(FROM_DATE, TO_DATE); // Generate the range of dates
 
-          for (const appointmentDiv of appointmentDivs) {
-            try {
-              let service,
-                comment,
-                time,
-                timeFrom,
-                timeTo,
-                name,
-                lastName,
-                countryCode,
-                gsm,
-                address,
-                email;
-              const paragraphs = await appointmentDiv.$$("p");
-              const paragraphsTexts = [];
-
-              for (const paragraph of paragraphs) {
-                const text = await paragraph.evaluate((node) => node.innerText);
-                paragraphsTexts.push(text);
-              }
-
-              for (const text of paragraphsTexts) {
-                if (text.includes("[") && text.includes("]")) {
-                  service = text.split("[")[1].split("]")[0].trim();
-                  service = service.split("\\")[1] || service.split("\\")[0];
-                  service = service.trim();
-                }
-              }
-
-              const h5 = await appointmentDiv.$("h5");
-              time = await h5.evaluate((node) => node.innerText);
-              time = time
-                .replace(/[a-zA-Z,]/g, "")
-                .replace(/[žŽčČšŠćĆđĐ]/g, "")
-                .trim();
-              timeFrom = time.split(" ")[0].trim().replace(".", ":");
-              timeTo = time.split(" ")[2].trim().replace(".", ":");
-
-              const aElements = await appointmentDiv.$$("p a");
-              let phone = "";
-              address = "";
-              email = "";
-
-              for (const aElement of aElements) {
-                const href = await aElement.evaluate((node) =>
-                  node.getAttribute("href")
-                );
-                const text = await aElement.evaluate((node) => node.innerText);
-                if (href.includes("mailto:")) {
-                  email = text;
-                } else if (href.includes("tel:")) {
-                  phone = text;
-                  phone = "386 " + phone.split("386")[1];
-                } else {
-                  address = text;
-                }
-              }
-
-              let customer = "";
-              const isGroupAppointment = await appointmentDiv.$(
-                ".selectize-input"
-              );
-              if (isGroupAppointment) {
-                const a = await appointmentDiv.$(
-                  "i.ico-edit + a[onclick^='showclientcard']"
-                );
-                if (a) {
-                  customer = await a.evaluate((node) => node.innerText);
-                }
-              } else {
-                const a = await h5.$("span a");
-                if (a) {
-                  customer = await a.evaluate((node) => node.innerText);
-                }
-              }
-
-              name = customer.split(" ")[0];
-              lastName = customer.split(" ").slice(1).join(" ");
-              countryCode = phone.substring(0, 3);
-              gsm = phone.substring(3).trim();
-              comment = paragraphsTexts[-1];
-
-              const appointment = {
-                locationLabel: "temp",
-                gsm: gsm || null,
-                countryCode: countryCode || null,
-                service: service || "Brez storitve",
-                name: name || "Brez",
-                lastName: lastName || "Stranke",
-                comment: comment || null,
-                timeFrom,
-                timeTo,
-                email: email || null,
-                userLabel: subject.text,
-                date: currentDate
-                  .toLocaleDateString("sl-SI", {
-                    day: "2-digit",
-                    month: "2-digit",
-                    year: "numeric",
-                  })
-                  .replace(/\s/g, ""),
-              };
-
-              if (!timeFrom || !timeTo) {
-                continue;
-              }
-
-              appointments.push(appointment);
-              console.log(appointment);
-            } catch (error) {
-              console.log("Error processing appointment:");
-              console.log(error);
-            }
-          }
-
-          let dateString = currentDate
-            .toLocaleDateString("sl-SI", {
-              day: "2-digit",
-              month: "2-digit",
-              year: "numeric",
-            })
-            .replace(/\s/g, "");
-
-          await page.evaluate((dateString) => {
-            document.querySelector("#date").value = dateString;
-          }, dateString);
-
-          await wait(1);
-
-          await page.evaluate(() => {
-            document.querySelector("#Form1").submit();
-          });
-
-          await page.waitForNavigation({
-            waitUntil: "networkidle0",
-          });
-        } catch (error) {
-          console.log(
-            `Error occurred for date: ${currentDate.toLocaleDateString(
-              "sl-SI"
-            )} and subject: ${subject.text}`
-          );
-          errorLog.push({
-            date: currentDate.toLocaleDateString("sl-SI"),
-            subject: subject.text,
-            error: error.message,
-          });
-          await page.reload(); // Refresh the page
-          await wait(3); // Wait after refreshing
-          continue; // Move to the next date
-        }
-
-        currentDate.setDate(currentDate.getDate() + 1);
-      }
-    }
-
-    // Filter appointments
-    const appointmentsFiltered = appointments.filter((appointment) =>
-      prostori.includes(appointment.userLabel)
-    );
-
-    console.log("Appointments filtered:", appointmentsFiltered.length);
-    appointmentsFiltered.forEach((prostoriAppt) => {
-      try {
-        const appointment = appointments.find(
-          (appointment) =>
-            appointment.date === prostoriAppt.date &&
-            appointment.timeFrom === prostoriAppt.timeFrom &&
-            appointment.timeTo === prostoriAppt.timeTo &&
-            appointment.name === prostoriAppt.name &&
-            appointment.lastName === prostoriAppt.lastName
+    const requests = [];
+    // Iterate over each date and subject to generate requests
+    dates.forEach((date) => {
+      subjects.forEach((subject) => {
+        params.set("date", date); // Set the current date in the request parameters
+        params.set("calendar", subject); // Set the current subject in the request parameters
+        const modifiedPostData = params.toString();
+        requests.push(
+          page.evaluate(
+            async (url, postData, subject, date) => {
+              // Make the POST request with the modified data
+              const response = await fetch(url, {
+                method: "POST",
+                headers: {
+                  "Content-Type": "application/x-www-form-urlencoded",
+                },
+                body: postData,
+              });
+              return { date: date.toString(), subject, response: await response.text() };
+            },
+            requestUrl,
+            modifiedPostData,
+            subject,
+            date
+          )
         );
-        appointment.resourceLabel = prostoriAppt.userLabel;
-      } catch (error) {
-        console.log(prostoriAppt);
-        console.log(error);
-      }
+      });
     });
 
-    await browser.close();
-    fs.writeFileSync(
-      "./output/minimal/appointmentspast.json",
-      JSON.stringify(appointments, null, 2)
-    );
+    // Execute all requests concurrently
+    const responses = await Promise.all(requests);
 
-    appointments = appointments.filter(
-      (appointment) => !prostori.includes(appointment.userLabel)
-    );
+    const appointments = [];
 
-    // Print error log
-    console.log("Errored dates and subjects:");
-    console.log(errorLog);
-  } catch (error) {
-    console.log(error);
-    await wait(1000);
+    // Extract data from each response using Cheerio
+    responses.forEach(({ date, response }) => {
+      const $ = cheerio.load(response);
+
+      // Extract appointment data from HTML using Cheerio
+      $(".panel-body").each((i, element) => {
+        const paragraphs = $(element).find("p").toArray().map(p => $(p).text().trim());
+        const timeText = $(element).find("h5").text().replace(/[a-zA-Z,]/g, "").replace(/[žŽčČšŠćĆđĐ]/g, "").trim();
+        const timeFrom = timeText.split(" ")[0].trim().replace(".", ":");
+        const timeTo = timeText.split(" ")[2].trim().replace(".", ":");
+        let service = "Brez storitve";
+
+        for (const text of paragraphs) {
+          if (text.includes("[") && text.includes("]")) {
+            service = text.split("[")[1].split("]")[0].trim();
+            service = service.split("\\")[1] || service.split("\\")[0];
+            service = service.trim();
+          }
+        }
+
+        const customerInfo = $(element).find("h5 span a").text().split(" ");
+        const name = customerInfo[0] || "Brez";
+        const lastName = customerInfo.slice(1).join(" ") || "Stranke";
+
+        const appointment = {
+          locationLabel: "temp",
+          service: service,
+          name: name,
+          lastName: lastName,
+          timeFrom: timeFrom,
+          timeTo: timeTo,
+          userLabel: "Calendar",
+          date: date,
+        };
+
+        if (timeFrom && timeTo) {
+          appointments.push(appointment);
+          console.log(appointment);
+        }
+      });
+
+      console.log(`Processed response for date: ${date}`);
+    });
+
+    // Save appointments data to JSON
+    fs.writeFileSync("appointments.json", JSON.stringify(appointments, null, 2));
+    console.log("Saved all appointments to appointments.json");
   }
+
+  // Close the browser
+  await browser.close();
 })();
+
+// Function to generate an array of dates between fromDate and toDate
+function generateDateRange(fromDate, toDate) {
+  const dates = [];
+  const [fromDay, fromMonth, fromYear] = fromDate.split(".").map(Number);
+  const [toDay, toMonth, toYear] = toDate.split(".").map(Number);
+
+  let currentDate = new Date(fromYear, fromMonth - 1, fromDay);
+  const endDate = new Date(toYear, toMonth - 1, toDay);
+
+  // Generate dates from start to end date
+  while (currentDate <= endDate) {
+    dates.push(
+      currentDate.toLocaleDateString("sl-SI", {
+        day: "2-digit",
+        month: "2-digit",
+        year: "numeric",
+      })
+    );
+    currentDate.setDate(currentDate.getDate() + 1); // Increment the current date by one day
+  }
+
+  return dates;
+}
