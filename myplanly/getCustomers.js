@@ -1,8 +1,8 @@
 const puppeteer = require("puppeteer");
 const { wait } = require("./utils/utils");
 const fs = require("fs");
-const EMAIL = "blumlepotnistudio@gmail.com";
-const PASSWORD = "MMO0d4";
+const EMAIL = "info@perineum.si";
+const PASSWORD = "perineum123";
 (async () => {
   const browser = await puppeteer.launch({
     headless: false,
@@ -80,7 +80,7 @@ const PASSWORD = "MMO0d4";
 
   await browser.close();
   fs.writeFileSync(
-    "./output/blum/customers.json",
+    "./output/perineum/customers.json",
     JSON.stringify(customers, null, 2)
   );
 })();

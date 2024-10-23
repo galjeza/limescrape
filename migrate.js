@@ -2,14 +2,15 @@ const fs = require("fs");
 const axios = require("axios");
 const { formatAppointment } = require("./utils/utils");
 
-const CLIENT_ID = 3391;
-const USER_ID = 4877;
-const MIGRATE_SERVICES = true;
+const CLIENT_ID = 3145;
+const USER_ID = 4511;
+const MIGRATE_SERVICES = false;
 const MIGRATE_APPOINTMENTS = true;
-const PROSTORI = true;
-const HARDCODED_LOCATION = "Demo lokacija";
+const PROSTORI = false;
+const HARDCODED_LOCATION = "Nail Studio Aja Šverko";
 const REMOVE_COMMENTS = false;
-const LANGUAGE = "hr";
+const LANGUAGE = "sl";
+
 const generateColorBasedOnString = (str) => {
   let hash = 0;
   for (let i = 0; i < str.length; i++) {
@@ -28,11 +29,11 @@ const generateColorBasedOnString = (str) => {
 (async () => {
   console.log("Migration started");
   const services = JSON.parse(
-    fs.readFileSync("./providers/zoya/services.json")
+    fs.readFileSync("./providers/setmore/ajasverko/services.json")
   );
 
   let appointments = JSON.parse(
-    fs.readFileSync("./providers/zoya/appointmentsFormatted.json")
+    fs.readFileSync("./providers/setmore/ajasverko/appointments.json")
   );
 
   console.log("Number of appointments: " + appointments.length);
@@ -141,8 +142,8 @@ const generateColorBasedOnString = (str) => {
       appointmentMonth - 1,
       appointmentDay
     );
-    const fromDate = new Date("2022-05-06");
-    const toDate = new Date("2026-06-04");
+    const fromDate = new Date("2021-05-06");
+    const toDate = new Date("2026-08-08");
 
     if (appointmentDate < fromDate || appointmentDate > toDate) {
       continue;

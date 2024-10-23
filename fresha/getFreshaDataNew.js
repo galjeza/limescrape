@@ -15,8 +15,8 @@ const generateColor = (str) => {
 };
 
 const LOGINURL = "https://partners.fresha.com/users/sign-in";
-const USERNAME = "ermanmateja@hotmail.com";
-const PASSWORD = "Novigrad1";
+const USERNAME = "aja.sverko123@gmail.com";
+const PASSWORD = "Aja010699";
 const DATEFROM = "2022-01-01";
 const DATETO = "2025-12-31";
 const SUBJECTID = ["3034132", "2757374", "2429187", "1181324"];
@@ -113,7 +113,7 @@ const formatDateAndTime = (dateTimeObj) => {
   });
 
   fs.writeFileSync(
-    "../output/novigrad/services.json",
+    "./output/ajasverko/services.json",
     JSON.stringify(services, null, 2)
   );
 
@@ -311,7 +311,7 @@ const formatDateAndTime = (dateTimeObj) => {
   console.log("Number of bookings", bookings.length);
 
   fs.writeFileSync(
-    "../output/novigrad/appointments.json",
+    "./output/ajasverko/appointments.json",
     JSON.stringify(bookings, null, 2)
   );
 

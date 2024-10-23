@@ -1,11 +1,11 @@
 const fs = require("fs");
 const axios = require("axios");
 
-const CLIENT_ID = 1451;
+const CLIENT_ID = 3410;
 (async () => {
   console.log("Migration started");
   const customers = JSON.parse(
-    fs.readFileSync("./output/ingridcustomers/customers.json")
+    fs.readFileSync("./output/tilen/customers.json")
   );
   console.log("Customers read from file");
   console.log("Number of customers:", customers.length);
@@ -41,3 +41,4 @@ const CLIENT_ID = 1451;
     }
   }
 })();
+p

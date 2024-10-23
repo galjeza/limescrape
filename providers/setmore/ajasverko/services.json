@@ -1,0 +1,101 @@
+[
+  {
+    "duration": 90,
+    "timeOffStart": null,
+    "timeOffDuration": null,
+    "price": "40",
+    "name": "Gel lak",
+    "tag": null,
+    "color": "#0C6A1B"
+  },
+  {
+    "duration": 120,
+    "timeOffStart": null,
+    "timeOffDuration": null,
+    "price": "45",
+    "name": "Gel korekcija S",
+    "tag": null,
+    "color": "#0C6A1B"
+  },
+  {
+    "duration": 120,
+    "timeOffStart": null,
+    "timeOffDuration": null,
+    "price": "50",
+    "name": "Gel korekcija M",
+    "tag": null,
+    "color": "#0C6A1B"
+  },
+  {
+    "duration": 150,
+    "timeOffStart": null,
+    "timeOffDuration": null,
+    "price": "55",
+    "name": "Gel korekcija L",
+    "tag": null,
+    "color": "#0C6A1B"
+  },
+  {
+    "duration": 150,
+    "timeOffStart": null,
+    "timeOffDuration": null,
+    "price": "50",
+    "name": "Gel podaljševanje S",
+    "tag": null,
+    "color": "#0C6A1B"
+  },
+  {
+    "duration": 150,
+    "timeOffStart": null,
+    "timeOffDuration": null,
+    "price": "55",
+    "name": "Gel podaljševanje M",
+    "tag": null,
+    "color": "#0C6A1B"
+  },
+  {
+    "duration": 180,
+    "timeOffStart": null,
+    "timeOffDuration": null,
+    "price": "60",
+    "name": "Gel podaljševanje L",
+    "tag": null,
+    "color": "#0C6A1B"
+  },
+  {
+    "duration": 60,
+    "timeOffStart": null,
+    "timeOffDuration": null,
+    "price": "20",
+    "name": "Odstranjevanje gel lak / gel",
+    "tag": null,
+    "color": "#0C6A1B"
+  },
+  {
+    "duration": 60,
+    "timeOffStart": null,
+    "timeOffDuration": null,
+    "price": "25",
+    "name": "Gel lak noge",
+    "tag": null,
+    "color": "#0C6A1B"
+  },
+  {
+    "duration": 15,
+    "timeOffStart": null,
+    "timeOffDuration": null,
+    "price": "5",
+    "name": "Popravilo nohta",
+    "tag": null,
+    "color": "#0C6A1B"
+  },
+  {
+    "duration": 15,
+    "timeOffStart": null,
+    "timeOffDuration": null,
+    "price": "0",
+    "name": "Brez storitve",
+    "tag": null,
+    "color": "#0C6A1B"
+  }
+]

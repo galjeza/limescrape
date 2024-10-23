@@ -65,9 +65,9 @@ const subjectsToSkip = ["NAPRAVA"]; // Add subjects to skip here
       await page.select("#calendar", subject.value);
       await wait(5);
       let currentDate = new Date();
-      currentDate.setFullYear(2024, 8, 8);
+      currentDate.setFullYear(2023, 1, 1);
       const scrapeToDate = new Date();
-      scrapeToDate.setFullYear(2025, 1, 1);
+      scrapeToDate.setFullYear(2024, 8, 8);
       const numberOfDays = Math.floor(
         (scrapeToDate.getTime() - currentDate.getTime()) / (1000 * 3600 * 24)
       );
@@ -261,7 +261,7 @@ const subjectsToSkip = ["NAPRAVA"]; // Add subjects to skip here
 
     await browser.close();
     fs.writeFileSync(
-      "./output/minimal/appointmentspast.json",
+      "./output/minimal/appointmentsnew.json",
       JSON.stringify(appointments, null, 2)
     );
 
